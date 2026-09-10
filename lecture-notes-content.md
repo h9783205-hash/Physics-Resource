@@ -43,7 +43,18 @@ In three-dimensional cartesian coordinates, a vector \\(\vec{A}\\) can be resolv
 \vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k}
 \\]
 
-Where, \\(A_x\\), \\(A_y\\) and \\(A_z\\) are the components of the vectors along \\(x\\)-, \\(y\\)- and \\(z\\)-axes respectively and \\(\hat{i}\\), \\(\hat{j}\\), \\(\hat{k}\\) are their corresponding unit vectors.
+Where, \\(A_x\\), \\(A_y\\) and \\(A_z\\) are the components of the vectors along \\(x\\)-, \\(y\\)- and \\(z\\)-axes respectively and \\(\hat{i}\\), \\(\hat{j}\\), \\(\hat{k}\\) are their corresponding unit vectors. The magnitude of \\(\vec{A}\\) is given by
+
+\\[
+|\vec{A}| = A = \sqrt{A_x^2 + A_y^2 + A_z^2}
+\\]
+
+and its unit vector is given by
+
+\\[
+\hat{n} = \frac{A_x\hat{i} + A_y\hat{j} + A_z\hat{k}}
+{\sqrt{A_x^2 + A_y^2 + A_z^2}}
+\\]
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
