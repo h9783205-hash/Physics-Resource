@@ -36,6 +36,20 @@ function exportUnit(elementId, filename) {
   const el = document.getElementById(elementId);
   html2pdf().from(el).set({ filename: filename, margin: 10 }).save();
 }
+
+function showTab(tabId, btn) {
+  // Hide every semester/tab panel
+  document.querySelectorAll('.tab-content').forEach(function(panel) {
+    panel.classList.remove('active');
+  });
+  // Un-highlight every tab button
+  document.querySelectorAll('.tab-btn').forEach(function(button) {
+    button.classList.remove('active');
+  });
+  // Show the selected panel and highlight its button
+  document.getElementById(tabId).classList.add('active');
+  btn.classList.add('active');
+}
 </script>
 
 </body>
