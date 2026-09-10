@@ -6,11 +6,12 @@
 <div class="unit-block" id="mp-unit-1">
 <h3>Unit 1: Vector Calculus</h3>
 <p><em></em> 
-  Introduction:
+  **Introduction:**
 Vector algebra is a fundamental branch of mathematics that deals with mathematical
 structures known as vectors. This branch of mathematics finds extensive applications in
-physics, engineering, computer science, and various scientific disciplines. Usually, a vector is
-defined as a quantity that has both magnitude and direction. However, there are some
+physics, engineering, computer science, and various scientific disciplines. 
+  
+Usually, a vector is defined as a quantity that has both magnitude and direction. However, there are some
 exception to this; e.g., current electricity or pressure has both magnitude and direction, but
 they are not vectors, because they do not follow the parallelogram law of vector addition. So,
 the proper definition of a vector would be “any quantity that follows the parallelogram law of
