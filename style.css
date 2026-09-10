@@ -104,10 +104,53 @@ a { color: #16537e; }
   background: #103d5e;
 }
 
+/* ---- Semester Tabs ---- */
+.tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  max-width: 800px;
+  margin: 30px auto 0;
+  padding: 0 20px;
+  font-family: Arial, sans-serif;
+}
+.tab-btn {
+  padding: 8px 16px;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  background: #fff;
+  color: #1a1a2e;
+  font-weight: bold;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+.tab-btn:hover {
+  background: #f2f2f2;
+}
+.tab-btn.active {
+  background: #16537e;
+  color: #fff;
+  border-color: #16537e;
+}
+
+.tab-content {
+  display: none;
+  max-width: 800px;
+  margin: 20px auto 0;
+  padding: 0 20px;
+}
+.tab-content.active {
+  display: block;
+}
+
 @media print {
   nav, .print-btn { display: none; }
   .banner { background: none; color: #1a1a2e; padding: 20px 0; }
   details { border: none; padding: 0; }
   summary { display: none; }
   details > *:not(summary) { display: block !important; }
+
+  .tabs { display: none; }
+  .tab-content { display: none !important; }
+  .tab-content.active { display: block !important; }
 }
