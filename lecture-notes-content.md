@@ -7,7 +7,7 @@
 <h3>Unit 1: Vector Calculus</h3>
 <p><em></em> 
  
-  ***Introduction:***
+  **Introduction:**
   
 Vector algebra is a fundamental branch of mathematics that deals with mathematical
 structures known as vectors. This branch of mathematics finds extensive applications in
@@ -20,6 +20,45 @@ the proper definition of a vector would be “any quantity that follows the para
 vector addition” (Similarly, a scalar is defined as a quantity which remains unchanged under
 any coordinate transformation). The parallelogram law of vector addition says that the sum of
 two vectors is represented by the diagonal of the parallelogram formed by these vectors.
+
+## **Notation:**
+
+A vector is denoted by a letter with an overhead arrow, e.g., $\vec{A}$, and has two components: magnitude and direction, written as
+
+$$
+\vec{A} = A\hat{n}
+$$
+
+where $A$ is the magnitude and $\hat{n}$ is the direction, known as unit vector, of the given vector. The unit vector of any vector is obtained by dividing the given vector by its magnitude as
+
+$$
+\hat{n} = \frac{\vec{A}}{A}
+$$
+
+## Rectangular Resolution of a vector:
+
+In three-dimensional cartesian coordinates, a vector $\vec{A}$ can be resolved into three components along the mutually perpendicular coordinate axes as
+
+$$
+\vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k}
+$$
+
+Where, $A_x$, $A_y$ and $A_z$ are the components of the vectors along $x$-, $y$- and $z$-axes respectively and $\hat{i}$, $\hat{j}$, $\hat{k}$ are their corresponding unit vectors.
+
+The magnitude of $\vec{A}$ is given by
+
+$$
+|\vec{A}| = A = \sqrt{A_x^2 + A_y^2 + A_z^2}
+$$
+
+and its unit vector is given by
+
+$$
+\hat{n} =
+\frac{A_x\hat{i} + A_y\hat{j} + A_z\hat{k}}
+{\sqrt{A_x^2 + A_y^2 + A_z^2}}
+$$
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
 
