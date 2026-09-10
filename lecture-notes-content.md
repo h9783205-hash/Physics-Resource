@@ -1,7 +1,7 @@
 <details open>
 <summary><strong>1st Semester</strong></summary>
 <details open>
-<summary>Mathematical Physics</summary>
+<summary>Mathematical Physics and Mechanics</summary>
 
 <div class="unit-block" id="mp-unit-1">
 <h3>Unit 1: Vector Calculus</h3>
