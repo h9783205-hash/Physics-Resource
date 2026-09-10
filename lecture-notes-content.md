@@ -17,8 +17,6 @@ the proper definition of a vector would be “any quantity that follows the para
 vector addition” (Similarly, a scalar is defined as a quantity which remains unchanged under
 any coordinate transformation). The parallelogram law of vector addition says that the sum of
 two vectors is represented by the diagonal of the parallelogram formed by these vectors.
-There is another, advanced level, definition of vectors which defines vectors as an element of
-vector space. However, the concept of vector space is beyond the scope of this book.
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
 
