@@ -87,7 +87,7 @@ and
 **Dot or scalar product:** The dot product of two vectors is the projection of one vector onto another vector, multiplied by the magnitude of the second vector. In other words, it is a measure of how much of one vector lies in the direction of another vector. The dot product of two vectors is a scalar quantity. Mathematically, It is given by
 
 \[
-\vec{A} \cdot \vec{B} = AB\cos\theta,
+\vec{A} \cdot \vec{B} = AB\cos\theta
 \]
 
 where \(\theta\) is the angle between them.
