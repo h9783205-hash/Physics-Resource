@@ -5,6 +5,7 @@
 <title>Lecture Notes — Physics with HPG</title>
 <link rel="stylesheet" href="style.css">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-chtml.js"></script>
 </head>
 <body>
@@ -20,7 +21,6 @@
 <div class="banner"><h1>Lecture Notes</h1></div>
 
 <div class="content">
-<button class="print-btn" onclick="window.print()">Export this page to PDF</button>
 <div id="markdown-content">Loading notes...</div>
 </div>
 
@@ -31,6 +31,11 @@ fetch('lecture-notes-content.md')
     document.getElementById('markdown-content').innerHTML = marked.parse(md);
     if (window.MathJax) { MathJax.typesetPromise(); }
   });
+
+function exportUnit(elementId, filename) {
+  const el = document.getElementById(elementId);
+  html2pdf().from(el).set({ filename: filename, margin: 10 }).save();
+}
 </script>
 
 </body>
