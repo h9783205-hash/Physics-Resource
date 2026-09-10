@@ -56,6 +56,56 @@ and its unit vector is given by
 {\sqrt{A_x^2 + A_y^2 + A_z^2}}
 \\]
 
+**Addition and Subtraction of vectors:**
+
+Let us consider two vectors \(\vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k}\) and \(\vec{B} = B_x\hat{i} + B_y\hat{j} + B_z\hat{k}\). The sum and difference of these vectors are given by:
+
+\[
+\vec{A} + \vec{B} = (A_x + B_x)\hat{i} + (A_y + B_y)\hat{j} + (A_z + B_z)\hat{k},
+\]
+
+\[
+\vec{A} - \vec{B} = (A_x - B_x)\hat{i} + (A_y - B_y)\hat{j} + (A_z - B_z)\hat{k}.
+\]
+
+**Example:** Let \(\vec{A} = 5\hat{i} + 6\hat{j} - 3\hat{k}\) and \(\vec{B} = 4\hat{i} - 3\hat{j} - 7\hat{k}\), then
+
+\[
+\vec{A} + \vec{B} = (5 + 4)\hat{i} + (6 - 3)\hat{j} + (-3 - 7)\hat{k} = 9\hat{i} + 3\hat{j} - 10\hat{k},
+\]
+
+and
+
+\[
+\vec{A} - \vec{B} = (5 - 4)\hat{i} + (6 - (-3))\hat{j} + (-3 - (-7))\hat{k} = \hat{i} + 9\hat{j} + 4\hat{k}.
+\]
+
+**Triangle law of vector addition:** If two vectors are represented in magnitude and direction by two sides of a triangle taken in order, then their resultant is given by the third side of the triangle taken in opposite order.
+
+**Product of two vectors:** There are two types of vector products - dot or scalar product and cross or vector product.
+
+**Dot or scalar product:** The dot product of two vectors is the projection of one vector onto another vector, multiplied by the magnitude of the second vector. In other words, it is a measure of how much of one vector lies in the direction of another vector. The dot product of two vectors is a scalar quantity. Mathematically, It is given by
+
+\[
+\vec{A} \cdot \vec{B} = AB\cos\theta,
+\]
+
+where \(\theta\) is the angle between them.
+
+**N.B.:** The dot product of two mutually parallel vectors is maximum and that of two mutually perpendicular vectors is zero.
+
+\[
+\vec{A} \cdot \vec{B} = AB\cos\theta = AB\cos0 = AB,
+\]
+
+when \(\theta = 0\), and
+
+\[
+\vec{A} \cdot \vec{B} = AB\cos\theta = AB\cos\frac{\pi}{2} = 0,
+\]
+
+when \(\theta = \frac{\pi}{2}\).
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
 
