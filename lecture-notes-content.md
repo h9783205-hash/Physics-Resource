@@ -58,53 +58,99 @@ and its unit vector is given by
 
 **Addition and Subtraction of vectors:**
 
-Let us consider two vectors \(\vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k}\) and \(\vec{B} = B_x\hat{i} + B_y\hat{j} + B_z\hat{k}\). The sum and difference of these vectors are given by:
+Let us consider two vectors \\(\vec{A} = A_x\hat{i} + A_y\hat{j} + A_z\hat{k}\\) and \\(\vec{B} = B_x\hat{i} + B_y\hat{j} + B_z\hat{k}\\). The sum and difference of these vectors are given by:
 
-\[
-\vec{A} + \vec{B} = (A_x + B_x)\hat{i} + (A_y + B_y)\hat{j} + (A_z + B_z)\hat{k},
-\]
+\\[
+\vec{A} + \vec{B} = (A_x+B_x)\hat{i} + (A_y+B_y)\hat{j} + (A_z+B_z)\hat{k}
+\\]
 
-\[
-\vec{A} - \vec{B} = (A_x - B_x)\hat{i} + (A_y - B_y)\hat{j} + (A_z - B_z)\hat{k}.
-\]
+\\[
+\vec{A} - \vec{B} = (A_x-B_x)\hat{i} + (A_y-B_y)\hat{j} + (A_z-B_z)\hat{k}
+\\]
 
-**Example:** Let \(\vec{A} = 5\hat{i} + 6\hat{j} - 3\hat{k}\) and \(\vec{B} = 4\hat{i} - 3\hat{j} - 7\hat{k}\), then
+**Example:** Let \\(\vec{A} = 5\hat{i} + 6\hat{j} - 3\hat{k}\\) and \\(\vec{B} = 4\hat{i} - 3\hat{j} - 7\hat{k}\\), then
 
-\[
-\vec{A} + \vec{B} = (5 + 4)\hat{i} + (6 - 3)\hat{j} + (-3 - 7)\hat{k} = 9\hat{i} + 3\hat{j} - 10\hat{k},
-\]
+\\[
+\vec{A} + \vec{B} = (5+4)\hat{i} + (6-3)\hat{j} + (-3-7)\hat{k} = 9\hat{i} + 3\hat{j} - 10\hat{k}, \text{ and}
+\\]
 
-and
-
-\[
-\vec{A} - \vec{B} = (5 - 4)\hat{i} + (6 - (-3))\hat{j} + (-3 - (-7))\hat{k} = \hat{i} + 9\hat{j} + 4\hat{k}.
-\]
+\\[
+\vec{A} - \vec{B} = (5-4)\hat{i} + (6-(-3))\hat{j} + (-3-(-7))\hat{k} = \hat{i} + 9\hat{j} + 4\hat{k}.
+\\]
 
 **Triangle law of vector addition:** If two vectors are represented in magnitude and direction by two sides of a triangle taken in order, then their resultant is given by the third side of the triangle taken in opposite order.
 
 **Product of two vectors:** There are two types of vector products - dot or scalar product and cross or vector product.
 
-**Dot or scalar product:** The dot product of two vectors is the projection of one vector onto another vector, multiplied by the magnitude of the second vector. In other words, it is a measure of how much of one vector lies in the direction of another vector. The dot product of two vectors is a scalar quantity. Mathematically, It is given by
+**Dot or scalar product:** The dot product of two vectors is the projection of one vector onto another vector, multiplied by the magnitude of the second vector. In other words, it is a measure of how much of one vector lies in the direction of another vector. The dot product of two vectors is a scalar quantity. Mathematically, it is given by
 
-\[
-\vec{A} \cdot \vec{B} = AB\cos\theta
-\]
-
-where \(\theta\) is the angle between them.
+\\[
+\vec{A}\cdot\vec{B} = AB\cos\theta, \text{ where } \theta \text{ is the angle between them.}
+\\]
 
 **N.B.:** The dot product of two mutually parallel vectors is maximum and that of two mutually perpendicular vectors is zero.
 
-\[
-\vec{A} \cdot \vec{B} = AB\cos\theta = AB\cos0 = AB,
-\]
+\\[
+\vec{A}\cdot\vec{B} = AB\cos\theta = AB\cos0 = AB, \text{ when } \theta = 0, \text{ and}
+\\]
 
-when \(\theta = 0\), and
+\\[
+\vec{A}\cdot\vec{B} = AB\cos\theta = AB\cos(\pi/2) = 0, \text{ when } \theta = \pi/2
+\\]
 
-\[
-\vec{A} \cdot \vec{B} = AB\cos\theta = AB\cos\frac{\pi}{2} = 0,
-\]
+Therefore, \\(\hat{i}\cdot\hat{i} = \hat{j}\cdot\hat{j} = \hat{k}\cdot\hat{k} = 1\\) and \\(\hat{i}\cdot\hat{j} = \hat{j}\cdot\hat{k} = \hat{k}\cdot\hat{i} = 0\\). Using these, we get
 
-when \(\theta = \frac{\pi}{2}\).
+\\[
+\vec{A}\cdot\vec{B} = (A_x\hat{i} + A_y\hat{j} + A_z\hat{k})\cdot(B_x\hat{i} + B_y\hat{j} + B_z\hat{k}) = A_xB_x + A_yB_y + A_zB_z
+\\]
+
+**Example - 1.1:** A force of 10 N applied at an angle 30° to an object produces a displacement of 5 m horizontally. Find the work done by the force.
+
+**Solution:** The work done is given by:
+
+\\[
+w = fd\cos\theta = 10.5.\cos30^{\circ} = 25\sqrt{3}.
+\\]
+
+**Example - 1.2:** A force \\(\vec{f} = 5\hat{i} + 7\hat{j} - 3\hat{k}\\) acting on an object produces a displacement \\(\vec{d} = 2\hat{i} + \hat{j} + 4\hat{k}\\). Find the workdone and the inclination of force with respect to the displacement.
+
+**Solution:** The workdone is given by:
+
+\\[
+w = \vec{f}\cdot\vec{d} = (5\hat{i}+7\hat{j}-3\hat{k})\cdot(2\hat{i}+\hat{j}+4\hat{k}) = 50 + 7 - 12 = 45.
+\\]
+
+Now,
+
+\\[
+\vec{f}\cdot\vec{d} = fd\cos\theta
+\\]
+
+\\[
+\Rightarrow 45 = \sqrt{5^2+7^2+(-3)^2}\times\sqrt{2^2+1^2+4^2}\cos\theta
+\\]
+
+\\[
+\Rightarrow \cos\theta = \frac{45}{\sqrt{83}\times\sqrt{21}} = \frac{45}{\sqrt{1743}}
+\\]
+
+\\[
+\Rightarrow \theta = \cos^{-1}\left(\frac{45}{\sqrt{1743}}\right)
+\\]
+
+**Cross or vector product:** The cross product of two vectors represents the area of the parallelogram formed by these two vectors. The direction of the resultant vector can be determined by the right-hand rule. The cross product of two vectors is also a vector quantity. Mathematically, it is given by
+
+\\[
+\vec{A}\times\vec{B} = AB\sin\theta\,\hat{n}
+\\]
+
+where \\(\theta\\) is the angle between them and \\(\hat{n}\\) is the direction of the resultant vector which is perpendicular to the plane containing the two vectors.
+
+**N.B.:** The cross product of two mutually parallel vectors is zero and that of two mutually perpendicular vectors is maximum.
+
+\\[
+|\vec{A}\times\vec{B}| = AB\sin\theta = AB\sin0 = 0, \text{ when } \theta = 0, \text{ and}
+\\]
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
