@@ -152,6 +152,40 @@ where \\(\theta\\) is the angle between them and \\(\hat{n}\\) is the direction 
 |\vec{A}\times\vec{B}| = AB\sin\theta = AB\sin0 = 0, \text{ when } \theta = 0, \text{ and}
 \\]
 
+\\[
+|\vec{A}\times\vec{B}| = AB\sin\theta = AB\sin(\pi/2) = AB, \text{ when } \theta = \pi/2
+\\]
+
+Therefore, \\(\hat{i}\times\hat{i} = \hat{j}\times\hat{j} = \hat{k}\times\hat{k} = 0\\) and \\(\hat{i}\times\hat{j} = \hat{k}, \hat{j}\times\hat{k} = \hat{i}, \hat{k}\times\hat{i} = \hat{j}\\).
+
+The cross product of two vectors having rectangular components are evaluated using determinants as follows:
+
+\\[
+\vec{A}\times\vec{B} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\\\ A_x & A_y & A_z \\\\ B_x & B_y & B_z \end{vmatrix} = \hat{i}(A_yB_z - A_zB_y) - \hat{j}(A_xB_z - A_zB_x) + \hat{k}(A_xB_y - A_yB_x)
+\\]
+
+**Example 1.3:** Find the area of the parallelogram whose adjacent sides are \\(\vec{A} = 2\hat{i} - 4\hat{j} + 3\hat{k}\\) and \\(\vec{B} = \hat{i} + 3\hat{j} - 2\hat{k}\\).
+
+**Solution:** The area of the given parallelogram is
+
+\\[
+\vec{A}\times\vec{B} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\\\ 2 & -4 & 3 \\\\ 1 & 3 & -2 \end{vmatrix} = \hat{i}(8-6) - \hat{j}(-4-3) + \hat{k}(6+4) = 2\hat{i} + 7\hat{j} + 10\hat{k}
+\\]
+
+**N.B.:** Dot product is commutative \\((\vec{A}\cdot\vec{B} = \vec{B}\cdot\vec{A})\\) but cross product is not commutative \\((\vec{A}\times\vec{B} = -\vec{B}\times\vec{A})\\)
+
+**Scalar triple product:** The scalar triple product is defined as the dot product of one of the vectors with the cross product of the other two. It represents the volume of the parallelepiped whose three coterminous edges represent the three vectors \\(\vec{a}, \vec{b},\\) and \\(\vec{c}\\). Mathematically, it is given by
+
+\\[
+\vec{A}\cdot(\vec{B}\times\vec{C}) = \begin{vmatrix} A_x & A_y & A_z \\\\ B_x & B_y & B_z \\\\ C_x & C_y & C_z \end{vmatrix} = A_x(B_yC_z - B_zC_y) - A_y(B_xC_z - B_zC_x) + A_z(B_xC_y - B_yC_x)
+\\]
+
+**N.B.:** If the scalar triple product is equal to zero, then the three vectors are coplanar, since the parallelepiped defined by them would be flat and have no volume.
+
+**Example 1.4:** Find the volume of the parallelopiped whose three co-terminus edges are given by: \\(\vec{a} = 2\hat{i} + 5\hat{j} - 4\hat{k}, \vec{b} = 7\hat{i} + 4\hat{j} + 3\hat{k}\\) and \\(\vec{c} = 5\hat{i} - 3\hat{j} + 2\hat{k}\\).
+
+**Solution:** The volume of the parallelopiped is given by:
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
 
