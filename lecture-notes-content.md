@@ -1,23 +1,32 @@
+<div class="tabs">
+<button class="tab-btn active" onclick="showTab('sem1', this)">1st Semester</button>
+<button class="tab-btn" onclick="showTab('sem2', this)">2nd Semester</button>
+<button class="tab-btn" onclick="showTab('sem3', this)">3rd Semester</button>
+<button class="tab-btn" onclick="showTab('sem4', this)">4th Semester</button>
+<button class="tab-btn" onclick="showTab('sem5', this)">5th Semester</button>
+<button class="tab-btn" onclick="showTab('sem6', this)">6th Semester</button>
+<button class="tab-btn" onclick="showTab('mdc', this)">MDC</button>
+</div>
+
+<div class="tab-content active" id="sem1">
+
 <details open>
-<summary><strong>1st Semester</strong></summary>
-<details open>
-<summary>Mathematical Physics and Mechanics</summary>
+<summary><strong>Mathematical Physics</strong></summary>
 
 <div class="unit-block" id="mp-unit-1">
 <h3>Unit 1: Vector Calculus</h3>
-<p><em></em> 
- 
-  **Introduction:**
-  
+
+**Introduction:**
+
 Vector algebra is a fundamental branch of mathematics that deals with mathematical
 structures known as vectors. This branch of mathematics finds extensive applications in
-physics, engineering, computer science, and various scientific disciplines. 
-  
+physics, engineering, computer science, and various scientific disciplines.
+
 Usually, a vector is defined as a quantity that has both magnitude and direction. However, there are some
 exception to this; e.g., current electricity or pressure has both magnitude and direction, but
 they are not vectors, because they do not follow the parallelogram law of vector addition. So,
-the proper definition of a vector would be “any quantity that follows the parallelogram law of
-vector addition” (Similarly, a scalar is defined as a quantity which remains unchanged under
+the proper definition of a vector would be "any quantity that follows the parallelogram law of
+vector addition" (Similarly, a scalar is defined as a quantity which remains unchanged under
 any coordinate transformation). The parallelogram law of vector addition says that the sum of
 two vectors is represented by the diagonal of the parallelogram formed by these vectors.
 
@@ -184,7 +193,7 @@ The cross product of two vectors having rectangular components are evaluated usi
 
 **Example 1.4:** Find the volume of the parallelopiped whose three co-terminus edges are given by: \\(\vec{a} = 2\hat{i} + 5\hat{j} - 4\hat{k}, \vec{b} = 7\hat{i} + 4\hat{j} + 3\hat{k}\\) and \\(\vec{c} = 5\hat{i} - 3\hat{j} + 2\hat{k}\\).
 
-**Solution:** The volume of the parallelopiped is given by:
+**Solution:** The volume of the parallelopiped is given by: *(to be completed)*
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
@@ -208,12 +217,32 @@ The cross product of two vectors having rectangular components are evaluated usi
 </div>
 
 </details>
-</details>
 
 <details>
-<summary><strong>3rd Semester</strong></summary>
-<details>
-<summary>Waves and Optics</summary>
+<summary><strong>Mechanics</strong></summary>
+
+<div class="unit-block" id="mech-unit-1">
+<h3>Unit 1</h3>
+<p><em>Write your notes here.</em></p>
+<button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mech-unit-1','Mechanics-Unit1-Notes.pdf')">Export this unit to PDF</button>
+</div>
+
+<!-- Add more units for Mechanics the same way, copying one unit-block and changing its id, heading, and button filename. -->
+
+</details>
+
+<!-- Add more papers for 1st Semester by copying an entire <details>...</details> block above and changing the paper name and its unit ids. -->
+
+</div>
+
+<div class="tab-content" id="sem2">
+<p><em>No papers added yet for 2nd Semester. Add one by copying a paper &lt;details&gt; block from another semester and updating the names/ids.</em></p>
+</div>
+
+<div class="tab-content" id="sem3">
+
+<details open>
+<summary><strong>Waves and Optics</strong></summary>
 
 <div class="unit-block" id="wo-unit-1">
 <h3>Unit 1: Oscillations</h3>
@@ -246,12 +275,30 @@ The cross product of two vectors having rectangular components are evaluated usi
 </div>
 
 </details>
-</details>
 
 <details>
-<summary><strong>5th Semester</strong></summary>
-<details>
-<summary>Atomic & Molecular Physics</summary>
+<summary><strong>Electromagnetic Theory</strong></summary>
+
+<div class="unit-block" id="emt-unit-1">
+<h3>Unit 1</h3>
+<p><em>Write your notes here.</em></p>
+<button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('emt-unit-1','EMT-Unit1-Notes.pdf')">Export this unit to PDF</button>
+</div>
+
+<!-- Add more units for Electromagnetic Theory the same way. -->
+
+</details>
+
+</div>
+
+<div class="tab-content" id="sem4">
+<p><em>No papers added yet for 4th Semester. Add one by copying a paper &lt;details&gt; block from another semester and updating the names/ids.</em></p>
+</div>
+
+<div class="tab-content" id="sem5">
+
+<details open>
+<summary><strong>Atomic & Molecular Physics</strong></summary>
 
 <div class="unit-block" id="am-unit-1">
 <h3>Unit 1: Atomic Structure</h3>
@@ -278,4 +325,30 @@ The cross product of two vectors having rectangular components are evaluated usi
 </div>
 
 </details>
+
+<!-- Add more papers for 5th Semester by copying an entire <details>...</details> block above and changing the paper name and its unit ids. -->
+
+</div>
+
+<div class="tab-content" id="sem6">
+<p><em>No papers added yet for 6th Semester. Add papers here the same way as other semesters &mdash; copy a paper &lt;details&gt; block and update names/ids. Room for two or more papers.</em></p>
+</div>
+
+<div class="tab-content" id="mdc">
+
+<details open>
+<summary><strong>MDC 1st Semester</strong></summary>
+<p><em>No papers added yet. Add a paper by copying a paper &lt;details&gt; block from another semester and nesting it here.</em></p>
 </details>
+
+<details>
+<summary><strong>MDC 2nd Semester</strong></summary>
+<p><em>No papers added yet.</em></p>
+</details>
+
+<details>
+<summary><strong>MDC 3rd Semester</strong></summary>
+<p><em>No papers added yet.</em></p>
+</details>
+
+</div>
