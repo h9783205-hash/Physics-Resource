@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>E-Book — Physics with HPG</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -18,9 +19,16 @@
 <div class="banner"><h1>E-Books & Resources</h1></div>
 
 <div class="content">
-<ul>
-<li><a href="https://drive.google.com/drive/folders/FOLDER_ID">Reference Materials Folder</a></li>
-</ul>
+<div id="markdown-content">Loading...</div>
 </div>
+
+<script>
+fetch('ebooks-content.md')
+  .then(res => res.text())
+  .then(md => {
+    document.getElementById('markdown-content').innerHTML = marked.parse(md);
+  });
+</script>
+
 </body>
 </html>

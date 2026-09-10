@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Assignments — Physics with HPG</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
 
@@ -18,26 +19,16 @@
 <div class="banner"><h1>Assignments</h1></div>
 
 <div class="content">
-<details>
-<summary>Mathematical Physics — Semester 1</summary>
-<ul>
-<li><a href="https://drive.google.com/file/d/FILE_ID/view">Assignment 1</a></li>
-</ul>
-</details>
-
-<details>
-<summary>Waves and Optics — Semester 3</summary>
-<ul>
-<li><a href="https://drive.google.com/file/d/FILE_ID/view">Assignment 1</a></li>
-</ul>
-</details>
-
-<details>
-<summary>Atomic & Molecular Physics — Semester 5</summary>
-<ul>
-<li><a href="https://drive.google.com/file/d/FILE_ID/view">Assignment 1</a></li>
-</ul>
-</details>
+<div id="markdown-content">Loading...</div>
 </div>
+
+<script>
+fetch('assignments-content.md')
+  .then(res => res.text())
+  .then(md => {
+    document.getElementById('markdown-content').innerHTML = marked.parse(md);
+  });
+</script>
+
 </body>
 </html>
