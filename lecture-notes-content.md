@@ -6,7 +6,9 @@
 <div class="unit-block" id="mp-unit-1">
 <h3>Unit 1: Vector Calculus</h3>
 <p><em></em> 
+ 
   ***Introduction:***
+  
 Vector algebra is a fundamental branch of mathematics that deals with mathematical
 structures known as vectors. This branch of mathematics finds extensive applications in
 physics, engineering, computer science, and various scientific disciplines. 
