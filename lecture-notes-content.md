@@ -216,6 +216,33 @@ Now,
 \Rightarrow 0 = 18m + 30 \Rightarrow m = -5/3.
 \\]
 
+**Differentiation of Vectors**
+
+**Position vector:** If \\((x, y, z)\\) be the coordinate of a point particle in the 3-D cartesian coordinate system, then a line joining the origin and the given point is called the position vector of the particle and is given by \\(\vec{r} = x\hat{i} + y\hat{j} + z\hat{k}\\). The differential of position vector given by \\(d\vec{r} = dx\hat{i} + dy\hat{j} + dz\hat{k}\\) is known as the line element or the infinitesimal displacement vector. If \\((x_1, y_1, z_1)\\) and \\((x_2, y_2, z_2)\\) are the coordinates of two points in 3-D cartesian coordinates system, then the line joining them is given by \\(\vec{r}_{21} = (x_2-x_1)\hat{i} + (y_2-y_1)\hat{j} + (z_2-z_1)\hat{k}\\). This vector is known as the separation vector.
+
+**Velocity:** The velocity of the particle is the rate of change of position vector of the particle as given below:
+
+\\[
+\vec{v} = \frac{d\vec{r}}{dt} = \frac{dx}{dt}\hat{i} + \frac{dy}{dt}\hat{j} + \frac{dz}{dt}\hat{k} = v_x\hat{i} + v_y\hat{j} + v_z\hat{k}
+\\]
+
+**Acceleration:** The acceleration of the particle is the rate of change of velocity of the particle as given below:
+
+\\[
+\vec{a} = \frac{d\vec{v}}{dt} = \frac{d^2\vec{r}}{dt^2} = \frac{d^2x}{dt^2}\hat{i} + \frac{d^2y}{dt^2}\hat{j} + \frac{d^2z}{dt^2}\hat{k}
+\\]
+
+**Example 1.6:** A position vector of a particle is given by, \\(\vec{r} = (t^3+3t)\hat{i} + (2t^4+6)\hat{j} + (2t^2-t^4)\hat{k}\\), where \\(t\\) is time. Find the velocity and acceleration of the particle at \\(t = 3\\).
+
+**Solution:** The position vector is given by:
+
+\\[
+\vec{r} = (t^3+3t)\hat{i} + (2t^4+6)\hat{j} + (2t^2-t^4)\hat{k}
+\\]
+
+Velocity, \\(\vec{v} = \dfrac{d\vec{r}}{dt} = (3t^2+3)\hat{i} + 8t^3\hat{j} + (4t-4t^3)\hat{k}\\)
+
+At \\(t=3\\), \\(\vec{v} = 30\hat{i} + 216\hat{j} - 96\hat{k}\\).
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
