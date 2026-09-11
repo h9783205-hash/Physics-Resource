@@ -30,6 +30,10 @@ fetch('ebooks-content.md')
     document.getElementById('markdown-content').innerHTML = marked.parse(md);
   });
 </script>
-
+<script>
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('sw.js');
+}
+</script>
 </body>
 </html>
