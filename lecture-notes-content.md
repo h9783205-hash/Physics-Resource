@@ -198,8 +198,8 @@ The cross product of two vectors having rectangular components are evaluated usi
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </div>
 
-<div class="unit-block" id="mp-unit-2">
-<h3>Unit 2: Linear Algebra</h3>
+<details class="unit-block" id="mp-unit-2">
+<summary>Unit 2: Curvilinear Coordinates</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-2','Linear-Algebra-Notes.pdf')">Export this unit to PDF</button>
 </div>
