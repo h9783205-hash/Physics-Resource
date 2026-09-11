@@ -13,8 +13,8 @@
 <details open>
 <summary><strong>Mathematical Physics</strong></summary>
 
-<div class="unit-block" id="mp-unit-1">
-<h3>Unit 1: Vector Calculus</h3>
+<details class="unit-block" id="mp-unit-1">
+<summary>Unit 1: Vector Calculus</summary>
 
 **Introduction:**
 
