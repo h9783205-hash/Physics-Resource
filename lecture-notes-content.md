@@ -243,6 +243,49 @@ Now,
 Velocity, \\(\vec{v} = \dfrac{d\vec{r}}{dt} = (3t^2+3)\hat{i} + 8t^3\hat{j} + (4t-4t^3)\hat{k}\\)
 
 At \\(t=3\\), \\(\vec{v} = 30\hat{i} + 216\hat{j} - 96\hat{k}\\).
+Acceleration, \\(\vec{a} = \dfrac{d\vec{v}}{dt} = 6t\hat{i} + 24t^2\hat{j} + (4-12t^2)\hat{k}\\)
+
+At \\(t=3\\), \\(\vec{a} = 18\hat{i} + 216\hat{j} - 104\hat{k}\\).
+
+**Example 1.7:** The position of a point particle at a given instant are given by \\(x = 2t^3\\), \\(y = (2t-3t^3)\\), \\(z = (t^2+3t)\\), where \\(t\\) is time. Find the velocity and tangential component of the acceleration at \\(t = 1\\).
+
+**Solution:** We have \\(x = 2t^3, y = (2t-3t^3), z = (t^2+3t)\\). The position vector is given by:
+
+\\[
+\vec{r} = x\hat{i} + y\hat{j} + z\hat{k} = 2t^3\hat{i} + (2t-3t^3)\hat{j} + (t^2+3t)\hat{k}
+\\]
+
+Velocity, \\(\vec{v} = \dfrac{d\vec{r}}{dt} = 6t^2\hat{i} + (2-9t^2)\hat{j} + (2t+3)\hat{k}\\), which is also the tangent vector.
+
+At \\(t=1\\), \\(\vec{v} = 6\hat{i} - 7\hat{j} + 5\hat{k}\\)
+
+Unit Tangent vector, \\(\hat{T} = \dfrac{\vec{v}}{|\vec{v}|} = \dfrac{6\hat{i}-7\hat{j}+5\hat{k}}{\sqrt{6^2+(-7)^2+5^2}} = \dfrac{6\hat{i}-7\hat{j}+5\hat{k}}{\sqrt{110}}\\)
+
+Acceleration, \\(\vec{a} = \dfrac{d\vec{v}}{dt} = 12t\hat{i} - 18t\hat{j} + 2\hat{k}\\).
+
+At \\(t=1\\), \\(\vec{a} = 12\hat{i} - 18\hat{j} + 2\hat{k}\\).
+
+Therefore, the tangential component of the acceleration at \\(t = 1\\) is
+
+\\[
+\hat{T}\cdot\vec{a} = \frac{6\hat{i}-7\hat{j}+5\hat{k}}{\sqrt{110}}\cdot(12\hat{i}-18\hat{j}+2\hat{k}) = \frac{1}{\sqrt{110}}(72+126+10) = \frac{208}{\sqrt{110}}
+\\]
+
+**Example 1.8:** Show that \\(\dfrac{d}{dt}\left[\vec{u}\cdot\left(\dfrac{d\vec{v}}{dt}\times\dfrac{d^2\vec{v}}{dt^2}\right)\right] = \vec{u}\cdot\left(\dfrac{d\vec{v}}{dt}\times\dfrac{d^3\vec{v}}{dt^3}\right)\\)
+
+**Solution:** We know that
+
+\\[
+\vec{u}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^2\vec{v}}{dt^2}\right)
+\\]
+
+\\[
+\Rightarrow \frac{d}{dt}\left[\vec{u}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^2\vec{v}}{dt^2}\right)\right] = \frac{d\vec{u}}{dt}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^2\vec{v}}{dt^2}\right) + \vec{u}\cdot\left(\frac{d^2\vec{v}}{dt^2}\times\frac{d^2\vec{v}}{dt^2}\right) + \vec{u}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^3\vec{v}}{dt^3}\right)
+\\]
+
+\\[
+= 0 + 0 + \vec{u}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^3\vec{v}}{dt^3}\right) = \vec{u}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^3\vec{v}}{dt^3}\right)
+\\]
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
