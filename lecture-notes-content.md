@@ -193,7 +193,28 @@ The cross product of two vectors having rectangular components are evaluated usi
 
 **Example 1.4:** Find the volume of the parallelopiped whose three co-terminus edges are given by: \\(\vec{a} = 2\hat{i} + 5\hat{j} - 4\hat{k}, \vec{b} = 7\hat{i} + 4\hat{j} + 3\hat{k}\\) and \\(\vec{c} = 5\hat{i} - 3\hat{j} + 2\hat{k}\\).
 
-**Solution:** The volume of the parallelopiped is given by: *(to be completed)*
+**Solution:** The volume of the parallelopiped is given by: 
+\\[
+\vec{a}\cdot(\vec{b}\times\vec{c}) = \begin{vmatrix} 2 & 5 & -4 \\\\ 7 & 4 & 3 \\\\ 5 & -3 & 2 \end{vmatrix} = 2(8+9) - 5(14-15) - 4(-21-20) = 203 \text{ cube unit.}
+\\]
+
+**Example 1.5:** For what values of \\(m\\) the following three vectors will be co-planar?
+
+\\[
+\vec{a} = 3\hat{i} + 4\hat{j} - 6\hat{k}, \vec{b} = 2\hat{i} + m\hat{j} + 2\hat{k} \text{ and } \vec{c} = 4\hat{i} + \hat{j} - 2\hat{k}.
+\\]
+
+**Solution:** The three vectors \\(\vec{a}, \vec{b}\\) and \\(\vec{c}\\) will be coplanar if \\(\vec{a}\cdot(\vec{b}\times\vec{c}) = 0\\).
+
+Now,
+
+\\[
+\vec{a}\cdot(\vec{b}\times\vec{c}) = 3(-2m-2) - 4(-4-8) - 6(-2-4m)
+\\]
+
+\\[
+\Rightarrow 0 = 18m + 30 \Rightarrow m = -5/3.
+\\]
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </details>
