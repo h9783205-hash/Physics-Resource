@@ -196,36 +196,36 @@ The cross product of two vectors having rectangular components are evaluated usi
 **Solution:** The volume of the parallelopiped is given by: *(to be completed)*
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
 <details class="unit-block" id="mp-unit-2">
 <summary>Unit 2: Curvilinear Coordinates</summary>
 <p><em>Write your notes here.</em></p>
-<button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-2','Linear-Algebra-Notes.pdf')">Export this unit to PDF</button>
-</div>
+<button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-2','Curvilinear-Coordinates-Notes.pdf')">Export this unit to PDF</button>
+</details>
 
-<div class="unit-block" id="mp-unit-3">
-<h3>Unit 3: Ordinary Differential Equations</h3>
+<details class="unit-block" id="mp-unit-3">
+<summary>Unit 3: Ordinary Differential Equations</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-3','ODE-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="mp-unit-4">
-<h3>Unit 4: Complex Analysis</h3>
+<details class="unit-block" id="mp-unit-4">
+<summary>Unit 4: Complex Analysis</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-4','Complex-Analysis-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
 </details>
 
 <details>
 <summary><strong>Mechanics</strong></summary>
 
-<div class="unit-block" id="mech-unit-1">
-<h3>Unit 1</h3>
+<details class="unit-block" id="mech-unit-1">
+<summary>Unit 1</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mech-unit-1','Mechanics-Unit1-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
 <!-- Add more units for Mechanics the same way, copying one unit-block and changing its id, heading, and button filename. -->
 
@@ -244,46 +244,46 @@ The cross product of two vectors having rectangular components are evaluated usi
 <details open>
 <summary><strong>Waves and Optics</strong></summary>
 
-<div class="unit-block" id="wo-unit-1">
-<h3>Unit 1: Oscillations</h3>
+<details class="unit-block" id="wo-unit-1">
+<summary>Unit 1: Oscillations</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="wo-unit-2">
-<h3>Unit 2: Wave Motion</h3>
+<details class="unit-block" id="wo-unit-2">
+<summary>Unit 2: Wave Motion</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-2','Wave-Motion-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="wo-unit-3">
-<h3>Unit 3: Interference</h3>
+<details class="unit-block" id="wo-unit-3">
+<summary>Unit 3: Interference</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-3','Interference-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="wo-unit-4">
-<h3>Unit 4: Diffraction</h3>
+<details class="unit-block" id="wo-unit-4">
+<summary>Unit 4: Diffraction</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-4','Diffraction-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="wo-unit-5">
-<h3>Unit 5: Polarization</h3>
+<details class="unit-block" id="wo-unit-5">
+<summary>Unit 5: Polarization</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-5','Polarization-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
 </details>
 
 <details>
 <summary><strong>Electromagnetic Theory</strong></summary>
 
-<div class="unit-block" id="emt-unit-1">
-<h3>Unit 1</h3>
+<details class="unit-block" id="emt-unit-1">
+<summary>Unit 1</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('emt-unit-1','EMT-Unit1-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
 <!-- Add more units for Electromagnetic Theory the same way. -->
 
@@ -300,29 +300,29 @@ The cross product of two vectors having rectangular components are evaluated usi
 <details open>
 <summary><strong>Atomic & Molecular Physics</strong></summary>
 
-<div class="unit-block" id="am-unit-1">
-<h3>Unit 1: Atomic Structure</h3>
+<details class="unit-block" id="am-unit-1">
+<summary>Unit 1: Atomic Structure</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="am-unit-2">
-<h3>Unit 2: Many-Electron Atoms</h3>
+<details class="unit-block" id="am-unit-2">
+<summary>Unit 2: Many-Electron Atoms</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-2','Many-Electron-Atoms-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="am-unit-3">
-<h3>Unit 3: Molecular Spectra</h3>
+<details class="unit-block" id="am-unit-3">
+<summary>Unit 3: Molecular Spectra</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-3','Molecular-Spectra-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
-<div class="unit-block" id="am-unit-4">
-<h3>Unit 4: Electronic Spectra & Special Topics</h3>
+<details class="unit-block" id="am-unit-4">
+<summary>Unit 4: Electronic Spectra & Special Topics</summary>
 <p><em>Write your notes here.</em></p>
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-4','Electronic-Spectra-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
 </details>
 
