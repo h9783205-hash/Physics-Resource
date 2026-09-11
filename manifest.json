@@ -1,6 +1,6 @@
 {
-  "name": "Physics with HPG",
-  "short_name": "Physics HPG",
+  "name": "Physics Resource",
+  "short_name": "Physics Resource",
   "description": "Lecture notes and exam resources for Physics Major/Minor and MDC (FYUGP, Gauhati University)",
   "start_url": "index.html",
   "scope": "./",
@@ -9,12 +9,12 @@
   "theme_color": "#16537e",
   "icons": [
     {
-      "src": "icons/icon-192.png",
+      "src": "icon-192.png",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "icons/icon-512.png",
+      "src": "icon-512.png",
       "sizes": "512x512",
       "type": "image/png"
     }
