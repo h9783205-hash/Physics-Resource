@@ -875,7 +875,7 @@ h_2 = \left|\frac{\partial\vec{r}}{\partial\theta}\right| = \sqrt{r^2\cos^2\thet
 h_3 = \left|\frac{\partial\vec{r}}{\partial\phi}\right| = \sqrt{r^2\sin^2\theta\sin^2\phi+r^2\sin^2\theta\cos^2\phi} = r\sin\theta
 \\]
 
-The three length elements are given by: \\(ds_1=dr\\), \\(ds_2=rd\theta\\), \\(ds_3=r\sin\theta\,d\phi\\). Thus the line element can be written as \\(d\vec{s} = dr\,\hat{e}_r + rd\theta\,\hat{e}_\theta + r\sin\theta\,d\phi\,\hat{e}_\phi\\). The surface element on a constant \\(r\\) surface is \\(dA_r = ds_2ds_3 = r^2\sin\theta\,d\theta\,d\phi\\). The other two surface elements are \\(dA_\theta = r\sin\theta\,dr\,d\phi\\) and \\(dA_\phi = r\,dr\,d\theta\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = r^2\sin\theta\,dr\,d\theta\,d\phi\\).
+The three length elements are given by: \\(ds_1=dr\\), \\(ds_2=rd\theta\\), \\(ds_3=r\sin\theta\,d\phi\\). Thus the line element can be written as \\(d\vec{s} = dr\\,\hat{e}_r + rd\theta\,\hat{e}_\theta + r\sin\theta\,d\phi\,\hat{e}_\phi\\). The surface element on a constant \\(r\\) surface is \\(dA_r = ds_2ds_3 = r^2\sin\theta\,d\theta\,d\phi\\). The other two surface elements are \\(dA_\theta = r\sin\theta\,dr\,d\phi\\) and \\(dA_\phi = r\,dr\,d\theta\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = r^2\sin\theta\,dr\,d\theta\,d\phi\\).
 
 Now, we will find the three unit vectors in terms of \\(\hat{i},\hat{j},\hat{k}\\). We know, \\(\partial\vec{r}/\partial u = h_1\hat{e}_u\\), \\(\partial\vec{r}/\partial v = h_2\hat{e}_v\\) and \\(\partial\vec{r}/\partial w = h_3\hat{e}_w\\). Thus, for spherical coordinates,
 
