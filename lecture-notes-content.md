@@ -286,6 +286,428 @@ Therefore, the tangential component of the acceleration at \\(t = 1\\) is
 \\[
 = 0 + 0 + \vec{u}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^3\vec{v}}{dt^3}\right) = \vec{u}\cdot\left(\frac{d\vec{v}}{dt}\times\frac{d^3\vec{v}}{dt^3}\right)
 \\]
+
+**Gradient of a Scalar Function:**
+
+Let us consider a scalar function \\(\phi = \phi(x, y, z)\\). The total differential of the function is given by
+
+\\[
+d\phi = \frac{\partial\phi}{\partial x}dx + \frac{\partial\phi}{\partial y}dy + \frac{\partial\phi}{\partial z}dz = \left(\frac{\partial\phi}{\partial x}\hat{i} + \frac{\partial\phi}{\partial y}\hat{j} + \frac{\partial\phi}{\partial z}\hat{k}\right)\cdot(dx\hat{i}+dy\hat{j}+dz\hat{k}) = \vec{\nabla}\phi \cdot d\vec{r}
+\\]
+
+Here, \\(\vec{\nabla}\phi = \dfrac{\partial\phi}{\partial x}\hat{i} + \dfrac{\partial\phi}{\partial y}\hat{j} + \dfrac{\partial\phi}{\partial z}\hat{k}\\) is known as the gradient of the scalar function \\(\phi\\). The vector operator \\(\vec{\nabla} = \dfrac{\partial}{\partial x}\hat{i} + \dfrac{\partial}{\partial y}\hat{j} + \dfrac{\partial}{\partial z}\hat{k}\\) is called the "Del" operator.
+
+**N.B.:** The gradient of a scalar function is a vector quantity. Its direction is along the maximum change of the scalar function \\(\phi\\). Physically it represents the maximum rate of change of a function. For example, if \\(\phi(x,y)\\) represents the elevation (height) of a hill at a point \\((x,y)\\), then the gradient of the function \\(\vec{\nabla}\phi\\) points towards the steepest ascent from that point.
+
+**Example 1.9:** Find the gradient of the function \\(\psi(x,y,z) = x^2y^3z^4\\).
+
+**Solution:** The gradient of the function is given by:
+
+\\[
+\vec{\nabla}\psi = \frac{\partial\psi}{\partial x}\hat{i} + \frac{\partial\psi}{\partial y}\hat{j} + \frac{\partial\psi}{\partial z}\hat{k} = (2xy^3z^4)\hat{i} + (3x^2y^2z^4)\hat{j} + (4x^2y^3z^3)\hat{k}
+\\]
+
+**Example 1.10:** If \\(\psi = x^3z^2 - y^4\\), find \\(\vec{\nabla}\psi\\) at the point \\((2,-1,-3)\\).
+
+**Solution:** The gradient of the function is given by:
+
+\\[
+\vec{\nabla}\psi = (3x^2z^2)\hat{i} - 4y^3\hat{j} + 2x^3z\hat{k}
+\\]
+
+At \\((2,-1,-3)\\), \\(\vec{\nabla}\psi = 108\hat{i} + 4\hat{j} - 24\hat{k}\\).
+
+**Newton's gravitational force as the gradient of a scalar potential:**
+
+Consider a point mass \\(m\\) located at a distance \\(r\\) from the centre of the earth. The gravitational potential at a distance \\(r\\) from the centre is:
+
+\\[
+\Phi(r) = -\frac{GM}{r}
+\\]
+
+where \\(G\\) is the universal gravitational constant and \\(M\\) is the mass of the Earth. The gravitational force on the point mass \\(m\\) is given by:
+
+\\[
+\vec{F} = -m\vec{\nabla}\Phi = m\vec{\nabla}\left(\frac{GM}{r}\right)
+\\]
+
+In cartesian coordinate system, \\(\vec{r} = x\hat{i}+y\hat{j}+z\hat{k}\\) and \\(r = \sqrt{x^2+y^2+z^2}\\). Therefore,
+
+\\[
+\vec{F} = -GMm\left[\frac{x}{r^3}\hat{i}+\frac{y}{r^3}\hat{j}+\frac{z}{r^3}\hat{k}\right] = -\frac{GMm}{r^3}\vec{r} = -\frac{GMm}{r^2}\hat{r}
+\\]
+
+Thus, the gravitational force can be expressed as the negative gradient of potential.
+
+**Normal and Directional Derivative:**
+
+**(i) Normal:** let us consider a family of surfaces \\(\phi(x,y,z) = c\\), where \\(c\\) is constant. Differentiating \\(\phi\\), we get, \\(d\phi = 0\\). But, \\(d\phi = \vec{\nabla}\phi\cdot d\vec{r}\\), therefore \\(\vec{\nabla}\phi\cdot d\vec{r} = 0 \Rightarrow \vec{\nabla}\phi \perp d\vec{r}\\). Since, \\(d\vec{r}\\) is directed along the tangent of the surface, \\(\vec{\nabla}\phi\\) is normal to the given surface.
+
+**Example 1.11:** Find the normal to the surface \\(x^2y^3z^4 = 5\\) at \\((1, -1, 1)\\).
+
+**Solution:** Let us consider \\(\phi(x,y,z) = x^2y^3z^4 - 5\\). We know \\(\vec{\nabla}\phi\\) is the normal of the surface \\(\phi(x,y,z) = c\\). Therefore,
+
+\\[
+\vec{\nabla}\phi = 2xy^3z^4\hat{i} + 3x^2y^2z^4\hat{j} + 4x^2y^3z^3\hat{k}
+\\]
+
+\\(\vec{\nabla}\phi(1,-1,1) = -2\hat{i} + 3\hat{j} - 4\hat{k}\\), which is the required normal.
+
+**Example 1.12:** Find the directional derivative of \\(\phi(x,y,z) = xy^2+yz^3\\) at the point \\((2, -1, 1)\\) in the direction of \\(\hat{i}+2\hat{j}+2\hat{k}\\). (G. U. 2022)
+
+**Solution:** The function is given by: \\(\phi(x,y,z) = xy^2+yz^3\\), therefore,
+
+\\[
+\vec{\nabla}\phi = y^2\hat{i} + (2xy+z^3)\hat{j} + 3yz^2\hat{k}
+\\]
+
+\\(\vec{\nabla}\phi(2,-1,1) = \hat{i} - 3\hat{j} - 3\hat{k}\\)
+
+Now, the direction vector is given by: \\(\vec{v} = \hat{i}+2\hat{j}+2\hat{k}\\)
+
+The unit vector for the above direction vector is given by:
+
+\\[
+\hat{v} = \frac{\vec{v}}{|\vec{v}|} = \frac{\hat{i}+2\hat{j}+2\hat{k}}{\sqrt{1^2+2^2+2^2}} = \frac{1}{3}(\hat{i}+2\hat{j}+2\hat{k})
+\\]
+
+Therefore, the directional derivative of \\(\phi\\) at \\((2,-1,1)\\) is given by
+
+\\[
+\vec{\nabla}\phi(2,-1,1)\cdot\hat{v} = (\hat{i}-3\hat{j}-3\hat{k})\cdot\frac{1}{3}(\hat{i}+2\hat{j}+2\hat{k}) = \frac{1}{3}(1-6-6) = -\frac{11}{3}
+\\]
+
+**Divergence of a Vector Function:**
+
+The divergence of a vector function \\(\vec{F} = F_x\hat{i}+F_y\hat{j}+F_z\hat{k}\\) is denoted by \\(\text{div}(\vec{F})\\) or \\(\vec{\nabla}\cdot\vec{F}\\) defined as
+
+\\[
+\vec{\nabla}\cdot\vec{F} = \frac{\partial F_x}{\partial x}+\frac{\partial F_y}{\partial y}+\frac{\partial F_z}{\partial z}
+\\]
+
+**Note:** 1. The divergence of the vector function is a scalar function.
+2. If \\(\vec{\nabla}\cdot\vec{F} = 0\\), then the vector is called solenoidal.
+
+**Example 1.13:** Find the divergence of \\(\vec{F} = x^2y\hat{i}+2xz\hat{j}+yz^2\hat{k}\\).
+
+**Solution:** The divergence of the given function is given by:
+
+\\[
+\vec{\nabla}\cdot\vec{F} = \frac{\partial}{\partial x}(x^2y)+\frac{\partial}{\partial y}(2xz)+\frac{\partial}{\partial z}(yz^2) = 2xy+0+2yz = 2xy+2yz
+\\]
+
+**Example 1.14:** If \\(\phi = xy+yz+zx\\) and \\(\vec{F} = \vec{\nabla}\phi\\), then find \\(\vec{\nabla}\cdot\vec{F}\\). (G.U. 2022)
+
+**Solution:** The scalar function is given by: \\(\phi = xy+yz+zx\\). Now, the gradient function \\(\vec{F} = \vec{\nabla}\phi\\) can be calculated as follows:
+
+\\[
+\vec{F} = \vec{\nabla}\phi = (y+z)\hat{i} + (x+z)\hat{j} + (x+y)\hat{k}
+\\]
+
+Now, \\(\vec{\nabla}\cdot\vec{F} = \dfrac{\partial}{\partial x}(y+z)+\dfrac{\partial}{\partial y}(x+z)+\dfrac{\partial}{\partial z}(x+y) = 0+0+0 = 0\\)
+
+**Curl of a Vector Function:**
+
+The curl of a vector function \\(\vec{A} = A_x\hat{i}+A_y\hat{j}+A_z\hat{k}\\) is denoted by \\(\text{curl}(\vec{A})\\) or \\(\vec{\nabla}\times\vec{A}\\) defined as
+
+\\[
+\vec{\nabla}\times\vec{A} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\\\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\\\ A_x & A_y & A_z \end{vmatrix} = \hat{i}\left(\frac{\partial A_z}{\partial y}-\frac{\partial A_y}{\partial z}\right) - \hat{j}\left(\frac{\partial A_z}{\partial x}-\frac{\partial A_x}{\partial z}\right) + \hat{k}\left(\frac{\partial A_y}{\partial x}-\frac{\partial A_x}{\partial y}\right)
+\\]
+
+**Note:** 1. The curl of the vector function is also a vector function.
+2. If \\(\vec{\nabla}\times\vec{A} = 0\\), then the vector is called irrotational.
+
+**Example 1.15:** Find the curl of the function \\(\vec{v} = (x^2yz)\hat{i} + (3x^2y-2y)\hat{j} + (xz^2+xy^2z)\hat{k}\\) at the point \\((2, -1, 1)\\).
+
+**Solution:** The curl of the function is given by:
+
+\\[
+\vec{\nabla}\times\vec{A} = \begin{vmatrix} \hat{i} & \hat{j} & \hat{k} \\\\ \frac{\partial}{\partial x} & \frac{\partial}{\partial y} & \frac{\partial}{\partial z} \\\\ x^2yz & 3x^2y-2y & xz^2+xy^2z \end{vmatrix}
+\\]
+
+\\[
+= \hat{i}\left[\frac{\partial}{\partial y}(xz^2+xy^2z)-\frac{\partial}{\partial z}(3x^2y-2y)\right] - \hat{j}\left[\frac{\partial}{\partial x}(xz^2+xy^2z)-\frac{\partial}{\partial z}(x^2yz)\right] + \hat{k}\left[\frac{\partial}{\partial x}(3x^2y-2y)-\frac{\partial}{\partial y}(x^2yz)\right]
+\\]
+
+\\[
+= \hat{i}[2xyz] - \hat{j}\left[(z^2+y^2z)-x^2y\right] + \hat{k}[6xy-x^2z]
+\\]
+
+\\[
+\vec{\nabla}\times\vec{A}\Big|_{(2,-1,1)} = -4\hat{i}-4\hat{j}-16\hat{k}
+\\]
+
+**Second Order Derivatives**
+
+**(i) Curl of Gradient:** The Curl of the gradient of a scalar function is always zero
+
+**Proof:** Let us consider a scalar function \\(\phi = \phi(x,y,z)\\). The gradient of the function is given by:
+
+\\[
+\vec{\nabla}\phi = \frac{\partial\phi}{\partial x}\hat{i} + \frac{\partial\phi}{\partial y}\hat{j} + \frac{\partial\phi}{\partial z}\hat{k}
+\\]
+
+Now, the curl of the above gradient is given by
+
+\\[
+\vec{\nabla}\times\vec{\nabla}\phi = \hat{i}\left[\frac{\partial}{\partial y}\left(\frac{\partial\phi}{\partial z}\right)-\frac{\partial}{\partial z}\left(\frac{\partial\phi}{\partial y}\right)\right] - \hat{j}\left[\frac{\partial}{\partial x}\left(\frac{\partial\phi}{\partial z}\right)-\frac{\partial}{\partial z}\left(\frac{\partial\phi}{\partial x}\right)\right] + \hat{k}\left[\frac{\partial}{\partial x}\left(\frac{\partial\phi}{\partial y}\right)-\frac{\partial}{\partial y}\left(\frac{\partial\phi}{\partial x}\right)\right]
+\\]
+
+\\[
+\vec{\nabla}\times\vec{\nabla}\phi = 0\hat{i} - 0\hat{j} + 0\hat{k} = 0
+\\]
+
+**Note:** If the curl of a vector function \\((\vec{A})\\) is zero \\((\vec{\nabla}\times\vec{A} = 0)\\), the function can be expressed as the gradient of a scalar function \\((\vec{A} = \vec{\nabla}\phi)\\).
+
+**(ii) Divergence of Curl:** The divergence of the curl of a vector function is always zero.
+
+**Proof:** Let us consider a vector function \\(\vec{F} = F_x\hat{i}+F_y\hat{j}+F_z\hat{k}\\). The curl of the function is given by:
+
+\\[
+\vec{\nabla}\times\vec{F} = \hat{i}\left(\frac{\partial F_z}{\partial y}-\frac{\partial F_y}{\partial z}\right) - \hat{j}\left(\frac{\partial F_z}{\partial x}-\frac{\partial F_x}{\partial z}\right) + \hat{k}\left(\frac{\partial F_y}{\partial x}-\frac{\partial F_x}{\partial y}\right)
+\\]
+
+Now, the divergence of the above curl is
+
+\\[
+\vec{\nabla}\cdot(\vec{\nabla}\times\vec{F}) = \frac{\partial}{\partial x}\left(\frac{\partial F_z}{\partial y}-\frac{\partial F_y}{\partial z}\right) - \frac{\partial}{\partial y}\left(\frac{\partial F_z}{\partial x}-\frac{\partial F_x}{\partial z}\right) + \frac{\partial}{\partial z}\left(\frac{\partial F_y}{\partial x}-\frac{\partial F_x}{\partial y}\right)
+\\]
+
+\\[
+\vec{\nabla}\cdot(\vec{\nabla}\times\vec{F}) = 0
+\\]
+
+**(iii) Divergence of Gradient:** The Laplacian of a scalar function
+
+Let us consider a scalar function \\(\phi = \phi(x,y,z)\\). The gradient of the function is given by \\(\vec{\nabla}\phi\\). The divergence of the above gradient is given by
+
+\\[
+\vec{\nabla}\cdot\vec{\nabla}\phi = \nabla^2\phi = \frac{\partial^2\phi}{\partial x^2}+\frac{\partial^2\phi}{\partial y^2}+\frac{\partial^2\phi}{\partial z^2}
+\\]
+
+This is called the Laplacian of the scalar function \\(\phi = \phi(x,y,z)\\). The operator \\(\nabla^2 = \dfrac{\partial^2}{\partial x^2}+\dfrac{\partial^2}{\partial y^2}+\dfrac{\partial^2}{\partial z^2}\\) is called the Laplacian operator.
+
+**Example 1.16:** A vector function is given by \\(\vec{F} = (x^3-y^2)\hat{i} - (2xy+y^2)\hat{j}\\). Show that the function is irrotational and hence find the scalar potential.
+
+**Solution:** The curl of the function works out to zero, hence the vector is irrotational. Let \\(\phi\\) be the scalar potential such that \\(\vec{F} = \vec{\nabla}\phi\\).
+
+Now,
+
+\\[
+d\phi = \vec{\nabla}\phi\cdot d\vec{r} = \vec{F}\cdot d\vec{r} = (x^3-y^2)dx - (2xy+y^2)dy
+\\]
+
+\\[
+\phi = \int(x^3-y^2)dx - \int(2xy+y^2)dy + C = \frac{1}{4}x^4 - xy^2 - \frac{1}{3}y^3 + C
+\\]
+
+**Integration of Vectors**
+
+Vector integration is a fundamental concept in mathematical physics, which is essential for understanding various physical phenomena, such as fluid flow, electromagnetic fields, and mechanics. Integrating a vector function involves finding a vector whose derivative yields the original vector function.
+
+There are three primary types of vector integration: line, surface, and volume.
+
+**Line Integration:** Line integration involves integrating a vector field along a curve or path. Let \\(\vec{F}\\) be a vector function, then its line integration along a curve \\(c\\) is given by
+
+\\[
+W = \int_c \vec{F}\cdot d\vec{r}
+\\]
+
+where, \\(d\vec{r} = dx\hat{i}+dy\hat{j}+dz\hat{k}\\), is the line element. In mechanics, the work done by a force \\(\vec{F} = F_x\hat{i}+F_y\hat{j}+F_z\hat{k}\\) as an object moves along a path C is calculated using a line integral. The work done as the particle moves along a curved path from point A to point B is:
+
+\\[
+W = \int_C \vec{F}\cdot d\vec{r} = \int_C (F_x dx + F_y dy + F_z dz)
+\\]
+
+**Example 1.17:** A force \\(\vec{F} = 2x\hat{i}+3y\hat{j}\\) displaces a particle along a parabola \\(y = 4x^2\\) from a point A(0, 0) to B(1, 4). Calculate the work done by the force.
+
+**Solution:** The position vector is given by \\(\vec{r} = x\hat{i}+y\hat{j}\\) or \\(d\vec{r} = dx\hat{i}+dy\hat{j}\\). Now, it is given that \\(y=4x^2\\), which gives \\(dy=8x\,dx\\). Therefore, \\(d\vec{r} = dx\hat{i}+8x\,dx\,\hat{j}\\)
+
+Now, \\(\vec{F}\cdot d\vec{r} = (2x\hat{i}+12x^2\hat{j})\cdot(dx\hat{i}+8x\,dx\,\hat{j}) = (2x+96x^3)dx\\) unit.
+
+\\[
+\int_A^B \vec{F}\cdot d\vec{r} = \int_0^1(2x+96x^3)dx = \left[x^2+96\frac{x^4}{4}\right]_0^1 = 1+24 = 25
+\\]
+
+**Example 1.18:** Calculate the work done by the force field \\(\vec{F} = y\hat{i}+x\hat{j}\\) on a particle as it moves counterclockwise along the boundary of a square with vertices at (0, 0), (1, 0), (1, 1), and (0, 1).
+
+**Solution:** To solve this problem, we will divide the square into four segments:
+
+(i) From (0,0) to (1,0) along the x-axis: Here, \\(y=0\\) so \\(dy=0\\) which gives \\(d\vec{r}=dx\hat{i}\\). Therefore, \\(W_1 = \int_0^1 y\,dx = 0\\), since \\(y=0\\)
+
+(ii) From (1,0) to (1,1) along a line parallel to the y-axis: Here, \\(x=1\\) or \\(dx=0\\) which gives \\(d\vec{r}=dy\hat{j}\\). Therefore, \\(W_2 = \int_0^1 x\,dy = 1\int_0^1 dy = 1\\)
+
+(iii) From (1,1) to (0,1) along a line parallel to the x-axis: Here, \\(y=1\\) so \\(dy=0\\) which gives \\(d\vec{r}=dx\hat{i}\\). Therefore, \\(W_3 = \int_1^0 y\,dx = \int_1^0 dx = -1\\)
+
+(iv) From (0,1) to (0,0) along the y-axis: Here, \\(x=0\\) or \\(dx=0\\) which gives \\(d\vec{r}=dy\hat{j}\\). Therefore, \\(W_4 = \int_1^0 x\,dy = 0\\), since \\(x=0\\)
+
+Adding all the four segments, we get
+
+\\[
+W = W_1+W_2+W_3+W_4 = 0+1-1+0 = 0
+\\]
+
+**N.B.:** This result is a manifestation of the fact that certain force fields, such as conservative fields, result in zero net work when traversing a closed loop.
+
+**Example 1.19:** A particle moves along the curve defined by the parametric equations \\(x(t)=t\\), \\(y(t)=t^2\\), and \\(z(t)=t^3\\). The particle is subjected to a force field \\(\vec{F} = 2x\hat{i}+y\hat{j}+z\hat{k}\\). Calculate the work done by the force field as the particle moves from \\(t=0\\) to \\(t=1\\) along this path.
+
+**Solution:** Differentiating the parametric equations, we get, \\(dx=dt\\), \\(dy=2t\,dt\\), \\(dz=3t^2dt\\). The line element is given by, \\(d\vec{r} = (\hat{i}+2t\hat{j}+3t^2\hat{k})dt\\). Also, the force can be written as \\(\vec{F} = 2t\hat{i}+t^2\hat{j}+t^3\hat{k}\\). Therefore,
+
+\\[
+\vec{F}\cdot d\vec{r} = (2t\hat{i}+t^2\hat{j}+t^3\hat{k})\cdot(\hat{i}+2t\hat{j}+3t^2\hat{k})dt = (2t+2t^3+3t^5)dt
+\\]
+
+Integrating, we get
+
+\\[
+W = \int_0^1(2t+2t^3+3t^5)dt = \left[t^2+\frac{1}{2}t^4+\frac{1}{2}t^6\right]_0^1 = 1+\frac{1}{2}+\frac{1}{2} = 2
+\\]
+
+**Surface Integral:** Surface integrals is a fundamental concept in vector calculus. Surface integrals enable the integration of scalar or vector fields over a two-dimensional surface in three-dimensional space. Surface integrals are particularly important in physics, where they are used to compute quantities like flux, which measures the flow of a field (such as an electric or magnetic field) through a surface.
+
+For a scalar field \\(\psi(x,y,z)\\) defined on the surface S, the surface integral is expressed as
+
+\\[
+I = \iint_S \psi\,dS
+\\]
+
+Where \\(dS\\) is an infinitesimal area element on the surface S. For a vector field \\(\vec{F}\\), the surface integral, also known as the flux of the field through S, is given by
+
+\\[
+I = \iint_S \vec{F}\cdot d\vec{S} = \iint_S \vec{F}\cdot\hat{n}\,dS
+\\]
+
+Where, \\(\hat{n}\\) is the unit vector normal to the surface. One example of the surface integral is the flux of the electrostatic field, which is equal to \\(1/\epsilon_0\\) times the charge inside the surface, as given below:
+
+\\[
+\phi = \iint \vec{E}\cdot d\vec{S} = q/\epsilon_0
+\\]
+
+Now, the projection of \\(dS\\) on \\(x-y\\) plane is \\(dA_{xy}\\), i.e., \\(dA_{xy}=dx\,dy = dS\cos\theta\\), where \\(\theta\\) is the angle between z-axis \\((\hat{k})\\) and normal \\((\hat{n})\\) to the surface, which gives \\(\cos\theta = \hat{k}\cdot\hat{n}\\). Therefore, the element of surface integral can be written as, \\(dS = dx\,dy/(\hat{k}\cdot\hat{n})\\). With this, the surface integral of a vector field \\(\vec{F}\\) over a surface S is given by
+
+\\[
+I = \iint_S \vec{F}\cdot d\vec{S} = \iint_S \vec{F}\cdot\hat{n}\,dS = \iint_S \vec{F}\cdot\hat{n}\,\frac{dx\,dy}{(\hat{k}\cdot\hat{n})}
+\\]
+
+**Example 1.20:** Consider the vector field \\(\vec{F} = 2x\hat{i}-y\hat{j}+3z\hat{k}\\) in Cartesian coordinates. Calculate the flux of this vector field through the triangular plane surface S in the first octant, bounded by the coordinate planes and the plane \\(x+y+z=1\\).
+
+**Solution:** Let \\(\phi = x+y+z-1\\) be the surface. The gradient, which is normal, to the surface is given by
+
+\\[
+\vec{\nabla}\phi = \hat{i}+\hat{j}+\hat{k}
+\\]
+
+The unit vector normal to the surface is given by:
+
+\\[
+\hat{n} = \frac{\hat{i}+\hat{j}+\hat{k}}{\sqrt{1+1+1}} = \frac{1}{\sqrt{3}}(\hat{i}+\hat{j}+\hat{k})
+\\]
+
+Therefore, \\(\vec{F}\cdot\hat{n} = \dfrac{1}{\sqrt{3}}(2x-y+3z)\\) and \\(\hat{n}\cdot\hat{k} = \dfrac{1}{\sqrt{3}}\\)
+
+Now, we can write the surface integral as
+
+\\[
+I = \iint_R \vec{F}\cdot\hat{n}\,\frac{dx\,dy}{(\hat{k}\cdot\hat{n})} = \iint_R \frac{1}{\sqrt{3}}(2x-y+3z)\cdot\sqrt{3}\,dx\,dy = \iint_R(2x-y+3z)\,dx\,dy
+\\]
+
+The bounding surface is given by, \\(x+y+z=1\\) which gives \\(z=1-x-y\\). With this, the above integral can be written as
+
+\\[
+I = \iint_R (3-x-4y)\,dx\,dy = \int_0^1\int_0^{1-x}(3-x-4y)\,dy\,dx
+\\]
+
+\\[
+I = \int_0^1 \left[3y-xy-2y^2\right]_0^{1-x}dx = \int_0^1\left[3(1-x)-x(1-x)-2(1-x)^2\right]dx
+\\]
+
+\\[
+I = \int_0^1 (1-x^2)\,dx = \left[x-\frac{1}{3}x^3\right]_0^1 = 1-\frac{1}{3} = \frac{2}{3}
+\\]
+
+**Example 1.21:** Find the surface integral of the vector function \\(\vec{F} = yz\hat{i}+zx\hat{j}+xy\hat{k}\\) over the surface of the cube bounded by the planes \\(x=0, x=2, y=0, y=2, z=0, z=2\\).
+
+**Solution:** The cube has six faces, each parallel to one of the coordinate planes. We will find the surface integral for each surface and add them to get the final result.
+
+1. For the surface \\(S_1\\) at \\(x=2\\), \\(d\vec{S_1}=dy\,dz\,\hat{i}\\). Therefore, \\(\vec{F}\cdot d\vec{S_1} = yz\,dy\,dz\\).
+
+\\[
+I_1 = \int_0^2\int_0^2 yz\,dy\,dz = \left[\frac{1}{2}y^2\right]_0^2 \times \left[\frac{1}{2}z^2\right]_0^2 = 4
+\\]
+
+2. For the surface \\(S_2\\) at \\(y=2\\), \\(d\vec{S_2}=dx\,dz\,\hat{j}\\). Therefore, \\(\vec{F}\cdot d\vec{S_2} = xz\,dx\,dz\\).
+
+\\[
+I_2 = \int_0^2\int_0^2 xz\,dx\,dz = 4
+\\]
+
+3. For the surface \\(S_3\\) at \\(z=2\\), \\(d\vec{S_3}=dx\,dy\,\hat{k}\\). Therefore, \\(\vec{F}\cdot d\vec{S_3} = xy\,dx\,dy\\).
+
+\\[
+I_3 = \int_0^2\int_0^2 xy\,dx\,dy = 4
+\\]
+
+4. For the surface \\(S_4\\) at \\(x=0\\), \\(d\vec{S_4}=-dy\,dz\,\hat{i}\\). Therefore \\(\vec{F}\cdot d\vec{S_4}=-yz\,dy\,dz\\). Hence \\(I_4 = 0\\).
+
+Similarly for the surfaces at \\(y=0\\) \\((S_5)\\) and at \\(z=0\\) \\((S_6)\\), \\(\vec{F}\cdot d\vec{S_5} = \vec{F}\cdot d\vec{S_6} = 0\\) and hence \\(I_5=I_6=0\\).
+
+Adding them all, we get
+
+\\[
+I = \sum_{k=1}^{6}I_k = 4+4+4+0+0+0 = 12
+\\]
+
+**Volume Integral:** A volume integral allows us to compute quantities that are distributed over a three-dimensional region in space. Mathematically, the volume integral of a scalar function \\(\rho(x,y,z)\\) over a volume V is expressed as:
+
+\\[
+I = \iiint_V \rho\,dV = \iiint_V \rho\,dx\,dy\,dz
+\\]
+
+For example, if \\(\rho(x,y,z)\\) represents the charge density in a region of space, the total charge \\(Q\\) is given by the volume integral of \\(\rho(x,y,z)\\) over the volume V as follows:
+
+\\[
+Q = \iiint_V \rho(x,y,z)\,dV
+\\]
+
+**Example 1.22:** A rectangular box occupies the region \\(0 \le x \le 2\\), \\(0 \le y \le 3\\) and \\(0 \le z \le 4\\) in space. The charge density within the box is given by \\(\rho(x,y,z) = x+y+z\\) (in units of charge per unit volume). Calculate the total charge \\(Q\\) contained within the box.
+
+**Solution:** The total charge \\(Q\\) is given by the volume integral of the charge density over the volume of the box:
+
+\\[
+Q = \int_0^2\int_0^3\int_0^4(x+y+z)\,dz\,dy\,dx = \int_0^2\int_0^3\left[xz+yz+\frac{1}{2}z^2\right]_0^4dy\,dx
+\\]
+
+\\[
+Q = \int_0^2\int_0^3(4x+4y+8)\,dy\,dx = \int_0^2\left[4xy+2y^2+8y\right]_0^3dx = \int_0^2(12x+42)\,dx
+\\]
+
+\\[
+Q = \left[6x^2+42x\right]_0^2 = 24+84 = 108 \text{ unit of charge.}
+\\]
+
+**Fundamental Theorems in Vector Calculus**
+
+**Green's Theorem:** Green's Theorem provides a relationship between a line integral around a simple, closed curve C and a double integral over the plane region R that C encloses. It is a fundamental result in vector calculus.
+
+Let C be a positively oriented, piecewise smooth, simple closed curve in the plane, and let R be the region enclosed by C. If \\(P(x,y)\\) and \\(Q(x,y)\\) are functions with continuous partial derivatives on an open region that contains R and its boundary C, then Green's Theorem states:
+
+\\[
+\oint_C (P\,dx+Q\,dy) = \iint_R \left(\frac{\partial Q}{\partial x}-\frac{\partial P}{\partial y}\right)dx\,dy
+\\]
+
+**Stokes Theorem:** Stokes' theorem relates the surface integral of the curl of a vector field over a surface to the line integral of the vector field along the boundary of that surface. It states that the surface integral of the curl of a vector field in a region R is equal to the line integral of the vector field along a curve C enclosing the region R. Mathematically,
+
+\\[
+\oint_C \vec{F}\cdot d\vec{r} = \iint_R (\vec{\nabla}\times\vec{F})\cdot d\vec{S}
+\\]
+
+**Gauss's Divergence Theorem:** Gauss's divergence theorem relates the volume integral of the divergence of a vector field to its surface integral. It states that the volume integral of the divergence of a vector function over a volume V is equal to the surface integral of the vector function over a surface S that encloses the volume V. Mathematically,
+
+\\[
+\iint_S \vec{F}\cdot d\vec{S} = \iiint_V (\vec{\nabla}\cdot\vec{F})\,dV
+\\]
+
+The proof and discussion on this theorem is beyond the scope of this book.
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-1','Vector-Calculus-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
