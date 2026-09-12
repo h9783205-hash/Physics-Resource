@@ -713,7 +713,312 @@ The proof and discussion on this theorem is beyond the scope of this book.
 
 <details class="unit-block" id="mp-unit-2">
 <summary>Unit 2: Curvilinear Coordinates</summary>
-<p><em>Write your notes here.</em></p>
+<p><em></em></p>
+  **Orthogonal Curvilinear Coordinates**
+
+An orthogonal curvilinear coordinate system is a generalization of the Cartesian coordinate system, where the coordinate lines (or surfaces) are curved rather than straight, but they (actually their tangent) remain mutually perpendicular (orthogonal) at every point. These coordinate systems are particularly useful in solving problems with symmetry that aren't easily addressed in Cartesian coordinates, such as problems involving circular, spherical, or cylindrical shapes. The examples are the spherical polar coordinate system and cylindrical coordinate system.
+
+If \\((x, y, z)\\) are the coordinates of a point \\(P\\) in cartesian coordinate system, then the curvilinear coordinates of the point P will be given by the functions \\(u=u(x,y,z)\\), \\(v=v(x,y,z)\\), and \\(w=w(x,y,z)\\).
+
+In cartesian coordinate, we have three plane surfaces:
+
+(i) x surface or y-z surface bounded by y- and z-axes where x = 0. The direction of the surface (normal to this surface) is along x-axis and represented by \\(\hat{i}\\). That is why it is also called x-surface.
+
+(ii) y surface or x-z surface bounded by x- and z-axes where y = 0. The direction of the surface (normal to this surface) is along y-axis and represented by \\(\hat{j}\\). That is why it is also called y-surface.
+
+(iii) z surface or x-y surface bounded by x- and y-axes where z = 0. The direction of the surface (normal to this surface) is along z-axis and represented by \\(\hat{k}\\). That is why it is also called z-surface.
+
+Conversely, we can also say that x-axis is the line of intersection of y- and z- surfaces, y-axis is the line of intersection of x- and z-surfaces and z-axis is the intersection of x- and y- surfaces.
+
+Similarly, in curvilinear coordinate system, there are three (non-planar) coordinate surfaces: u surface \\((u=c_1)\\), v surface \\((v=c_2)\\) and w surface \\((w=c_3)\\). The intersection of any two surfaces gives the 3rd curve (not a straight line as in cartesian coordinate) as follows:
+
+(i) u-curve is given by the intersection \\((v=c_2)\\) and \\((w=c_3)\\) surfaces.
+
+(ii) v-curve is given by the intersection \\((u=c_1)\\) and \\((w=c_3)\\) surfaces.
+
+(iii) w-curve is given by the intersection \\((u=c_1)\\) and \\((v=c_2)\\) surfaces.
+
+The directions, i.e., the unit vectors, of these curves are given by the tangent to the curve at the given point. Therefore, the unit vectors are not constant in the curvilinear coordinate system. However, they are mutually perpendicular.
+
+Let \\(\hat{e}_u\\), \\(\hat{e}_v\\) and \\(\hat{e}_w\\) be the unit vectors along u-, v-, and w-curves, then similar to cartesian coordinate system, the following properties hold good here also,
+
+\\[
+\hat{e}_u\cdot\hat{e}_u = \hat{e}_v\cdot\hat{e}_v = \hat{e}_w\cdot\hat{e}_w = 1
+\\]
+
+\\[
+\hat{e}_u\cdot\hat{e}_v = \hat{e}_v\cdot\hat{e}_w = \hat{e}_w\cdot\hat{e}_u = 0
+\\]
+
+\\[
+\hat{e}_u\times\hat{e}_u = \hat{e}_v\times\hat{e}_v = \hat{e}_w\times\hat{e}_w = 0
+\\]
+
+\\[
+\hat{e}_u\times\hat{e}_v = \hat{e}_w,\quad \hat{e}_v\times\hat{e}_w = \hat{e}_u,\quad \hat{e}_w\times\hat{e}_u = \hat{e}_v
+\\]
+
+\\[
+\hat{e}_v\times\hat{e}_u = -\hat{e}_w,\quad \hat{e}_w\times\hat{e}_v = -\hat{e}_u,\quad \hat{e}_u\times\hat{e}_w = -\hat{e}_v
+\\]
+
+**Scale factors:** In cartesian coordinates, all the coordinates of a point have the units of length. However, in curvilinear coordinates, some coordinates are angles. Therefore, to bring the similarities, three scale factors are introduced for three corresponding coordinates. They relate the differential lengths in the curvilinear coordinate system to the corresponding differential lengths in Cartesian coordinates. They are denoted and defined as follows:
+
+\\[
+h_1 = \left|\frac{\partial\vec{r}}{\partial u}\right|,\quad h_2 = \left|\frac{\partial\vec{r}}{\partial v}\right|,\quad h_3 = \left|\frac{\partial\vec{r}}{\partial w}\right|
+\\]
+
+where, \\(\vec{r} = x\hat{i}+y\hat{j}+z\hat{k}\\) is the position vector. Since \\((\hat{e}_u,\hat{e}_v,\hat{e}_w)\\) are the unit vectors of u-, v-, w-curves (directed along the tangent of the curve, \\(\partial\vec{r}/\partial u\\), \\(\partial\vec{r}/\partial v\\), \\(\partial\vec{r}/\partial w\\), respectively at the given point), we can write
+
+\\[
+\frac{\partial\vec{r}}{\partial u} = h_1\hat{e}_u,\quad \frac{\partial\vec{r}}{\partial v} = h_2\hat{e}_v,\quad \frac{\partial\vec{r}}{\partial w} = h_3\hat{e}_w
+\\]
+
+**Note:** For cartesian coordinates, \\(h_1=h_2=h_3=1\\). The line element is given by,
+
+\\[
+d\vec{r} = \frac{\partial\vec{r}}{\partial u}du + \frac{\partial\vec{r}}{\partial v}dv + \frac{\partial\vec{r}}{\partial w}dw \Rightarrow d\vec{r} = h_1\,du\,\hat{e}_u + h_2\,dv\,\hat{e}_v + h_3\,dw\,\hat{e}_w
+\\]
+
+The differential of an arc length is given by
+
+\\[
+ds^2 = d\vec{r}\cdot d\vec{r} = h_1^2(du)^2 + h_2^2(dv)^2 + h_3^2(dw)^2
+\\]
+
+The length elements along three coordinate axes are given by: \\(ds_1=h_1du\\), \\(ds_2=h_2dv\\) and \\(ds_3=h_3dw\\). The surface elements are given by \\(dA_1=ds_2ds_3=h_2h_3\,dv\,dw\\), \\(dA_2=ds_1ds_3=h_1h_3\,du\,dw\\), and \\(dA_3=ds_1ds_2=h_1h_2\,du\,dv\\). The volume element is given by
+
+\\[
+dV = ds_1ds_2ds_3 = h_1h_2h_3\,du\,dv\,dw
+\\]
+
+**Gradient, Divergence, Curl, and Laplacian in curvilinear coordinate system:**
+
+**Gradient:** The gradient of the scalar function \\(\phi = \phi(u,v,w)\\) is given by,
+
+\\[
+\vec{\nabla}\phi = \frac{1}{h_1}\frac{\partial\phi}{\partial u}\hat{e}_u + \frac{1}{h_2}\frac{\partial\phi}{\partial v}\hat{e}_v + \frac{1}{h_3}\frac{\partial\phi}{\partial w}\hat{e}_w
+\\]
+
+The 'del' operator can be written as
+
+\\[
+\vec{\nabla} = \frac{1}{h_1}\frac{\partial}{\partial u}\hat{e}_u + \frac{1}{h_2}\frac{\partial}{\partial v}\hat{e}_v + \frac{1}{h_3}\frac{\partial}{\partial w}\hat{e}_w
+\\]
+
+Now, \\(\vec{\nabla}u = \dfrac{\hat{e}_u}{h_1}\\). Similarly, \\(\vec{\nabla}v = \dfrac{\hat{e}_v}{h_2}\\) and \\(\vec{\nabla}w = \dfrac{\hat{e}_w}{h_3}\\)
+
+Therefore, the gradient of a scalar function can also be written as
+
+\\[
+\vec{\nabla}\phi = \frac{\partial\phi}{\partial u}\vec{\nabla}u + \frac{\partial\phi}{\partial v}\vec{\nabla}v + \frac{\partial\phi}{\partial w}\vec{\nabla}w
+\\]
+
+**Divergence:** The divergence of a vector quantity \\(\vec{f} = f_u\hat{e}_u + f_v\hat{e}_v + f_w\hat{e}_w\\) is given by
+
+\\[
+\vec{\nabla}\cdot\vec{f} = \frac{1}{h_1h_2h_3}\left[\frac{\partial}{\partial u}(h_2h_3f_u) + \frac{\partial}{\partial v}(h_1h_3f_v) + \frac{\partial}{\partial w}(h_1h_2f_w)\right]
+\\]
+
+**Curl:** The curl of a vector quantity \\(\vec{f} = f_u\hat{e}_u + f_v\hat{e}_v + f_w\hat{e}_w\\) is given by
+
+\\[
+\vec{\nabla}\times\vec{f} = \begin{vmatrix} \dfrac{\hat{e}_u}{h_2h_3} & \dfrac{\hat{e}_v}{h_1h_3} & \dfrac{\hat{e}_w}{h_1h_2} \\\\ \dfrac{\partial}{\partial u} & \dfrac{\partial}{\partial v} & \dfrac{\partial}{\partial w} \\\\ h_1f_u & h_2f_v & h_3f_w \end{vmatrix}
+\\]
+
+**Laplacian:** The Laplacian of a scalar function is the divergence of the gradient of the given scalar function.
+
+Let us consider a scalar function \\(\phi = \phi(u,v,w)\\). The Laplacian of the function is given by
+
+\\[
+\nabla^2\phi = \vec{\nabla}\cdot(\vec{\nabla}\phi) = \frac{1}{h_1h_2h_3}\left[\frac{\partial}{\partial u}\left(\frac{h_2h_3}{h_1}\frac{\partial\phi}{\partial u}\right) + \frac{\partial}{\partial v}\left(\frac{h_1h_3}{h_2}\frac{\partial\phi}{\partial v}\right) + \frac{\partial}{\partial w}\left(\frac{h_1h_2}{h_3}\frac{\partial\phi}{\partial w}\right)\right]
+\\]
+
+Now, we will discuss the two curvilinear coordinate systems: Spherical Polar Coordinates and Cylindrical Coordinates.
+
+**Spherical Polar Coordinates:** In spherical polar system, the location or position of a point in space is represented by three coordinates \\((r, \theta, \phi)\\), i.e., \\(u=r, v=\theta, w=\phi\\). Here, \\(r\\), called as radius, is the distance of the point from the origin, \\(\theta\\), called as polar angle, is the angle between \\(r\\) and z-axis, and \\(\phi\\), called as azimuthal angle, is the angle between projection of \\(r\\) on the x-y plane and x-axis. The ranges of these coordinates are given by, \\(r: 0-\infty\\), \\(\theta: 0-\pi\\) and \\(\phi: 0-2\pi\\).
+
+From the figure, it is clear that \\(OM = r\cos\theta\\) and \\(OQ = r\sin\theta\\). Now the cartesian coordinates \\((x,y,z)\\) are related to the spherical polar coordinates as:
+
+\\[
+x = OR = OQ\cos\phi = r\sin\theta\cos\phi
+\\]
+
+\\[
+y = QR = OQ\sin\phi = r\sin\theta\sin\phi
+\\]
+
+\\[
+z = OM = r\cos\theta
+\\]
+
+Conversely, we can also write (after simplification), \\(r = (x^2+y^2+z^2)^{1/2}\\), \\(\phi = \tan^{-1}(y/x)\\) and \\(\theta = \tan^{-1}(\sqrt{x^2+y^2}/z)\\).
+
+Now, we will find the scale factors in spherical polar coordinates. The position vector is given by:
+
+\\[
+\vec{r} = x\hat{i}+y\hat{j}+z\hat{k} = r\sin\theta\cos\phi\hat{i} + r\sin\theta\sin\phi\hat{j} + r\cos\theta\hat{k}
+\\]
+
+The three scale factors in spherical coordinates are given by:
+
+\\[
+h_1 = \left|\frac{\partial\vec{r}}{\partial r}\right| = \sqrt{\sin^2\theta\cos^2\phi+\sin^2\theta\sin^2\phi+\cos^2\theta} = 1
+\\]
+
+\\[
+h_2 = \left|\frac{\partial\vec{r}}{\partial\theta}\right| = \sqrt{r^2\cos^2\theta\cos^2\phi+r^2\cos^2\theta\sin^2\phi+r^2\sin^2\theta} = r
+\\]
+
+\\[
+h_3 = \left|\frac{\partial\vec{r}}{\partial\phi}\right| = \sqrt{r^2\sin^2\theta\sin^2\phi+r^2\sin^2\theta\cos^2\phi} = r\sin\theta
+\\]
+
+The three length elements are given by: \\(ds_1=dr\\), \\(ds_2=rd\theta\\), \\(ds_3=r\sin\theta\,d\phi\\). Thus the line element can be written as \\(d\vec{s} = dr\,\hat{e}_r + rd\theta\,\hat{e}_\theta + r\sin\theta\,d\phi\,\hat{e}_\phi\\). The surface element on a constant \\(r\\) surface is \\(dA_r = ds_2ds_3 = r^2\sin\theta\,d\theta\,d\phi\\). The other two surface elements are \\(dA_\theta = r\sin\theta\,dr\,d\phi\\) and \\(dA_\phi = r\,dr\,d\theta\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = r^2\sin\theta\,dr\,d\theta\,d\phi\\).
+
+Now, we will find the three unit vectors in terms of \\(\hat{i},\hat{j},\hat{k}\\). We know, \\(\partial\vec{r}/\partial u = h_1\hat{e}_u\\), \\(\partial\vec{r}/\partial v = h_2\hat{e}_v\\) and \\(\partial\vec{r}/\partial w = h_3\hat{e}_w\\). Thus, for spherical coordinates,
+
+\\[
+\hat{e}_r = \frac{\partial\vec{r}}{\partial r} = \sin\theta\cos\phi\hat{i} + \sin\theta\sin\phi\hat{j} + \cos\theta\hat{k}
+\\]
+
+\\[
+\hat{e}_\theta = \frac{1}{r}\frac{\partial\vec{r}}{\partial\theta} = \cos\theta\cos\phi\hat{i} + \cos\theta\sin\phi\hat{j} - \sin\theta\hat{k}
+\\]
+
+\\[
+\hat{e}_\phi = \frac{1}{r\sin\theta}\frac{\partial\vec{r}}{\partial\phi} = -\sin\phi\hat{i} + \cos\phi\hat{j}
+\\]
+
+We can easily show that \\(\hat{e}_r\cdot\hat{e}_\theta = \hat{e}_\theta\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat{e}_r = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in spherical coordinates are given by,
+
+**Gradient:**
+\\[
+\vec{\nabla}f = \frac{\partial f}{\partial r}\hat{e}_r + \frac{1}{r}\frac{\partial f}{\partial\theta}\hat{e}_\theta + \frac{1}{r\sin\theta}\frac{\partial f}{\partial\phi}\hat{e}_\phi
+\\]
+
+**Divergence:**
+\\[
+\vec{\nabla}\cdot\vec{A} = \frac{1}{r^2}\frac{\partial}{\partial r}(r^2A_r) + \frac{1}{r\sin\theta}\frac{\partial}{\partial\theta}(\sin\theta A_\theta) + \frac{1}{r\sin\theta}\frac{\partial A_\phi}{\partial\phi}
+\\]
+
+**Curl:**
+\\[
+\vec{\nabla}\times\vec{A} = \frac{1}{r^2\sin\theta}\begin{vmatrix} \hat{e}_r & r\hat{e}_\theta & r\sin\theta\hat{e}_\phi \\\\ \dfrac{\partial}{\partial r} & \dfrac{\partial}{\partial\theta} & \dfrac{\partial}{\partial\phi} \\\\ A_r & rA_\theta & r\sin\theta A_\phi \end{vmatrix}
+\\]
+
+**Laplacian:**
+\\[
+\nabla^2f = \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial f}{\partial r}\right) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial f}{\partial\theta}\right) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 f}{\partial\phi^2}
+\\]
+
+**Example 2.1:** Express the vector function \\(\vec{f} = 2x\hat{i} + yz\hat{j} + z\hat{k}\\) in spherical polar coordinates.
+
+**Solution:** The vector function is given by,
+
+\\[
+\vec{f} = 2x\hat{i}+yz\hat{j}+z\hat{k} = 2r\sin\theta\cos\phi\hat{i} + r^2\sin\theta\cos\theta\sin\phi\hat{j} + r\cos\theta\hat{k}
+\\]
+
+Let \\(\vec{f} = f_r\hat{e}_r + f_\theta\hat{e}_\theta + f_\phi\hat{e}_\phi\\) be the function in a spherical coordinate system. The three components of the function are given by
+
+\\[
+f_r = \vec{f}\cdot\hat{e}_r = 2r\sin^2\theta\cos^2\phi + r^2\sin^2\theta\sin^2\phi\cos\theta + r\cos^2\theta
+\\]
+
+\\[
+f_\theta = \vec{f}\cdot\hat{e}_\theta = 2r\sin\theta\cos\theta\cos^2\phi + r^2\sin\theta\cos^2\theta\sin^2\phi - r\sin\theta\cos\theta
+\\]
+
+\\[
+f_\phi = \vec{f}\cdot\hat{e}_\phi = -2r\sin\theta\sin\phi\cos\phi + r^2\sin\theta\cos\theta\sin\phi\cos\phi
+\\]
+
+**Cylindrical Coordinate:** In a cylindrical system, the location or position of a point in space is represented by three coordinates \\((\rho, \phi, z)\\), i.e., \\(u=\rho, v=\phi, w=z\\). Here, \\(\rho\\), called as radius, is the distance of the point from the z-axis, \\(\phi\\), called azimuthal angle, is the angle between projection of \\(\rho\\) on the x-y plane and x-axis and \\(z\\), called height, is the height of the point from x-y plane. The ranges of these coordinates are given by, \\(\rho: 0-\infty\\), \\(\phi: 0-2\pi\\) and \\(z: 0-\infty\\).
+
+**Note:** Here, the radius is drawn from the z-axis and the projection of \\(\rho\\) the x-y plane is equal to \\(\rho\\), since both are parallel lines. On the other hand, in a spherical system, the radius is drawn from the origin and the projection of \\(r\\) on x-y plane is equal to \\(r\sin\theta\\). The azimuthal angle \\(\phi\\) is the same in both the systems. The third coordinate \\(z\\) is the same as the z-coordinate in the cartesian system.
+
+From the figure, we can easily write the cartesian coordinates \\((x, y, z)\\) in terms of cylindrical coordinates \\((\rho, \phi, z)\\) as, \\(x = \rho\cos\phi\\), \\(y = \rho\sin\phi\\), \\(z = z\\). Conversely, we can also write, \\(\rho = (x^2+y^2)^{1/2}\\), \\(\phi = \tan^{-1}(y/x)\\) and \\(z = z\\).
+
+The position vector is given by,
+
+\\[
+\vec{r} = x\hat{i}+y\hat{j}+z\hat{k} = \rho\cos\phi\hat{i}+\rho\sin\phi\hat{j}+z\hat{k}
+\\]
+
+The three scale factors are given by,
+
+\\[
+h_1 = \left|\frac{\partial\vec{r}}{\partial\rho}\right| = \sqrt{\cos^2\phi+\sin^2\phi} = 1
+\\]
+
+\\[
+h_2 = \left|\frac{\partial\vec{r}}{\partial\phi}\right| = \sqrt{\rho^2\sin^2\phi+\rho^2\cos^2\phi} = \rho
+\\]
+
+\\[
+h_3 = \left|\frac{\partial\vec{r}}{\partial z}\right| = 1
+\\]
+
+The three length elements are given by: \\(ds_1=d\rho\\), \\(ds_2=\rho\,d\phi\\), \\(ds_3=dz\\). Thus the line element can be written as \\(d\vec{s} = d\rho\,\hat{e}_\rho + \rho\,d\phi\,\hat{e}_\phi + dz\,\hat{e}_z\\). The surface element on a constant \\(\rho\\) surface is \\(dA_\rho = ds_2ds_3 = \rho\,d\phi\,dz\\). The other two surface elements are \\(dA_\phi = dr\,dz\\) and \\(dA_z = \rho\,d\rho\,d\phi\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = \rho\,d\rho\,d\phi\,dz\\).
+
+Now, we will find the three unit vectors in terms of \\(\hat{i},\hat{j},\hat{k}\\). Thus, for cylindrical coordinates,
+
+\\[
+\hat{e}_\rho = \frac{\partial\vec{r}}{\partial\rho} = \cos\phi\hat{i}+\sin\phi\hat{j}
+\\]
+
+\\[
+\hat{e}_\phi = \frac{1}{\rho}\frac{\partial\vec{r}}{\partial\phi} = -\sin\phi\hat{i}+\cos\phi\hat{j}
+\\]
+
+\\[
+\hat{e}_z = \frac{\partial\vec{r}}{\partial z} = \hat{k}
+\\]
+
+We can easily show that \\(\hat{e}_\rho\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat{e}_z = \hat{e}_z\cdot\hat{e}_\rho = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in cylindrical coordinates are given by,
+
+**Gradient:**
+\\[
+\vec{\nabla}f = \frac{\partial f}{\partial\rho}\hat{e}_\rho + \frac{1}{\rho}\frac{\partial f}{\partial\phi}\hat{e}_\phi + \frac{\partial f}{\partial z}\hat{e}_z
+\\]
+
+**Divergence:**
+\\[
+\vec{\nabla}\cdot\vec{A} = \frac{1}{\rho}\frac{\partial}{\partial\rho}(\rho A_\rho) + \frac{1}{\rho}\frac{\partial}{\partial\phi}(A_\phi) + \frac{\partial}{\partial z}(A_z)
+\\]
+
+**Curl:**
+\\[
+\vec{\nabla}\times\vec{A} = \frac{1}{\rho}\begin{vmatrix} \hat{e}_\rho & \rho\hat{e}_\phi & \hat{e}_z \\\\ \dfrac{\partial}{\partial\rho} & \dfrac{\partial}{\partial\phi} & \dfrac{\partial}{\partial z} \\\\ A_\rho & \rho A_\phi & A_z \end{vmatrix}
+\\]
+
+**Laplacian:**
+\\[
+\nabla^2f = \frac{1}{\rho}\frac{\partial}{\partial\rho}\left(\rho\frac{\partial f}{\partial\rho}\right) + \frac{1}{\rho^2}\frac{\partial^2 f}{\partial\phi^2} + \frac{\partial^2 f}{\partial z^2}
+\\]
+
+**Example 2.2:** Express \\(2y\hat{i}+z\hat{j}-x\hat{k}\\) in cylindrical coordinates.
+
+**Solution:** The vector function is given by,
+
+\\[
+\vec{F} = 2y\hat{i}+z\hat{j}-x\hat{k} = 2\rho\sin\phi\hat{i} + z\hat{j} - \rho\cos\phi\hat{k}
+\\]
+
+Let \\(\vec{F} = F_\rho\hat{e}_\rho + F_\phi\hat{e}_\phi + F_z\hat{e}_z\\) be the function in the cylindrical coordinate system. The components of the vector are given by,
+
+\\[
+F_\rho = \vec{F}\cdot\hat{e}_\rho = 2\rho\sin\phi\cos\phi + z\sin\phi
+\\]
+
+\\[
+F_\phi = \vec{F}\cdot\hat{e}_\phi = -2\rho\sin^2\phi + z\cos\phi
+\\]
+
+\\[
+F_z = \vec{F}\cdot\hat{e}_z = -\rho\cos\phi
+\\]
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-2','Curvilinear-Coordinates-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
