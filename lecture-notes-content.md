@@ -875,9 +875,9 @@ h_2 = \left|\frac{\partial\vec{r}}{\partial\theta}\right| = \sqrt{r^2\cos^2\thet
 h_3 = \left|\frac{\partial\vec{r}}{\partial\phi}\right| = \sqrt{r^2\sin^2\theta\sin^2\phi+r^2\sin^2\theta\cos^2\phi} = r\sin\theta
 \\]
 
-The three length elements are given by: \\(ds_1=dr\\), \\(ds_2=rd\theta\\), \\(ds_3=r\sin\theta\,d\phi\\). Thus the line element can be written as \\(d\vec{s} = dr\\,\hat{e}_r + rd\theta\,\hat{e}_\theta + r\sin\theta\,d\phi\,\hat{e}_\phi\\). The surface element on a constant \\(r\\) surface is \\(dA_r = ds_2ds_3 = r^2\sin\theta\,d\theta\,d\phi\\). The other two surface elements are \\(dA_\theta = r\sin\theta\,dr\,d\phi\\) and \\(dA_\phi = r\,dr\,d\theta\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = r^2\sin\theta\,dr\,d\theta\,d\phi\\).
+The three length elements are given by: \\(ds_1=dr\\), \\(ds_2=rd\theta\\), \\(ds_3=r\sin\theta\,d\phi\\). Thus the line element can be written as \\(d\vec{s} = dr\,\hat{e}_r + rd\theta\,\hat{e}_\theta + r\sin\theta\,d\phi\,\hat{e}_\phi\\). The surface element on a constant \\(r\\) surface is \\(dA_r = ds_2ds_3 = r^2\sin\theta\,d\theta\,d\phi\\). The other two surface elements are \\(dA_\theta = r\sin\theta\,dr\,d\phi\\) and \\(dA_\phi = r\,dr\,d\theta\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = r^2\sin\theta\,dr\,d\theta\,d\phi\\).
 
-Now, we will find the three unit vectors in terms of \\(\hat{i},\hat{j},\hat{k}\\). We know, \\(\partial\vec{r}/\partial u = h_1\hat{e}_u\\), \\(\partial\vec{r}/\partial v = h_2\hat{e}_v\\) and \\(\partial\vec{r}/\partial w = h_3\hat{e}_w\\). Thus, for spherical coordinates,
+Now, we will find the three unit vectors in terms of \\(\hat{i}\\), \\(\hat{j}\\), \\(\hat{k}\\). We know, \\(\partial\vec{r}/\partial u = h_1\hat{e}_u\\), \\(\partial\vec{r}/\partial v = h_2\hat{e}_v\\) and \\(\partial\vec{r}/\partial w = h_3\hat{e}_w\\). Thus, for spherical coordinates,
 
 \\[
 \hat{e}_r = \frac{\partial\vec{r}}{\partial r} = \sin\theta\cos\phi\hat{i} + \sin\theta\sin\phi\hat{j} + \cos\theta\hat{k}
@@ -894,21 +894,25 @@ Now, we will find the three unit vectors in terms of \\(\hat{i},\hat{j},\hat{k}\
 We can easily show that \\(\hat{e}_r\cdot\hat{e}_\theta = \hat{e}_\theta\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat{e}_r = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in spherical coordinates are given by,
 
 **Gradient:**
+
 \\[
 \vec{\nabla}f = \frac{\partial f}{\partial r}\hat{e}_r + \frac{1}{r}\frac{\partial f}{\partial\theta}\hat{e}_\theta + \frac{1}{r\sin\theta}\frac{\partial f}{\partial\phi}\hat{e}_\phi
 \\]
 
 **Divergence:**
+
 \\[
 \vec{\nabla}\cdot\vec{A} = \frac{1}{r^2}\frac{\partial}{\partial r}(r^2A_r) + \frac{1}{r\sin\theta}\frac{\partial}{\partial\theta}(\sin\theta A_\theta) + \frac{1}{r\sin\theta}\frac{\partial A_\phi}{\partial\phi}
 \\]
 
 **Curl:**
+
 \\[
-\vec{\nabla}\times\vec{A} = \frac{1}{r^2\sin\theta}\begin{vmatrix} \hat{e}_r & r\hat{e}_\theta & r\sin\theta\hat{e}_\phi \\\\ \dfrac{\partial}{\partial r} & \dfrac{\partial}{\partial\theta} & \dfrac{\partial}{\partial\phi} \\\\ A_r & rA_\theta & r\sin\theta A_\phi \end{vmatrix}
+\vec{\nabla}\times\vec{A} = \frac{1}{r^2\sin\theta}\begin{vmatrix} \hat{e}_r & r\hat{e}_\theta & r\sin\theta\hat{e}_\phi \\\\ \frac{\partial}{\partial r} & \frac{\partial}{\partial\theta} & \frac{\partial}{\partial\phi} \\\\ A_r & rA_\theta & r\sin\theta A_\phi \end{vmatrix}
 \\]
 
 **Laplacian:**
+
 \\[
 \nabla^2f = \frac{1}{r^2}\frac{\partial}{\partial r}\left(r^2\frac{\partial f}{\partial r}\right) + \frac{1}{r^2\sin\theta}\frac{\partial}{\partial\theta}\left(\sin\theta\frac{\partial f}{\partial\theta}\right) + \frac{1}{r^2\sin^2\theta}\frac{\partial^2 f}{\partial\phi^2}
 \\]
@@ -963,7 +967,7 @@ h_3 = \left|\frac{\partial\vec{r}}{\partial z}\right| = 1
 
 The three length elements are given by: \\(ds_1=d\rho\\), \\(ds_2=\rho\,d\phi\\), \\(ds_3=dz\\). Thus the line element can be written as \\(d\vec{s} = d\rho\,\hat{e}_\rho + \rho\,d\phi\,\hat{e}_\phi + dz\,\hat{e}_z\\). The surface element on a constant \\(\rho\\) surface is \\(dA_\rho = ds_2ds_3 = \rho\,d\phi\,dz\\). The other two surface elements are \\(dA_\phi = dr\,dz\\) and \\(dA_z = \rho\,d\rho\,d\phi\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = \rho\,d\rho\,d\phi\,dz\\).
 
-Now, we will find the three unit vectors in terms of \\(\hat{i},\hat{j},\hat{k}\\). Thus, for cylindrical coordinates,
+Now, we will find the three unit vectors in terms of \\(\hat{i}\\), \\(\hat{j}\\), \\(\hat{k}\\). Thus, for cylindrical coordinates,
 
 \\[
 \hat{e}_\rho = \frac{\partial\vec{r}}{\partial\rho} = \cos\phi\hat{i}+\sin\phi\hat{j}
@@ -980,21 +984,25 @@ Now, we will find the three unit vectors in terms of \\(\hat{i},\hat{j},\hat{k}\
 We can easily show that \\(\hat{e}_\rho\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat{e}_z = \hat{e}_z\cdot\hat{e}_\rho = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in cylindrical coordinates are given by,
 
 **Gradient:**
+
 \\[
 \vec{\nabla}f = \frac{\partial f}{\partial\rho}\hat{e}_\rho + \frac{1}{\rho}\frac{\partial f}{\partial\phi}\hat{e}_\phi + \frac{\partial f}{\partial z}\hat{e}_z
 \\]
 
 **Divergence:**
+
 \\[
 \vec{\nabla}\cdot\vec{A} = \frac{1}{\rho}\frac{\partial}{\partial\rho}(\rho A_\rho) + \frac{1}{\rho}\frac{\partial}{\partial\phi}(A_\phi) + \frac{\partial}{\partial z}(A_z)
 \\]
 
 **Curl:**
+
 \\[
-\vec{\nabla}\times\vec{A} = \frac{1}{\rho}\begin{vmatrix} \hat{e}_\rho & \rho\hat{e}_\phi & \hat{e}_z \\\\ \dfrac{\partial}{\partial\rho} & \dfrac{\partial}{\partial\phi} & \dfrac{\partial}{\partial z} \\\\ A_\rho & \rho A_\phi & A_z \end{vmatrix}
+\vec{\nabla}\times\vec{A} = \frac{1}{\rho}\begin{vmatrix} \hat{e}_\rho & \rho\hat{e}_\phi & \hat{e}_z \\\\ \frac{\partial}{\partial\rho} & \frac{\partial}{\partial\phi} & \frac{\partial}{\partial z} \\\\ A_\rho & \rho A_\phi & A_z \end{vmatrix}
 \\]
 
 **Laplacian:**
+
 \\[
 \nabla^2f = \frac{1}{\rho}\frac{\partial}{\partial\rho}\left(\rho\frac{\partial f}{\partial\rho}\right) + \frac{1}{\rho^2}\frac{\partial^2 f}{\partial\phi^2} + \frac{\partial^2 f}{\partial z^2}
 \\]
