@@ -714,6 +714,7 @@ The proof and discussion on this theorem is beyond the scope of this book.
 <details class="unit-block" id="mp-unit-2">
 <summary>Unit 2: Curvilinear Coordinates</summary>
 <p><em></em></p>
+ 
   **Orthogonal Curvilinear Coordinates**
 
 An orthogonal curvilinear coordinate system is a generalization of the Cartesian coordinate system, where the coordinate lines (or surfaces) are curved rather than straight, but they (actually their tangent) remain mutually perpendicular (orthogonal) at every point. These coordinate systems are particularly useful in solving problems with symmetry that aren't easily addressed in Cartesian coordinates, such as problems involving circular, spherical, or cylindrical shapes. The examples are the spherical polar coordinate system and cylindrical coordinate system.
