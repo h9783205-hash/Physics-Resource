@@ -1,20 +1,13 @@
-<details>
-<summary><strong>Mathematical Physics (Sem 1)</strong></summary>
+Browse or download previous year question papers directly from the folders below. If a folder doesn't load, use the direct link underneath it.
 
-- [2025](https://drive.google.com/file/d/FILE_ID/view)
+**Physics Major/Minor Question Papers**
 
-</details>
+<iframe src="https://drive.google.com/embeddedfolderview?id=1xMm8Rfout2am6va1Povf4KGFOPrY9qUq#list" style="width:100%; height:500px; border:0;"></iframe>
 
-<details>
-<summary><strong>Waves and Optics (Sem 3)</strong></summary>
+[Open this folder directly](https://drive.google.com/drive/folders/1xMm8Rfout2am6va1Povf4KGFOPrY9qUq)
 
-- [2025](https://drive.google.com/file/d/FILE_ID/view)
+**MDC Question Paper**
 
-</details>
+<iframe src="https://drive.google.com/embeddedfolderview?id=1MFNDKVnZOoW_A7zlpW38IvVGhGO4-XwS#list" style="width:100%; height:500px; border:0;"></iframe>
 
-<details>
-<summary><strong>Atomic & Molecular Physics (Sem 5)</strong></summary>
-
-- [2025](https://drive.google.com/file/d/FILE_ID/view)
-
-</details>
+[Open this folder directly](https://drive.google.com/drive/folders/1MFNDKVnZOoW_A7zlpW38IvVGhGO4-XwS)
