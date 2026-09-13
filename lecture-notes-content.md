@@ -1027,8 +1027,179 @@ F_z = \vec{F}\cdot\hat{e}_z = -\rho\cos\phi
 </details>
 
 <details class="unit-block" id="mp-unit-3">
-<summary>Unit 3: Ordinary Differential Equations</summary>
-<p><em>Write your notes here.</em></p>
+<summary>Unit 3: Dirac Delta Function</summary>
+<p><em></em></p>
+
+ **Dirac Delta Function**
+
+Dirac delta function, denoted by \\(\delta(x)\\), is a mathematical construct used to represent a localized function or physical entity with a value that is zero everywhere except at a specific point. It is not a function in the traditional sense. Mathematically it is expressed as
+
+\\[
+\delta(x) = 0, \text{ if } x \ne 0
+\\]
+
+\\[
+= 1, \text{ if } x = 0
+\\]
+
+The integral of the Dirac delta function over the entire real domain is 1, which is expressed below:
+
+\\[
+\int_{-\infty}^{+\infty}\delta(x)\,dx = 1
+\\]
+
+**Applications:**
+
+1. **Point Sources:** It is used to model idealized point charges, masses, or other localized effects in physical systems.
+2. **Signal Processing:** It represents an ideal impulse, making it a key tool for analyzing system responses.
+
+**Properties of Delta Function:**
+
+1. \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(x)\,dx = f(0)\\)
+
+2. \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(x-a)\,dx = f(a)\\)
+
+3. \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta'(x-a)\,dx = -f'(a)\\), here \\(f'(x) = \dfrac{d}{dx}f(x)\\)
+
+4. \\(\delta(-x) = \delta(x)\\)
+
+5. \\(x\delta(x) = 0\\)
+
+6. \\(\delta(ax) = \dfrac{1}{|a|}\delta(x)\\)
+
+7. \\(\displaystyle\int \delta(a-x)\delta(x-b)\,dx = \delta(a-b)\\)
+
+8. \\(\delta(x-a) = \delta(a-x)\\)
+
+9. \\(\delta(x^2-a^2) = \dfrac{1}{2|a|}\left[\delta(x-a)+\delta(x+a)\right]\\)
+
+**Proof:**
+
+**1.** \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(x)\,dx = f(0)\\)
+
+The Dirac delta function is zero everywhere except at \\(x=0\\). Therefore, in the integral, only the value of \\(f(x)\\) at \\(x=0\\), i.e. \\(f(0)\\), which is constant, contributes. Therefore,
+
+\\[
+\int_{-\infty}^{\infty} f(x)\delta(x)\,dx = \int_{-\infty}^{\infty} f(0)\delta(x)\,dx = f(0)\int_{-\infty}^{\infty}\delta(x)\,dx = f(0)
+\\]
+
+**2.** \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(x-a)\,dx = f(a)\\)
+
+Using the same logic we can prove this property also as mentioned below:
+
+\\[
+\int_{-\infty}^{\infty} f(x)\delta(x-a)\,dx = \int_{-\infty}^{\infty} f(a)\delta(x-a)\,dx = f(a)\int_{-\infty}^{\infty}\delta(x-a)\,dx = f(a)
+\\]
+
+**3.** \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta'(x-a)\,dx = -f'(a)\\)
+
+We can integrate the LHS using integration by parts,
+
+\\[
+\int_{-\infty}^{\infty} f(x)\delta'(x-a)\,dx = \left[f(x)\int\delta(x)\,dx\right]_{-\infty}^{+\infty} - \int_{-\infty}^{+\infty} f'(x)\delta(x)\,dx = 0 - \int_{-\infty}^{+\infty} f'(a)\delta(x)\,dx = -f'(a)
+\\]
+
+**4.** \\(\delta(-x) = \delta(x)\\)
+
+Let us evaluate the following integral: \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(-x)\,dx\\)
+
+Let \\(x=-u \Rightarrow dx=-du\\)
+
+\\[
+\int_{-\infty}^{\infty} f(x)\delta(-x)\,dx = \int_{\infty}^{-\infty} f(-u)\delta(u)(-du) = \int_{-\infty}^{\infty} f(-u)\delta(u)\,du = f(0)\int_{-\infty}^{\infty}\delta(u)\,du = f(0)
+\\]
+
+But, from property 1, \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(x)\,dx = f(0)\\)
+
+Comparing the two, we can conclude that \\(\delta(-x) = \delta(x)\\).
+
+**5.** \\(x\delta(x) = 0\\)
+
+From property 1, \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(x)\,dx = f(0)\\). Let \\(f(x) = x\\) which gives \\(\displaystyle\int_{-\infty}^{\infty} x\delta(x)\,dx = 0\\). Therefore \\(x\delta(x) = 0\\)
+
+**6.** \\(\delta(ax) = \dfrac{1}{|a|}\delta(x)\\)
+
+Let us consider the integral \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(ax)\,dx\\). Let \\(ax=u \Rightarrow dx = \dfrac{1}{|a|}du\\). This gives,
+
+\\[
+\int_{-\infty}^{\infty} f(x)\delta(ax)\,dx = \frac{1}{|a|}\int_{-\infty}^{\infty} f(u/a)\delta(u)\,du = \frac{1}{|a|}f(0) = \frac{1}{|a|}\int_{-\infty}^{\infty} f(x)\delta(x)\,dx
+\\]
+
+Hence, \\(\delta(ax) = \dfrac{1}{|a|}\delta(x)\\)
+
+**7.** \\(\displaystyle\int_{-\infty}^{+\infty} \delta(a-x)\delta(x-b)\,dx = \delta(a-b)\\)
+
+Proof: From property 2, \\(\displaystyle\int_{-\infty}^{\infty} f(x)\delta(x-b)\,dx = f(b)\\)
+
+Let, \\(f(x) = \delta(a-x)\\), therefore,
+
+\\[
+\int_{-\infty}^{+\infty} \delta(a-x)\delta(x-b)\,dx = \delta(a-b)
+\\]
+
+**8.** \\(\delta(x-a) = \delta(a-x)\\)
+
+Proof: From property 4, we have, \\(\delta(-x) = \delta(x)\\). Therefore,
+
+\\[
+\delta(x-a) = \delta\{-(a-x)\} = \delta(a-x)
+\\]
+
+**9.** \\(\delta(x^2-a^2) = \dfrac{1}{2|a|}\left[\delta(x-a)+\delta(x+a)\right]\\)
+
+Proof: Using the following property of delta function (Proof is given in appendix)
+
+\\[
+\delta[g(x)h(x)] = \frac{1}{|g(x)|}\delta[h(x)] + \frac{1}{|h(x)|}\delta[g(x)]
+\\]
+
+we can write
+
+\\[
+\delta(x^2-a^2) = \delta[(x-a)(x+a)] = \frac{1}{|x+a|}\delta(x-a) + \frac{1}{|x-a|}\delta(x+a)
+\\]
+
+\\[
+\int_{-\infty}^{+\infty} f(x)\delta(x^2-a^2)\,dx = \int_{-\infty}^{+\infty}\frac{1}{|x+a|}f(x)\delta(x-a)\,dx + \int_{-\infty}^{+\infty}\frac{1}{|x-a|}f(x)\delta(x+a)\,dx
+\\]
+
+\\[
+= \frac{1}{|2a|}f(a) + \frac{1}{|2a|}f(-a)
+\\]
+
+\\[
+= \frac{1}{2|a|}\int_{-\infty}^{+\infty}f(x)\delta(x-a)\,dx + \frac{1}{2|a|}\int_{-\infty}^{+\infty}f(x)\delta(x+a)\,dx
+\\]
+
+\\[
+\delta(x^2-a^2) = \frac{1}{2|a|}\left[\delta(x-a)+\delta(x+a)\right]
+\\]
+
+**Appendix: Proof of product property.**
+
+First we will prove the following property:
+
+\\[
+\delta[f(x)] = \sum_i \frac{1}{|f'(x_i)|}\delta(x-x_i)
+\\]
+
+The function \\(f(x)\\) can be expanded around the root \\(x = x_i\\) using the Taylor's series as \\(f(x) = (x-x_i)f'(x_i)\\), ignoring the higher order terms. This gives
+
+\\[
+\delta[f(x)] = \delta[(x-x_i)f'(x_i)] = \frac{1}{|f'(x_i)|}\delta(x-x_i)
+\\]
+
+using property 6. If the function \\(f(x)\\) has multiple roots, then it can be expanded around each root. Therefore, we can write,
+
+\\[
+\delta[f(x)] = \sum_i \frac{1}{|f'(x_i)|}\delta(x-x_i)
+\\]
+
+Let \\(f(x) = g(x)h(x)\\). Now using the above property, we can write that
+
+\\[
+\delta[g(x)h(x)] = \frac{1}{|g(x)|}\delta[h(x)] + \frac{1}{|h(x)|}\delta[g(x)]
+\\]
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-3','ODE-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
