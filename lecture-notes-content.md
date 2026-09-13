@@ -923,8 +923,7 @@ We can easily show that \\(\hat{e}\_r\cdot\hat{e}\_\theta = \hat{e}\_\theta\cdot
 \vec{f} = 2x\hat{i}+yz\hat{j}+z\hat{k} = 2r\sin\theta\cos\phi\hat{i} + r^2\sin\theta\cos\theta\sin\phi\hat{j} + r\cos\theta\hat{k}
 \\]
 
-Let \\(\vec{f} = f_r\hat{e}_r + f_\theta\hat{e}_\theta + f_\phi\hat{e}_\phi\\) be the function in a spherical coordinate system. The three components of the function are given by
-
+Let \\(\vec{f} = f_r\hat{e}\_r + f_\theta\hat{e}\_\theta + f_\phi\hat{e}\_\phi\\) be the function in a spherical coordinate system. The three components of the function are given by
 \\[
 f_r = \vec{f}\cdot\hat{e}_r = 2r\sin^2\theta\cos^2\phi + r^2\sin^2\theta\sin^2\phi\cos\theta + r\cos^2\theta
 \\]
@@ -963,7 +962,7 @@ h_2 = \left|\frac{\partial\vec{r}}{\partial\phi}\right| = \sqrt{\rho^2\sin^2\phi
 h_3 = \left|\frac{\partial\vec{r}}{\partial z}\right| = 1
 \\]
 
-The three length elements are given by: \\(ds_1=d\rho\\), \\(ds_2=\rho\,d\phi\\), \\(ds_3=dz\\). Thus the line element can be written as \\(d\vec{s} = d\rho\,\hat{e}_\rho + \rho\,d\phi\,\hat{e}_\phi + dz\,\hat{e}_z\\). The surface element on a constant \\(\rho\\) surface is \\(dA_\rho = ds_2ds_3 = \rho\,d\phi\,dz\\). The other two surface elements are \\(dA_\phi = dr\,dz\\) and \\(dA_z = \rho\,d\rho\,d\phi\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = \rho\,d\rho\,d\phi\,dz\\).
+The three length elements are given by: \\(ds_1=d\rho\\), \\(ds_2=\rho d\phi\\), \\(ds_3=dz\\). Thus the line element can be written as \\(d\vec{s} = d\rho \hat{e}\_\rho + \rho d\phi \hat{e}\_\phi + dz \hat{e}\_z\\). The surface element on a constant \\(\rho\\) surface is \\(dA_\rho = ds_2ds_3 = \rho d\phi dz\\). The other two surface elements are \\(dA_\phi = dr dz\\) and \\(dA_z = \rho d\rho d\phi\\). The volume element is given by, \\(dV = ds_1ds_2ds_3 = \rho d\rho d\phi dz\\).
 
 Now, we will find the three unit vectors in terms of \\(\hat{i}\\), \\(\hat{j}\\), \\(\hat{k}\\). Thus, for cylindrical coordinates,
 
