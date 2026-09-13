@@ -977,13 +977,12 @@ Now, we will find the three unit vectors in terms of \\(\hat{i}\\), \\(\hat{j}\\
 \\[
 \hat{e}_z = \frac{\partial\vec{r}}{\partial z} = \hat{k}
 \\]
-
-We can easily show that \\(\hat{e}_\rho\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat{e}_z = \hat{e}_z\cdot\hat{e}_\rho = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in cylindrical coordinates are given by,
+We can easily show that \\(\hat{e}\_\rho\cdot\hat{e}\_\phi = \hat{e}\_\phi\cdot\hat{e}\_z = \hat{e}\_z\cdot\hat{e}\_\rho = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in cylindrical coordinates are given by,
 
 **Gradient:**
 
 \\[
-\vec{\nabla}f = \frac{\partial f}{\partial\rho}\hat{e}_\rho + \frac{1}{\rho}\frac{\partial f}{\partial\phi}\hat{e}_\phi + \frac{\partial f}{\partial z}\hat{e}_z
+\vec{\nabla}f = \frac{\partial f}{\partial\rho}\hat{e}\_\rho + \frac{1}{\rho}\frac{\partial f}{\partial\phi}\hat{e}\_\phi + \frac{\partial f}{\partial z}\hat{e}\_z
 \\]
 
 **Divergence:**
@@ -995,7 +994,7 @@ We can easily show that \\(\hat{e}_\rho\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat
 **Curl:**
 
 \\[
-\vec{\nabla}\times\vec{A} = \frac{1}{\rho}\begin{vmatrix} \hat{e}_\rho & \rho\hat{e}_\phi & \hat{e}_z \\\\ \frac{\partial}{\partial\rho} & \frac{\partial}{\partial\phi} & \frac{\partial}{\partial z} \\\\ A_\rho & \rho A_\phi & A_z \end{vmatrix}
+\vec{\nabla}\times\vec{A} = \frac{1}{\rho}\begin{vmatrix} \hat{e}\_\rho & \rho\hat{e}\_\phi & \hat{e}\_z \\\\ \frac{\partial}{\partial\rho} & \frac{\partial}{\partial\phi} & \frac{\partial}{\partial z} \\\\ A_\rho & \rho A_\phi & A_z \end{vmatrix}
 \\]
 
 **Laplacian:**
@@ -1012,8 +1011,7 @@ We can easily show that \\(\hat{e}_\rho\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat
 \vec{F} = 2y\hat{i}+z\hat{j}-x\hat{k} = 2\rho\sin\phi\hat{i} + z\hat{j} - \rho\cos\phi\hat{k}
 \\]
 
-Let \\(\vec{F} = F_\rho\hat{e}_\rho + F_\phi\hat{e}_\phi + F_z\hat{e}_z\\) be the function in the cylindrical coordinate system. The components of the vector are given by,
-
+Let \\(\vec{F} = F_\rho\hat{e}\_\rho + F_\phi\hat{e}\_\phi + F_z\hat{e}\_z\\) be the function in the cylindrical coordinate system. The components of the vector are given by,
 \\[
 F_\rho = \vec{F}\cdot\hat{e}_\rho = 2\rho\sin\phi\cos\phi + z\sin\phi
 \\]
