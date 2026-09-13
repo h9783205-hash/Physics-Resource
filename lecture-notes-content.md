@@ -1096,7 +1096,7 @@ Using the same logic we can prove this property also as mentioned below:
 We can integrate the LHS using integration by parts,
 
 \\[
-\int_{-\infty}^{\infty} f(x)\delta'(x-a)\,dx = \left[f(x)\int\delta(x)\,dx\right]_{-\infty}^{+\infty} - \int_{-\infty}^{+\infty} f'(x)\delta(x)\,dx = 0 - \int_{-\infty}^{+\infty} f'(a)\delta(x)\,dx = -f'(a)
+\int_{-\infty}^{\infty} f(x)\delta'(x-a)\,dx = \left[f(x)\int\delta(x)\,dx\right]\_{-\infty}^{+\infty} - \int_{-\infty}^{+\infty} f'(x)\delta(x)\,dx = 0 - \int_{-\infty}^{+\infty} f'(a)\delta(x)\,dx = -f'(a)
 \\]
 
 **4.** \\(\delta(-x) = \delta(x)\\)
