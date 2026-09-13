@@ -890,12 +890,12 @@ Now, we will find the three unit vectors in terms of \\(\hat{i}\\), \\(\hat{j}\\
 \hat{e}_\phi = \frac{1}{r\sin\theta}\frac{\partial\vec{r}}{\partial\phi} = -\sin\phi\hat{i} + \cos\phi\hat{j}
 \\]
 
-We can easily show that \\(\hat{e}_r\cdot\hat{e}_\theta = \hat{e}_\theta\cdot\hat{e}_\phi = \hat{e}_\phi\cdot\hat{e}_r = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in spherical coordinates are given by,
+We can easily show that \\(\hat{e}\_r\cdot\hat{e}\_\theta = \hat{e}\_\theta\cdot\hat{e}\_\phi = \hat{e}\_\phi\cdot\hat{e}\_r = 0\\) which confirms that they are mutually perpendicular and the system is orthogonal. The gradient, divergence, curl, and laplacian in spherical coordinates are given by,
 
 **Gradient:**
 
 \\[
-\vec{\nabla}f = \frac{\partial f}{\partial r}\hat{e}_r + \frac{1}{r}\frac{\partial f}{\partial\theta}\hat{e}_\theta + \frac{1}{r\sin\theta}\frac{\partial f}{\partial\phi}\hat{e}_\phi
+\vec{\nabla}f = \frac{\partial f}{\partial r}\hat{e}\_r + \frac{1}{r}\frac{\partial f}{\partial\theta}\hat{e}\_\theta + \frac{1}{r\sin\theta}\frac{\partial f}{\partial\phi}\hat{e}\_\phi
 \\]
 
 **Divergence:**
@@ -907,7 +907,7 @@ We can easily show that \\(\hat{e}_r\cdot\hat{e}_\theta = \hat{e}_\theta\cdot\ha
 **Curl:**
 
 \\[
-\vec{\nabla}\times\vec{A} = \frac{1}{r^2\sin\theta}\begin{vmatrix} \hat{e}_r & r\hat{e}_\theta & r\sin\theta\hat{e}_\phi \\\\ \frac{\partial}{\partial r} & \frac{\partial}{\partial\theta} & \frac{\partial}{\partial\phi} \\\\ A_r & rA_\theta & r\sin\theta A_\phi \end{vmatrix}
+\vec{\nabla}\times\vec{A} = \frac{1}{r^2\sin\theta}\begin{vmatrix} \hat{e}\_r & r\hat{e}\_\theta & r\sin\theta\hat{e}\_\phi \\\\ \frac{\partial}{\partial r} & \frac{\partial}{\partial\theta} & \frac{\partial}{\partial\phi} \\\\ A_r & rA_\theta & r\sin\theta A_\phi \end{vmatrix}
 \\]
 
 **Laplacian:**
@@ -919,7 +919,6 @@ We can easily show that \\(\hat{e}_r\cdot\hat{e}_\theta = \hat{e}_\theta\cdot\ha
 **Example 2.1:** Express the vector function \\(\vec{f} = 2x\hat{i} + yz\hat{j} + z\hat{k}\\) in spherical polar coordinates.
 
 **Solution:** The vector function is given by,
-
 \\[
 \vec{f} = 2x\hat{i}+yz\hat{j}+z\hat{k} = 2r\sin\theta\cos\phi\hat{i} + r^2\sin\theta\cos\theta\sin\phi\hat{j} + r\cos\theta\hat{k}
 \\]
