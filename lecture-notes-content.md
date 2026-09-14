@@ -1649,6 +1649,327 @@ For a hydrogen atom, an electron of charge \\(-e\\) and mass \\(m\\) revolves ab
 **Bohr's Postulates**
 
 Bohr's atomic model is based on the following postulates:
+1. **Stationary orbits:** An electron can revolve around the nucleus only in certain permitted circular orbits called stationary orbits. While moving in a stationary orbit, the electron does not radiate energy.
+
+2. **Quantization of angular momentum:** The angular momentum of the electron is quantized according to
+
+\\[
+mvr = n\frac{h}{2\pi} = n\hbar,
+\\]
+
+where
+
+\\[
+n = 1, 2, 3, \ldots
+\\]
+
+is the principal quantum number.
+
+3. **Emission or absorption of radiation:** Radiation is emitted or absorbed only when an electron jumps between two stationary orbits. The frequency of radiation is given by
+
+\\[
+h\nu = |E_i - E_f|.
+\\]
+
+For emission,
+
+\\[
+h\nu = E_i - E_f, \qquad E_i > E_f.
+\\]
+
+**Velocity of the Electron in the nth Orbit**
+
+Consider an electron revolving around the proton in a circular orbit of radius \\(r\\) with velocity \\(v\\).
+
+The electrostatic attraction between the proton and electron provides the required centripetal force. Therefore,
+
+\\[
+\frac{mv^2}{r} = \frac{1}{4\pi\epsilon_0}\frac{e^2}{r^2}.
+\\]
+
+Hence,
+
+\\[
+mv^2 = \frac{e^2}{4\pi\epsilon_0 r}. \qquad (1)
+\\]
+
+From Bohr's quantization condition,
+
+\\[
+mvr = n\hbar. \qquad (2)
+\\]
+
+Therefore,
+
+\\[
+r = \frac{n\hbar}{mv}. \qquad (3)
+\\]
+
+Substituting equation (3) in equation (1),
+
+\\[
+mv^2 = \frac{e^2mv}{4\pi\epsilon_0 n\hbar}.
+\\]
+
+Cancelling \\(mv\\) from both sides,
+
+\\[
+v = \frac{e^2}{4\pi\epsilon_0 n\hbar}.
+\\]
+
+Thus,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+v_n = \frac{e^2}{4\pi\epsilon_0\hbar}\frac{1}{n}
+\\]
+
+</div>
+
+Since \\(\hbar = \dfrac{h}{2\pi}\\), we can also write
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+v_n = \frac{e^2}{2\epsilon_0 h}\frac{1}{n}
+\\]
+
+</div>
+
+For the first orbit, \\(n=1\\),
+
+\\[
+v_1 \approx 2.18 \times 10^6 \text{ m s}^{-1}.
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+v_n = \frac{2.18 \times 10^6 \text{ m s}^{-1}}{n}
+\\]
+
+</div>
+
+Hence,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+v_n \propto \frac{1}{n}
+\\]
+
+</div>
+
+The velocity of the electron decreases as the principal quantum number increases.
+
+**Radius of the nth Orbit**
+
+From Bohr's quantization condition,
+
+\\[
+mvr = n\hbar,
+\\]
+
+we have
+
+\\[
+r = \frac{n\hbar}{mv}.
+\\]
+
+Substituting
+
+\\[
+v = \frac{e^2}{4\pi\epsilon_0 n\hbar},
+\\]
+
+we obtain
+
+\\[
+r_n = \frac{n\hbar}{m}\frac{4\pi\epsilon_0 n\hbar}{e^2}.
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+r_n = \frac{4\pi\epsilon_0\hbar^2}{me^2}n^2
+\\]
+
+</div>
+
+The quantity
+
+\\[
+a_0 = \frac{4\pi\epsilon_0\hbar^2}{me^2}
+\\]
+
+is called the **Bohr radius**. Its numerical value is
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+a_0 = 5.29 \times 10^{-11} \text{ m}
+\\]
+
+</div>
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+r_n = a_0 n^2
+\\]
+
+</div>
+
+or
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+r_n = 5.29 \times 10^{-11} n^2 \text{ m}
+\\]
+
+</div>
+
+For the first orbit,
+
+\\[
+r_1 = a_0 = 5.29 \times 10^{-11} \text{ m}.
+\\]
+
+Hence,
+
+\\[
+r_1 : r_2 : r_3 : \cdots = 1 : 4 : 9 : \cdots
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+r_n \propto n^2
+\\]
+
+</div>
+
+**Energy of the Electron**
+
+The total energy of the electron is
+
+\\[
+E = K + U,
+\\]
+
+where \\(K\\) is the kinetic energy and \\(U\\) is the electrostatic potential energy.
+
+**Kinetic Energy**
+
+The kinetic energy of the electron is
+
+\\[
+K = \frac{1}{2}mv^2.
+\\]
+
+From equation (1),
+
+\\[
+mv^2 = \frac{e^2}{4\pi\epsilon_0 r}.
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+K = \frac{e^2}{8\pi\epsilon_0 r}
+\\]
+
+</div>
+
+**Potential Energy**
+
+The electrostatic potential energy of the electron-proton system is
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+U = -\frac{e^2}{4\pi\epsilon_0 r}
+\\]
+
+</div>
+
+The negative sign indicates that the electron is in a bound state.
+
+Therefore,
+
+\\[
+E = K + U
+\\]
+
+gives
+
+\\[
+E = \frac{e^2}{8\pi\epsilon_0 r} - \frac{e^2}{4\pi\epsilon_0 r}.
+\\]
+
+Hence,
+
+\\[
+E = -\frac{e^2}{8\pi\epsilon_0 r}. \qquad (4)
+\\]
+
+Substituting
+
+\\[
+r_n = \frac{4\pi\epsilon_0\hbar^2}{me^2}n^2
+\\]
+
+in equation (4),
+
+\\[
+E_n = -\frac{me^4}{8\epsilon_0^2h^2}\frac{1}{n^2}.
+\\]
+
+Thus,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+E_n = -\frac{me^4}{8\epsilon_0^2h^2}\frac{1}{n^2}
+\\]
+
+</div>
+
+For the hydrogen atom, this can be written as
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+E_n = -\frac{13.6}{n^2} \text{ eV}
+\\]
+
+</div>
+
+Therefore,
+
+\\[
+E_1 = -13.6 \text{ eV}, \qquad E_2 = -3.40 \text{ eV}, \qquad E_3 = -1.51 \text{ eV},
+\\]
+
+and
+
+\\[
+E_4 = -0.85 \text{ eV}.
+\\]
+
+The negative sign indicates that the electron is bound to the nucleus.
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
