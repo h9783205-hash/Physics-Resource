@@ -95,6 +95,27 @@ details details {
 ul { line-height: 1.8; }
 a { color: #16537e; }
 
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 15px 0;
+  font-family: Arial, sans-serif;
+  font-size: 0.95em;
+}
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+  text-align: left;
+  vertical-align: top;
+}
+th {
+  background: #16537e;
+  color: white;
+}
+tr:nth-child(even) {
+  background: #f7f7f7;
+}
+
 .unit-block {
   margin: 20px 0;
   padding-bottom: 15px;
