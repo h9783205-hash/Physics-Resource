@@ -1203,12 +1203,6 @@ Let \\(f(x) = g(x)h(x)\\). Now using the above property, we can write that
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-3','ODE-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
-<details class="unit-block" id="mp-unit-4">
-<summary>Unit 4: Complex Analysis</summary>
-<p><em>Write your notes here.</em></p>
-<button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp-unit-4','Complex-Analysis-Notes.pdf')">Export this unit to PDF</button>
-</details>
-
 </details>
 
 <details>
