@@ -2455,57 +2455,47 @@ Heisenberg uncertainty principle
 
 These limitations led to the development of more refined atomic models, particularly the Sommerfeld atomic model, and ultimately to modern quantum mechanics.
 
- **Sommerfeld's Atomic Model**
+## Sommerfeld's Atomic Model
 
-Bohr's atomic model successfully explained the gross structure of the hydrogen spectrum,
-but it could not explain the fine structure of spectral lines. In 1916, Arnold Sommerfeld
-modified Bohr's model by introducing elliptical orbits and relativistic variation of the
-electron mass.
+Bohr's atomic model successfully explained the gross structure of the hydrogen spectrum, but it could not explain the fine structure of spectral lines. In 1916, Arnold Sommerfeld modified Bohr's model by introducing elliptical orbits and relativistic variation of the electron mass.
 
-**Sommerfeld's Assumptions**
+### Sommerfeld's Assumptions
 
 Sommerfeld introduced the following modifications in Bohr's theory.
 
-1. According to Sommerfeld, the electron may move in an elliptical orbit around the
-   nucleus, with the nucleus at one of the foci. The circular orbit of Bohr is a special
-   case of the elliptical orbit.
+1. According to Sommerfeld, the electron may move in an elliptical orbit around the nucleus, with the nucleus at one of the foci. The circular orbit of Bohr is a special case of the elliptical orbit.
 
-2. The velocity of an electron moving in an elliptical orbit is not constant. It is
-   maximum at the perihelion and minimum at the aphelion.
+2. The velocity of an electron moving in an elliptical orbit is not constant. It is maximum at the perihelion and minimum at the aphelion.
 
-3. Since the velocity of the electron in the inner orbits may be appreciably large, the
-   relativistic variation of mass with velocity must be taken into account:
+3. Since the velocity of the electron in the inner orbits may be appreciably large, the relativistic variation of mass with velocity must be taken into account:
 
-\[
+\\[
 m = \frac{m_0}{\sqrt{1-v^2/c^2}}
-\]
+\\]
 
-4. Sommerfeld applied the quantum condition separately to the two independent motions
-   of the electron, namely angular motion and radial motion.
+4. Sommerfeld applied the quantum condition separately to the two independent motions of the electron, namely angular motion and radial motion.
 
 Thus, two quantum numbers are introduced:
 
-\[
-n_\phi = \text{azimuthal quantum number}, \qquad
-n_r = \text{radial quantum number}.
-\]
+\\[
+n_\phi = \text{azimuthal quantum number}, \qquad n_r = \text{radial quantum number}.
+\\]
 
 They are related to the principal quantum number by
 
-\[
+\\[
 n_\phi + n_r = n
-\]
+\\]
 
-**Elliptical Orbit of the Electron**
+### Elliptical Orbit of the Electron
 
-For an elliptical orbit, the position of the electron can be specified by the polar
-coordinates \(r\) and \(\phi\) or \(\phi\) and \(\rho\) periodically.
+For an elliptical orbit, the position of the electron can be specified by the polar coordinates \(r\) and \(\phi\) or \(\phi\) and \(\rho\) periodically.
 
 Sommerfeld therefore applied the quantum condition to both motions:
 
-\[
+\\[
 \oint p_\phi\,d\phi = n_\phi h
-\]
+\\]
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
