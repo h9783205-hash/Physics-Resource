@@ -1364,6 +1364,115 @@ q_\alpha = +2e.
 \\]
 
 Gold was chosen because it can be obtained in an extremely thin foil.
+
+**Observations of Rutherford's Experiment**
+
+The main observations were:
+
+1. Most α-particles passed through the foil without any appreciable deflection.
+2. A small fraction of α-particles were deflected through small angles.
+3. A very small number of α-particles were deflected through large angles, and a few were scattered backward.
+
+The large-angle scattering was particularly significant because it could not be explained by Thomson's model.
+
+**Conclusions of Rutherford's Experiment**
+
+Rutherford concluded that:
+
+1. Most of the volume of an atom is empty space.
+2. Almost all the positive charge of the atom is concentrated in a very small central region called the nucleus.
+3. Almost the entire mass of the atom is concentrated in the nucleus.
+4. The nucleus is extremely small compared with the size of the atom.
+
+The approximate sizes are
+
+\\[
+R_{atom} \sim 10^{-10}\text{ m}, \qquad R_{nucleus} \sim 10^{-15}\text{ m}.
+\\]
+
+Therefore,
+
+\\[
+\frac{R_{nucleus}}{R_{atom}} \sim 10^{-5}.
+\\]
+
+Thus, the nucleus occupies only a very small fraction of the atomic volume.
+
+**Rutherford's Nuclear Model**
+
+On the basis of the scattering experiment, Rutherford proposed the nuclear model of the atom in 1911.
+
+According to Rutherford:
+
+1. The atom contains a very small, dense and positively charged nucleus at its centre.
+2. Almost the entire mass of the atom is concentrated in the nucleus.
+3. Electrons revolve around the nucleus.
+4. The electrostatic attraction between the nucleus and electrons provides the centripetal force for their orbital motion.
+5. A neutral atom contains equal positive and negative charges.
+
+For an atom of atomic number \\(Z\\), the nuclear charge is
+
+\\[
+Q_{nucleus} = +Ze.
+\\]
+
+For an electron revolving at a distance \\(r\\) from the nucleus, the electrostatic force is
+
+\\[
+F_e = \frac{1}{4\pi\epsilon_0}\frac{Ze^2}{r^2}.
+\\]
+
+This provides the centripetal force:
+
+\\[
+\frac{mv^2}{r} = \frac{1}{4\pi\epsilon_0}\frac{Ze^2}{r^2}.
+\\]
+
+Hence,
+
+\\[
+mv^2 = \frac{1}{4\pi\epsilon_0}\frac{Ze^2}{r}.
+\\]
+
+**Significance of Rutherford's Model**
+
+Rutherford's experiment and nuclear model were important because they established that:
+
+1. The atom has a central nucleus.
+2. Most of the atomic volume is empty space.
+3. Positive charge is concentrated in the nucleus.
+4. Almost the entire atomic mass is concentrated in the nucleus.
+
+The experiment therefore replaced the Thomson model with the nuclear model and provided the foundation for the development of the Bohr model.
+
+**Limitations of Rutherford's Atomic Model**
+
+Rutherford's model could not explain some fundamental properties of atoms.
+
+1. **Atomic stability:** According to classical electrodynamics, an accelerating electron should continuously radiate energy. Hence, the electron should lose energy and spiral into the nucleus.
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">Energy loss → r ↓ → electron falls into nucleus</div>
+
+Thus, the atom should be unstable according to classical physics.
+
+2. **Atomic spectra:** Rutherford's model could not explain the discrete line spectra of atoms.
+3. **Allowed orbits:** The model provided no explanation for why only certain orbits or energies should be allowed.
+4. **Electronic arrangement:** It did not explain the distribution and energy arrangement of electrons around the nucleus.
+
+These limitations indicated that classical physics was insufficient to describe the atom and led to the development of the Bohr atomic model.
+
+**Summary**
+
+The development of atomic models may be summarized as
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">Dalton → Thomson → Rutherford → Bohr</div>
+
+| Model | Main Idea | Main Limitation |
+|---|---|---|
+| Dalton | Atom is an indivisible particle | Discovery of subatomic particles and isotopes |
+| Thomson | Electrons embedded in positive charge | Could not explain α-particle scattering |
+| Rutherford | Small positive nucleus with electrons around it | Could not explain atomic stability and line spectra |
+| Bohr | Quantized electron orbits | To be discussed later |
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
