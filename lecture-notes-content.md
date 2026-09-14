@@ -2288,6 +2288,172 @@ n_f = 5,
 \\]
 
 and
+\\[
+n_i = 6, 7, 8, \ldots
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(\frac{1}{25}-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+The Pfund series lies in the **infrared** region.
+
+The first line corresponds to
+
+\\[
+6 \rightarrow 5.
+\\]
+
+**Humphreys Series**
+
+In the Humphreys series,
+
+\\[
+n_f = 6,
+\\]
+
+and
+
+\\[
+n_i = 7, 8, 9, \ldots
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(\frac{1}{36}-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+The Humphreys series lies in the **infrared** region.
+
+The first line corresponds to
+
+\\[
+7 \rightarrow 6.
+\\]
+
+**Energy-Level Diagram of Hydrogen**
+
+The energy of the electron in the \\(n\\)th orbit is
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+E_n = -\frac{13.6}{n^2}\text{ eV}
+\\]
+
+</div>
+
+The first few energy levels are
+
+| \\(n\\) | \\(E_n\\) (eV) |
+|---|---|
+| 1 | −13.60 |
+| 2 | −3.40 |
+| 3 | −1.51 |
+| 4 | −0.85 |
+| 5 | −0.54 |
+| 6 | −0.38 |
+| 7 | −0.28 |
+| \\(\infty\\) | 0 |
+
+The energy levels become closer together as \\(n\\) increases and converge towards
+
+\\[
+E = 0.
+\\]
+
+*(The original source includes a figure here — an energy-level diagram with horizontal lines for \\(n=1\\) through \\(n=7\\), with vertical arrows marking the transitions belonging to each spectral series: Lyman (to \\(n=1\\)), Balmer (to \\(n=2\\)), Paschen (to \\(n=3\\)), Brackett (to \\(n=4\\)), Pfund (to \\(n=5\\)), and Humphreys (to \\(n=6\\)). If you'd like, I can build this as an actual SVG diagram for the page — just let me know.)*
+
+**Important Points to Remember**
+
+The spectral series can be remembered from their final energy levels:
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\(n_f = 1\\) → Lyman series<br>
+\\(n_f = 2\\) → Balmer series<br>
+\\(n_f = 3\\) → Paschen series<br>
+\\(n_f = 4\\) → Brackett series<br>
+\\(n_f = 5\\) → Pfund series<br>
+\\(n_f = 6\\) → Humphreys series
+
+</div>
+
+The general Rydberg formula is
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(\frac{1}{n_f^2}-\frac{1}{n_i^2}\right), \qquad n_i > n_f.
+\\]
+
+</div>
+
+Thus, every spectral line of hydrogen is associated with a transition between two quantized energy levels.
+
+**Limitations of Bohr's Atomic Model**
+
+Although Bohr's atomic model successfully explained the stability of the hydrogen atom and its line spectrum, it has several important limitations.
+
+1. **Applicable mainly to hydrogen-like atoms:** Bohr's model gives satisfactory results mainly for hydrogen and hydrogen-like ions such as \\(He^+\\), \\(Li^{2+}\\), etc., which contain only one electron. It cannot satisfactorily explain the spectra of multi-electron atoms.
+
+2. **Cannot explain the fine structure of spectral lines:** The spectral lines of hydrogen are not perfectly single lines. Under high resolution, each line is found to consist of several closely spaced components called fine structure. Bohr's model cannot explain this splitting. The fine structure requires effects such as relativistic correction and spin-orbit interaction.
+
+3. **Cannot explain the Zeeman effect:** When an atom is placed in an external magnetic field, its spectral lines may split into several components. This phenomenon is called the Zeeman effect. Bohr's model cannot adequately explain the normal and anomalous Zeeman effects.
+
+4. **Cannot explain the Stark effect:** The splitting of spectral lines in the presence of an external electric field is called the Stark effect. Bohr's model cannot satisfactorily account for this phenomenon.
+
+5. **Cannot explain the intensity of spectral lines:** Bohr's model gives the possible frequencies of emitted radiation but does not provide a satisfactory explanation for the relative intensities of different spectral lines.
+
+6. **Cannot explain selection rules:** Bohr's model does not provide a proper explanation of why some transitions are allowed while others are forbidden. The selection rules are naturally explained from quantum mechanics.
+
+7. **Inconsistent with the wave nature of the electron:** Bohr assumed that the electron moves in definite circular orbits with definite radius and velocity. According to de Broglie's hypothesis and the Heisenberg uncertainty principle, such a definite classical orbit cannot be assigned to an electron. Modern quantum mechanics describes the electron in terms of a wave function and probability distribution, rather than a definite orbit.
+
+8. **Ad hoc quantization condition:** The condition
+
+\\[
+mvr = n\hbar
+\\]
+
+was introduced as a postulate. Bohr's model does not provide a fundamental reason why the angular momentum should have only these particular values.
+
+9. **Cannot completely explain chemical bonding and atomic structure:** The model does not adequately explain the detailed electronic structure of atoms, chemical bonding, periodic properties, and other properties of matter.
+
+**Summary of Limitations**
+
+The major limitation of Bohr's model can be stated as
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+Bohr's model successfully explains hydrogen-like atoms,
+</div>
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+but fails to explain many detailed atomic phenomena.
+</div>
+
+The most important limitations are
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+Fine structure of spectral lines<br>
+Zeeman effect<br>
+Stark effect<br>
+Multi-electron atoms<br>
+Wave nature of the electron<br>
+Heisenberg uncertainty principle
+</div>
+
+These limitations led to the development of more refined atomic models, particularly the Sommerfeld atomic model, and ultimately to modern quantum mechanics.
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
