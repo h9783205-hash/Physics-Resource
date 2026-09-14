@@ -1322,6 +1322,50 @@ Dalton's model was unable to explain the internal structure of the atom.
 1. The discovery of the electron showed that the atom is divisible.
 2. The discovery of isotopes showed that atoms of the same element need not have identical masses, e.g. \\(^1H\\), \\(^2H\\), \\(^3H\\).
 3. Nuclear reactions showed that atoms can be transformed into atoms of other elements.
+
+**J. J. Thomson’s Atomic Model**
+
+After the discovery of the electron by J. J. Thomson in 1897, Thomson proposed an atomic model in 1904.
+
+According to this model, the atom is a sphere of uniformly distributed positive charge in which negatively charged electrons are embedded.
+
+It is commonly known as the plum-pudding model.
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+Atom = uniform positive charge + embedded electrons
+</div>
+
+The total positive charge is equal to the total negative charge, so the atom is electrically neutral.
+
+**Limitations**
+
+Thomson’s model could not explain the results of Rutherford’s \\(\alpha\\)-particle scattering experiment.
+
+According to Thomson’s model, the positive charge was spread throughout the atom. Therefore, only small deflections of alpha-particles were expected.
+
+However, Rutherford observed that a few alpha-particles were deflected through very large angles and some were scattered backward.
+
+Hence, Thomson’s model was rejected.
+
+Rutherford’s alpha-Particle Scattering Experiment
+
+Rutherford, along with Geiger and Marsden, performed the \\(\alpha\\)-particle scattering experiment around 1909.
+
+In the experiment, a beam of energetic \\(\alpha\\)-particles was directed towards a very thin gold foil. A zinc sulphide (ZnS) fluorescent screen was used to detect the scattered alpha-particles.
+
+The alpha-particle is a helium nucleus:
+
+\[
+{}^{4}_{2}\mathrm{He}^{2+}
+\]
+
+with charge
+
+\[
+q_{\alpha}=+2e.
+\]
+
+Gold was chosen because it can be obtained in an extremely thin foil.
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
