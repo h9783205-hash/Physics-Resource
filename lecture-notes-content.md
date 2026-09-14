@@ -2489,7 +2489,7 @@ n_\phi + n_r = n
 
 ### Elliptical Orbit of the Electron
 
-For an elliptical orbit, the position of the electron can be specified by the polar coordinates \(r\) and \(\phi\) or \(\phi\) and \(\rho\) periodically.
+For an elliptical orbit, the position of the electron can be specified by the polar coordinates \\(r\\) and \\(\phi\\) or \\(\phi\\) and \\(\rho\\) periodically.
 
 Sommerfeld therefore applied the quantum condition to both motions:
 
