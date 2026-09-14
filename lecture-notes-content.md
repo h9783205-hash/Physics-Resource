@@ -1473,6 +1473,182 @@ The development of atomic models may be summarized as
 | Thomson | Electrons embedded in positive charge | Could not explain α-particle scattering |
 | Rutherford | Small positive nucleus with electrons around it | Could not explain atomic stability and line spectra |
 | Bohr | Quantized electron orbits | To be discussed later |
+
+The major difficulty with Rutherford's atomic model was the stability of the atom. According to classical electrodynamics, an electron revolving around the nucleus is an accelerating charge and should continuously radiate energy. Consequently, it should lose energy and spiral into the nucleus.
+
+To overcome this difficulty, Bohr introduced the concept of quantized stationary orbits. This condition can be understood using de Broglie's matter-wave hypothesis and the condition for a stationary wave.
+
+**de Broglie Matter Wave**
+
+According to de Broglie's hypothesis, a moving particle of momentum \\(p\\) is associated with a matter wave of wavelength
+
+\\[
+\lambda = \frac{h}{p}.
+\\]
+
+For an electron of mass \\(m\\) moving with velocity \\(v\\),
+
+\\[
+p = mv,
+\\]
+
+and hence
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\lambda = \frac{h}{mv}
+\\]
+
+</div>
+
+**Stationary-Wave Condition**
+
+Consider an electron moving in a circular orbit of radius \\(r\\). For the electron wave to form a stable stationary wave around the orbit, the circumference of the orbit must contain an integral number of wavelengths.
+
+Therefore,
+
+\\[
+2\pi r = n\lambda
+\\]
+
+where
+
+\\[
+n = 1, 2, 3, \ldots
+\\]
+
+is the principal quantum number.
+
+Substituting the de Broglie wavelength,
+
+\\[
+2\pi r = n\frac{h}{mv}.
+\\]
+
+Therefore,
+
+\\[
+2\pi mvr = nh.
+\\]
+
+Dividing by \\(2\pi\\),
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+mvr = n\frac{h}{2\pi}
+\\]
+
+</div>
+
+Since the orbital angular momentum of the electron is
+
+\\[
+L = mvr,
+\\]
+
+we obtain
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+L = n\frac{h}{2\pi} = n\hbar
+\\]
+
+</div>
+
+where
+
+\\[
+\hbar = \frac{h}{2\pi}.
+\\]
+
+Thus, the angular momentum of the electron is quantized and can have only discrete values:
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+L = \hbar, 2\hbar, 3\hbar, \ldots
+\\]
+
+</div>
+
+**Physical Meaning**
+
+The condition
+
+\\[
+2\pi r = n\lambda
+\\]
+
+means that the electron wave fits exactly around the circumference of the orbit. After one complete revolution, the wave reproduces itself and forms a stationary standing wave.
+
+For example,
+
+\\[
+n=1: \quad 2\pi r = \lambda
+\\]
+
+\\[
+n=2: \quad 2\pi r = 2\lambda
+\\]
+
+\\[
+n=3: \quad 2\pi r = 3\lambda
+\\]
+
+If the circumference does not contain an integral number of wavelengths, a stable stationary wave cannot be formed.
+
+Therefore,
+
+\\[
+2\pi r = n\lambda \iff mvr = n\hbar
+\\]
+
+is the wave-mechanical interpretation of Bohr's quantization condition.
+
+**Important Result**
+
+The important relations to remember are
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\lambda = \frac{h}{mv}
+\\]
+
+</div>
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+2\pi r = n\lambda
+\\]
+
+</div>
+
+and hence
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+mvr = n\frac{h}{2\pi} = n\hbar
+\\]
+
+</div>
+
+Thus, the angular momentum of an electron in an allowed Bohr orbit is an integral multiple of \\(\hbar\\).
+
+**Bohr's Atomic Model**
+
+Rutherford's nuclear model established the existence of the nucleus but could not explain the stability of the atom and the discrete line spectra. In 1913, Niels Bohr proposed a new atomic model by introducing quantum conditions into Rutherford's model.
+
+For a hydrogen atom, an electron of charge \\(-e\\) and mass \\(m\\) revolves about a proton of charge \\(+e\\).
+
+**Bohr's Postulates**
+
+Bohr's atomic model is based on the following postulates:
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
