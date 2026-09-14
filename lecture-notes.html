@@ -7,7 +7,6 @@
 <link rel="manifest" href="manifest.json">
 <meta name="theme-color" content="#16537e">
 <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
 <script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-svg.js"></script>
 </head>
 <body>
@@ -35,11 +34,32 @@ fetch('lecture-notes-content.md')
 
 function exportUnit(elementId, filename) {
   const el = document.getElementById(elementId);
-  html2pdf().from(el).set({
-    filename: filename,
-    margin: 10,
-    html2canvas: { scrollY: -window.scrollY, scrollX: 0 }
-  }).save();
+  const contentHtml = el.innerHTML;
+
+  const printWindow = window.open('', '_blank');
+  printWindow.document.write(
+    '<!DOCTYPE html>' +
+    '<html><head><meta charset="UTF-8">' +
+    '<title>' + filename + '</title>' +
+    '<link rel="stylesheet" href="style.css">' +
+    '<script>' +
+      'window.MathJax = {' +
+        'startup: {' +
+          'ready: function() {' +
+            'MathJax.startup.defaultReady();' +
+            'MathJax.startup.promise.then(function() {' +
+              'window.print();' +
+            '});' +
+          '}' +
+        '}' +
+      '};' +
+    '<\/script>' +
+    '<script id="MathJax-script" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/3.2.2/es5/tex-mml-svg.js"><\/script>' +
+    '</head><body>' +
+    '<div class="content"><div class="unit-block" open>' + contentHtml + '</div></div>' +
+    '</body></html>'
+  );
+  printWindow.document.close();
 }
 
 function showTab(tabId, btn) {
