@@ -1291,25 +1291,17 @@ Let \\(f(x) = g(x)h(x)\\). Now using the above property, we can write that
 <summary>Unit 1: Atomic Structure</summary>
 <p><em></em></p>
  
- **1. Introduction to Atomic Models**
+ **Introduction to Atomic Models**
 
-The word “atom” is derived from the Greek word *atomos*, meaning indivisible. The idea of atoms was introduced philosophically by Democritus. The scientific development of atomic theory began with Dalton.
+The word "atom" is derived from the Greek word *atomos*, meaning indivisible. The idea of atoms was introduced philosophically by Democritus. The scientific development of atomic theory began with Dalton.
 
-The historical development of atomic models is:
+The historical development of atomic models is
 
-\[
-\text{Dalton}
-\longrightarrow
-\text{Thomson}
-\longrightarrow
-\text{Rutherford}
-\longrightarrow
-\text{Bohr}
-\]
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">Dalton → Thomson → Rutherford → Bohr</div>
 
 Each model was developed to explain experimental observations that could not be explained by the earlier model.
 
-**Dalton’s Atomic Model**
+**Dalton's Atomic Model**
 
 John Dalton proposed his atomic theory in the early nineteenth century.
 
@@ -1318,26 +1310,19 @@ According to Dalton:
 1. All matter is composed of extremely small particles called atoms.
 2. Atoms of the same element are identical in mass and chemical properties.
 3. Atoms of different elements have different masses and properties.
-4. Atoms combine in whole-number ratios to form compounds.
+4. Atoms combine in simple whole-number ratios to form compounds.
 5. In a chemical reaction, atoms are neither created nor destroyed; they are merely rearranged.
 
-Thus, Dalton considered the atom to be a small, solid, and indivisible particle.
+Thus, Dalton considered the atom to be a small, solid and indivisible particle.
 
 **Limitations**
 
-Dalton’s model was unable to explain the internal structure of the atom.
+Dalton's model was unable to explain the internal structure of the atom.
 
 1. The discovery of the electron showed that the atom is divisible.
-2. The discovery of isotopes showed that atoms of the same element need not have identical masses. For example, the isotopes of hydrogen are:
-
-\[
-{}^{1}_{1}\mathrm{H}, \qquad
-{}^{2}_{1}\mathrm{H}, \qquad
-{}^{3}_{1}\mathrm{H}.
-\]
-
-Nuclear reactions showed that atoms can be transformed into atoms of other elements.
-
+2. The discovery of isotopes showed that atoms of the same element need not have identical masses, e.g. \\(^1H\\), \\(^2H\\), \\(^3H\\).
+3. Nuclear reactions showed that atoms can be transformed into atoms of other elements.
+   
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
