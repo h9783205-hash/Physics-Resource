@@ -1970,6 +1970,324 @@ E_4 = -0.85 \text{ eV}.
 \\]
 
 The negative sign indicates that the electron is bound to the nucleus.
+
+**Important Results for Hydrogen Atom**
+
+The three most important results of the Bohr model are
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+v_n = \frac{2.18 \times 10^6}{n} \text{ m s}^{-1}
+\\]
+
+</div>
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+r_n = 5.29 \times 10^{-11}n^2 \text{ m}
+\\]
+
+</div>
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+E_n = -\frac{13.6}{n^2} \text{ eV}
+\\]
+
+</div>
+
+Hence,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+v_n \propto \frac{1}{n}, \qquad r_n \propto n^2, \qquad E_n \propto -\frac{1}{n^2}
+\\]
+
+</div>
+
+As \\(n\\) increases,
+
+\\[
+n\uparrow \implies v\downarrow, \quad r\uparrow, \quad E\rightarrow 0^-.
+\\]
+
+As \\(n \rightarrow \infty\\),
+
+\\[
+E_n \rightarrow 0.
+\\]
+
+This corresponds to the electron becoming free from the atom. Thus, \\(E=0\\) is taken as the energy of a free electron at infinite separation from the nucleus.
+
+**Hydrogen Spectrum**
+
+The hydrogen atom produces a line spectrum, consisting of a number of discrete wavelengths. These spectral lines are produced when an electron makes a transition from a higher energy level to a lower energy level.
+
+For an emission spectrum,
+
+\\[
+h\nu = E_i - E_f, \qquad E_i > E_f.
+\\]
+
+Since
+
+\\[
+\nu = \frac{c}{\lambda},
+\\]
+
+the wavelength of the emitted radiation depends on the difference between the two energy levels.
+
+**Expression for Wave Number**
+
+The energy of an electron in the \\(n\\)th orbit of a hydrogen atom is
+
+\\[
+E_n = -\frac{13.6}{n^2}\text{ eV}.
+\\]
+
+Suppose an electron makes a transition from an initial orbit \\(n_i\\) to a lower orbit \\(n_f\\), where
+
+\\[
+n_i > n_f.
+\\]
+
+The energy of the emitted photon is
+
+\\[
+h\nu = E_{n_i} - E_{n_f}.
+\\]
+
+Therefore,
+
+\\[
+h\nu = 13.6\left(\frac{1}{n_f^2}-\frac{1}{n_i^2}\right)\text{ eV}.
+\\]
+
+Using
+
+\\[
+\nu = \frac{c}{\lambda},
+\\]
+
+we get
+
+\\[
+\frac{hc}{\lambda} = 13.6\left(\frac{1}{n_f^2}-\frac{1}{n_i^2}\right)\text{ eV}.
+\\]
+
+Hence,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(\frac{1}{n_f^2}-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+where \\(R_H\\) is the Rydberg constant for hydrogen,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+R_H = 1.097 \times 10^7 \text{ m}^{-1}.
+\\]
+
+</div>
+
+Thus, the general expression for the wave number is
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\bar\nu = \frac{1}{\lambda} = R_H\left(\frac{1}{n_f^2}-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+This is known as the Rydberg formula.
+
+**Spectral Series of Hydrogen**
+
+Different spectral series are obtained depending on the final orbit \\(n_f\\) of the electron.
+
+| Series | Final orbit \\(n_f\\) | Initial orbit \\(n_i\\) | Region |
+|---|---|---|---|
+| Lyman | 1 | 2, 3, 4, ... | Ultraviolet |
+| Balmer | 2 | 3, 4, 5, ... | Visible |
+| Paschen | 3 | 4, 5, 6, ... | Infrared |
+| Brackett | 4 | 5, 6, 7, ... | Infrared |
+| Pfund | 5 | 6, 7, 8, ... | Infrared |
+| Humphreys | 6 | 7, 8, 9, ... | Infrared |
+
+**Lyman Series**
+
+In the Lyman series, all transitions terminate at the first energy level:
+
+\\[
+n_f = 1.
+\\]
+
+Therefore,
+
+\\[
+n_i = 2, 3, 4, \ldots
+\\]
+
+Using the Rydberg formula,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(1-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+The Lyman series lies in the **ultraviolet** region.
+
+The first line corresponds to
+
+\\[
+2 \rightarrow 1,
+\\]
+
+while the series limit corresponds to
+
+\\[
+n_i \rightarrow \infty, \qquad n_f = 1.
+\\]
+
+**Balmer Series**
+
+In the Balmer series, all transitions terminate at the second energy level:
+
+\\[
+n_f = 2.
+\\]
+
+Therefore,
+
+\\[
+n_i = 3, 4, 5, \ldots
+\\]
+
+Hence,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(\frac{1}{4}-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+The Balmer series is particularly important because its prominent lines lie in the **visible** region.
+
+The first four lines are
+
+\\[
+3 \rightarrow 2 : H_\alpha
+\\]
+\\[
+4 \rightarrow 2 : H_\beta
+\\]
+\\[
+5 \rightarrow 2 : H_\gamma
+\\]
+\\[
+6 \rightarrow 2 : H_\delta
+\\]
+
+The first Balmer line, \\(H_\alpha\\), has wavelength approximately
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\lambda_{H_\alpha} = 656.3 \text{ nm}
+\\]
+
+</div>
+
+and appears in the red region of the visible spectrum.
+
+**Paschen Series**
+
+In the Paschen series,
+
+\\[
+n_f = 3,
+\\]
+
+and
+
+\\[
+n_i = 4, 5, 6, \ldots
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(\frac{1}{9}-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+The Paschen series lies in the **infrared** region.
+
+The first line corresponds to
+
+\\[
+4 \rightarrow 3.
+\\]
+
+**Brackett Series**
+
+In the Brackett series,
+
+\\[
+n_f = 4,
+\\]
+
+and
+
+\\[
+n_i = 5, 6, 7, \ldots
+\\]
+
+Therefore,
+
+<div style="text-align:center; border:1px solid #333; display:inline-block; padding:6px 14px; margin:10px 0;">
+
+\\[
+\frac{1}{\lambda} = R_H\left(\frac{1}{16}-\frac{1}{n_i^2}\right)
+\\]
+
+</div>
+
+The Brackett series lies in the **infrared** region.
+
+The first line corresponds to
+
+\\[
+5 \rightarrow 4.
+\\]
+
+**Pfund Series**
+
+In the Pfund series,
+
+\\[
+n_f = 5,
+\\]
+
+and
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
