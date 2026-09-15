@@ -2455,11 +2455,11 @@ Heisenberg uncertainty principle
 
 These limitations led to the development of more refined atomic models, particularly the Sommerfeld atomic model, and ultimately to modern quantum mechanics.
 
-## Sommerfeld's Atomic Model
+**Sommerfeld's Atomic Model**
 
 Bohr's atomic model successfully explained the gross structure of the hydrogen spectrum, but it could not explain the fine structure of spectral lines. In 1916, Arnold Sommerfeld modified Bohr's model by introducing elliptical orbits and relativistic variation of the electron mass.
 
-### Sommerfeld's Assumptions
+**Sommerfeld's Assumptions**
 
 Sommerfeld introduced the following modifications in Bohr's theory.
 
@@ -2487,7 +2487,7 @@ They are related to the principal quantum number by
 n_\phi + n_r = n
 \\]
 
-### Elliptical Orbit of the Electron
+**Elliptical Orbit of the Electron**
 
 For an elliptical orbit, the position of the electron can be specified by the polar coordinates \\(r\\) and \\(\phi\\) or \\(\phi\\) and \\(\rho\\) periodically.
 
@@ -2496,6 +2496,58 @@ Sommerfeld therefore applied the quantum condition to both motions:
 \\[
 \oint p_\phi\,d\phi = n_\phi h
 \\]
+
+and
+
+\\[
+\oint p_r\,dr = n_r h. \tag{2}
+\\]
+
+Here, \\(p_\phi\\) is the momentum corresponding to angular motion and \\(p_r\\) is the momentum corresponding to radial motion.
+
+**30.3 Angular Quantum Condition**
+
+The momentum corresponding to angular motion is the angular momentum of the electron. For an elliptical orbit,
+
+\\[
+p_\phi = \text{constant.}
+\\]
+
+Therefore, equation (1) becomes
+
+\\[
+\int_0^{2\pi} p_\phi\,d\phi = n_\phi h.
+\\]
+
+Hence,
+
+\\[
+2\pi p_\phi = n_\phi h,
+\\]
+
+or
+
+\\[
+p_\phi = \frac{n_\phi h}{2\pi} = n_\phi\hbar. \tag{3}
+\\]
+
+Thus, the angular momentum of the electron is quantized.
+
+**30.4 Radial Quantum Condition**
+
+The radial momentum is
+
+\\[
+p_r = m\frac{dr}{dt}.
+\\]
+
+Since \\(r\\) is a function of \\(\phi\\),
+
+\\[
+\frac{dr}{dt} = \frac{dr}{d\phi}\cdot\frac{d\phi}{dt}.
+\\]
+
+Also,
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
