@@ -3222,6 +3222,298 @@ J = \frac{5}{2}, \frac{3}{2}.
 **\\(j-j\\) Coupling**
 
 The \\(j-j\\) coupling scheme becomes important when the spin-orbit interaction of each individual electron is stronger than the interactions between the orbital and spin angular
+
+# Atomic Spectra — Lecture Notes
+
+## j–j Coupling
+
+This type of coupling occurs mainly in heavy atoms, where the spin–orbit interaction is relatively strong.
+
+In this scheme, the orbital angular momentum and spin angular momentum of each individual electron first combine to form the total angular momentum $\vec{j}_i$ of that electron:
+
+$$\vec{j}_i = \vec{l}_i + \vec{s}_i$$
+
+The individual $\vec{j}_i$'s are then combined to give the total angular momentum $\vec{J}$ of the atom:
+
+$$\vec{J} = \sum_i \vec{j}_i$$
+
+Thus, the j–j coupling scheme may be summarized as
+
+$$\vec{j}_i = \vec{l}_i + \vec{s}_i, \qquad \vec{J} = \sum_i \vec{j}_i$$
+
+For an individual electron,
+
+$$j_i = l_i \pm \frac{1}{2}$$
+
+since
+
+$$s_i = \frac{1}{2}$$
+
+## Comparison of the Two Coupling Schemes
+
+| $L$–$S$ coupling | $j$–$j$ coupling |
+|---|---|
+| Common in light atoms | Important mainly in heavy atoms |
+| All $\vec{l}_i$ combine first | $\vec{l}_i$ and $\vec{s}_i$ of each electron combine first |
+| $\vec{L} = \sum_i \vec{l}_i$ | $\vec{j}_i = \vec{l}_i + \vec{s}_i$ |
+| $\vec{S} = \sum_i \vec{s}_i$ | Then $\vec{J} = \sum_i \vec{j}_i$ |
+| Finally $\vec{J} = \vec{L} + \vec{S}$ | Strong individual spin–orbit interaction |
+
+The essential difference can therefore be remembered as
+
+**$L$–$S$ coupling:**
+
+$$\vec{l}_i \to \vec{L}, \qquad \vec{s}_i \to \vec{S}, \qquad \vec{L} + \vec{S} \to \vec{J}$$
+
+**whereas $j$–$j$ coupling:**
+
+$$\vec{l}_i + \vec{s}_i \to \vec{j}_i, \qquad \sum_i \vec{j}_i \to \vec{J}$$
+
+Thus,
+
+| | |
+|---|---|
+| $L$–$S$ coupling | dominant in light atoms |
+| $j$–$j$ coupling | dominant in heavy atoms |
+
+---
+
+## 32.2 Optical Spectra
+
+When an atom absorbs energy, one or more of its electrons may be excited from a lower energy state to a higher energy state. The excited atom is unstable and the electron eventually returns to a lower energy state.
+
+During a transition from an initial state $E_i$ to a final state $E_f$, radiation of frequency $\nu$ is emitted according to
+
+$$h\nu = E_i - E_f$$
+
+or
+
+$$\nu = \frac{E_i - E_f}{h}$$
+
+The corresponding wavelength is
+
+$$\lambda = \frac{hc}{E_i - E_f}$$
+
+Thus, an optical spectral line is produced whenever an electron makes an allowed transition between two energy levels.
+
+### 1. Spectral Terms
+
+For atoms containing more than one electron, the energy levels are represented by spectroscopic terms of the form
+
+$$^{2S+1}L_J$$
+
+Here,
+
+- $S$ = total spin angular momentum quantum number,
+- $L$ = total orbital angular momentum quantum number, and
+- $J$ = total angular momentum quantum number.
+
+The spectral terms are split into different levels according to the possible values of $J$.
+
+For example, for
+
+$$L = 1, \qquad S = \frac{1}{2},$$
+
+the possible values are
+
+$$J = L + S, \; L - S,$$
+
+giving
+
+$$J = \frac{3}{2}, \; \frac{1}{2}$$
+
+Hence, the term
+
+$$^2P$$
+
+splits into
+
+$$^2P_{3/2}, \qquad ^2P_{1/2}$$
+
+This splitting of an otherwise single spectral term is responsible for the **fine structure** of atomic spectra.
+
+### 2. Allowed Optical Transitions
+
+The transition between two spectral terms is possible only when the appropriate selection rules are satisfied.
+
+For electric dipole transitions, the important selection rules are
+
+$$\Delta L = \pm 1$$
+
+$$\Delta S = 0$$
+
+and
+
+$$\Delta J = 0, \pm 1$$
+
+with
+
+$$J = 0 \not\to J = 0$$
+
+Therefore, every observed optical line corresponds to an allowed transition between two atomic states.
+
+### 3. Multiplet Structure
+
+A single spectral line predicted by the simple Bohr model may appear as a group of closely spaced lines when the fine structure is taken into account.
+
+Such a group of closely spaced spectral lines is called a **multiplet**.
+
+The multiplicity of a spectral term is
+
+$$2S + 1$$
+
+Accordingly,
+
+| $2S+1$ | Name |
+|---|---|
+| 1 | Singlet |
+| 2 | Doublet |
+| 3 | Triplet |
+| 4 | Quartet |
+
+For example,
+
+$$^2P$$
+
+is a doublet term, while
+
+$$^3P$$
+
+is a triplet term.
+
+### 4. Example: Sodium Optical Spectrum
+
+The sodium atom has one valence electron outside closed shells. Its prominent yellow $D$-lines arise from transitions involving the $3p$ and $3s$ states.
+
+The upper $3p$ state has
+
+$$L = 1, \qquad S = \frac{1}{2},$$
+
+and therefore splits into
+
+$$^2P_{1/2}, \qquad ^2P_{3/2}$$
+
+The lower $3s$ state has
+
+$$L = 0, \qquad S = \frac{1}{2},$$
+
+and hence
+
+$$^2S_{1/2}$$
+
+The two allowed transitions are therefore
+
+$$^2P_{1/2} \to \, ^2S_{1/2}$$
+
+and
+
+$$^2P_{3/2} \to \, ^2S_{1/2}$$
+
+These produce the two closely spaced sodium $D$-lines.
+
+Thus, the vector atom model provides an explanation of the multiplet and fine structure observed in atomic optical spectra.
+
+---
+
+## Fine Structure of the Sodium D-Line
+
+The normal sodium atom has eleven electrons. Ten of them are in closed shells and their contributions to the angular momentum cancel each other. Therefore, while discussing the spectrum of neutral sodium, we need to consider only the single outermost electron.
+
+The sodium $D$-line belongs to the principal series. The lines of the principal series arise due to transitions from a $P$-state to an $S$-state.
+
+### 1. Upper P-state
+
+For the upper $P$-state,
+
+$$L = 1, \qquad S = \frac{1}{2}$$
+
+In the $L$–$S$ coupling scheme, the total angular momentum quantum number is
+
+$$J = L \pm S$$
+
+Therefore,
+
+$$J = 1 \pm \frac{1}{2},$$
+
+giving
+
+$$J = \frac{3}{2}, \; \frac{1}{2}$$
+
+Hence, the $P$-state is split into two levels with the spectral terms
+
+$$^2P_{3/2} \quad \text{and} \quad {}^2P_{1/2}$$
+
+This splitting of the $P$-state is responsible for the fine structure of the sodium $D$-line.
+
+### 2. Lower S-state
+
+For the lower $S$-state,
+
+$$L = 0, \qquad S = \frac{1}{2}$$
+
+Hence,
+
+$$J = L \pm S = 0 \pm \frac{1}{2}$$
+
+Since $J$ must be positive,
+
+$$J = \frac{1}{2}$$
+
+Thus, only one spectral term is possible:
+
+$$^2S_{1/2}$$
+
+Therefore, the relevant energy levels are
+
+$$^2P_{3/2}, \qquad ^2P_{1/2}$$
+
+in the upper state and
+
+$$^2S_{1/2}$$
+
+in the lower state.
+
+### 3. Allowed Transitions
+
+The electric dipole selection rules are
+
+$$\Delta L = \pm 1,$$
+
+and
+
+$$\Delta J = 0, \pm 1$$
+
+with the transition
+
+$$J = 0 \longrightarrow J = 0$$
+
+excluded.
+
+Now consider the two possible transitions from the upper $P$-levels to the lower $S$-level.
+
+**Transition 1**
+
+$$^2P_{1/2} \to \, ^2S_{1/2}$$
+
+Here,
+
+$$\Delta L = 0 - 1 = -1$$
+
+and
+
+$$\Delta J = \frac{1}{2} - \frac{1}{2} = 0$$
+
+Therefore, this transition is allowed. It gives the $D_1$ line:
+
+$$\lambda_{D_1} = 5896 \text{ Å}$$
+
+**Transition 2**
+
+$$^2P_{3/2} \to \, ^2S_{1/2}$$
+
+Here,
+
+*(note: the wavelength and $\Delta L$/$\Delta J$ working for Transition 2 were cut off in the source pages — this gives the $D_2$ line, conventionally at $\lambda_{D_2} = 5890$ Å; worth double-checking against your source material and filling in before using these notes.)*
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
