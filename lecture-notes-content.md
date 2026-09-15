@@ -2505,7 +2505,7 @@ and
 
 Here, \\(p_\phi\\) is the momentum corresponding to angular motion and \\(p_r\\) is the momentum corresponding to radial motion.
 
-**30.3 Angular Quantum Condition**
+**Angular Quantum Condition**
 
 The momentum corresponding to angular motion is the angular momentum of the electron. For an elliptical orbit,
 
@@ -2533,7 +2533,7 @@ p_\phi = \frac{n_\phi h}{2\pi} = n_\phi\hbar. \tag{3}
 
 Thus, the angular momentum of the electron is quantized.
 
-**30.4 Radial Quantum Condition**
+**Radial Quantum Condition**
 
 The radial momentum is
 
@@ -2547,7 +2547,341 @@ Since \\(r\\) is a function of \\(\phi\\),
 \frac{dr}{dt} = \frac{dr}{d\phi}\cdot\frac{d\phi}{dt}.
 \\]
 
-Also,
+Also,\\[
+p_\phi = mr^2\frac{d\phi}{dt}.
+\\]
+
+Therefore,
+
+\\[
+\frac{d\phi}{dt} = \frac{p_\phi}{mr^2}.
+\\]
+
+Hence,
+
+\\[
+p_r\,dr = m\frac{dr}{dt}\,dr = m\frac{dr}{d\phi}\frac{d\phi}{dt}\,dr = \frac{p_\phi}{r^2}\frac{dr}{d\phi}\,dr.
+\\]
+
+Since
+
+\\[
+dr = \frac{dr}{d\phi}\,d\phi,
+\\]
+
+we obtain
+
+\\[
+\boxed{p_r\,dr = \left(\frac{1}{r}\frac{dr}{d\phi}\right)^2 p_\phi\,d\phi.} \tag{4}
+\\]
+
+**Equation of the Elliptical Orbit**
+
+The equation of the elliptical orbit in polar coordinates is
+
+\\[
+\boxed{\frac{1}{r} = \frac{1+\epsilon\cos\phi}{a(1-\epsilon^2)}} \tag{5}
+\\]
+
+where \\(a\\) is the semi-major axis and \\(\epsilon\\) is the eccentricity of the ellipse.
+
+Differentiating equation (5),
+
+\\[
+\frac{1}{r}\frac{dr}{d\phi} = \frac{\epsilon\sin\phi}{1+\epsilon\cos\phi}.
+\\]
+
+Using equation (4),
+
+\\[
+p_r\,dr = \frac{\epsilon^2\sin^2\phi}{(1+\epsilon\cos\phi)^2}p_\phi\,d\phi.
+\\]
+
+Substituting in equation (2),
+
+\\[
+p_\phi\int_0^{2\pi}\frac{\epsilon^2\sin^2\phi}{(1+\epsilon\cos\phi)^2}\,d\phi = n_r h.
+\\]
+
+Let
+
+\\[
+I = \int_0^{2\pi}\frac{\epsilon^2\sin^2\phi}{(1+\epsilon\cos\phi)^2}\,d\phi.
+\\]
+
+Using integration by parts,
+
+\\[
+I = \int_0^{2\pi}\left(\frac{1}{1+\epsilon\cos\phi}-1\right)d\phi.
+\\]
+
+Using the standard result
+
+\\[
+\int_0^{2\pi}\frac{d\phi}{1+\epsilon\cos\phi} = \frac{2\pi}{\sqrt{1-\epsilon^2}},
+\\]
+
+we obtain
+
+\\[
+I = \frac{2\pi}{\sqrt{1-\epsilon^2}} - 2\pi.
+\\]
+
+Therefore,
+
+\\[
+p_\phi\left[\frac{2\pi}{\sqrt{1-\epsilon^2}}-2\pi\right] = n_r h.
+\\]
+
+Using
+
+\\[
+p_\phi = \frac{n_\phi h}{2\pi},
+\\]
+
+we get
+
+\\[
+\frac{n_\phi}{\sqrt{1-\epsilon^2}} - n_\phi = n_r.
+\\]
+
+Therefore,
+
+\\[
+\boxed{n_r + n_\phi = \frac{n_\phi}{\sqrt{1-\epsilon^2}}.}
+\\]
+
+Since
+
+\\[
+n_r+n_\phi = n,
+\\]
+
+we obtain
+
+\\[
+\boxed{n = \frac{n_\phi}{\sqrt{1-\epsilon^2}}.} \tag{6}
+\\]
+
+**Condition for the Allowed Elliptical Orbits**
+
+From equation (6),
+
+\\[
+n = \frac{n_\phi}{\sqrt{1-\epsilon^2}},
+\\]
+
+and hence
+
+\\[
+1-\epsilon^2 = \frac{n_\phi^2}{n^2}.
+\\]
+
+For an ellipse,
+
+\\[
+1-\epsilon^2 = \frac{b^2}{a^2},
+\\]
+
+where \\(a\\) and \\(b\\) are the semi-major and semi-minor axes, respectively. Therefore,
+
+\\[
+\frac{b^2}{a^2} = \frac{n_\phi^2}{n^2}.
+\\]
+
+Taking the positive square root,
+
+\\[
+\boxed{\frac{b}{a} = \frac{n_\phi}{n}.} \tag{7}
+\\]
+
+This is the condition for the allowed elliptical orbits. The eccentricity is therefore
+
+\\[
+\boxed{\epsilon = \sqrt{1-\frac{n_\phi^2}{n^2}}.}
+\\]
+
+For a given value of \\(n\\),
+
+\\[
+n_\phi = 1,2,3,\ldots,n.
+\\]
+
+Thus, there are \\(n\\) permitted orbits corresponding to the \\(n\\) possible values of \\(n_\phi\\). For \\(n_\phi = n\\), we have
+
+\\[
+\frac{b}{a} = 1,
+\\]
+
+and hence \\(a=b\\). The ellipse therefore becomes a circle. Thus, the Bohr circular orbit is a special case of Sommerfeld's elliptical orbit.
+
+**Energy of the Electron**
+
+The total energy of the electron is
+
+\\[
+E_n = \text{K.E.} + \text{P.E.}
+\\]
+
+The potential energy of the electron in the field of a nucleus of charge \\(+Ze\\) is
+
+\\[
+\text{P.E.} = -\frac{Ze^2}{4\pi\epsilon_0 r}.
+\\]
+
+After applying the quantum conditions to the elliptical orbit, Sommerfeld obtained
+
+\\[
+\boxed{E_n = -\frac{me^4Z^2}{8\epsilon_0^2h^2n^2}.} \tag{8}
+\\]
+
+Equivalently,
+
+\\[
+\boxed{E_n = -\frac{13.6Z^2}{n^2}\text{ eV}.}
+\\]
+
+For hydrogen, \\(Z=1\\):
+
+\\[
+\boxed{E_n = -\frac{13.6}{n^2}\text{ eV}.}
+\\]
+
+Thus, the energy obtained for the elliptical orbit is the same as that obtained from Bohr's theory. Therefore,
+
+\\[
+\boxed{\text{Elliptical orbits alone introduce no new energy levels.}}
+\\]
+
+The fine structure of spectral lines is explained by taking the relativistic variation of the electron mass into account.
+
+**Sommerfeld's Relativistic Theory**
+
+The velocity of the electron in an elliptical orbit varies from point to point. It is maximum at the perihelion and minimum at the aphelion.
+
+The velocity of the electron in the inner orbits may be appreciably large. Sommerfeld therefore considered the relativistic variation of the electron mass:
+
+\\[
+\boxed{m = \frac{m_0}{\sqrt{1-v^2/c^2}}.}
+\\]
+
+Taking this variation of mass into account, Sommerfeld obtained the equation describing the path of the electron as
+
+\\[
+\boxed{\frac{1}{r} = \frac{1+\epsilon\cos\psi}{a(1-\epsilon^2)}} \tag{9}
+\\]
+
+where
+
+\\[
+\psi^2 = 1 - \frac{Z^2c^4}{16\pi^2\epsilon_0^2\hbar^2p_\phi^2c^2}.
+\\]
+
+The path of the electron is a rosette; that is, an ellipse whose major axis slowly precesses in the plane of the ellipse about an axis through the nucleus.
+
+**3Relativistic Energy**
+
+Taking the relativistic variation of the mass of the electron into account, Sommerfeld obtained the following expression for the total energy:
+
+\\[
+\boxed{E_n = -\frac{me^4Z^2}{8\epsilon_0^2h^2n^2} - \frac{me^4Z^2\alpha^2}{8\epsilon_0^2h^2}\left(\frac{n}{n_\phi}-\frac{3}{4}\right)\frac{1}{n^4}} \tag{10}
+\\]
+
+where
+
+\\[
+\boxed{\alpha = \frac{e^2}{2\epsilon_0ch} \approx \frac{1}{137}.}
+\\]
+
+The quantity \\(\alpha\\) is dimensionless and is called the fine-structure constant.
+
+The first term in equation (10) is the energy of the electron obtained from Bohr's theory:
+
+\\[
+\boxed{E_n^{(0)} = -\frac{me^4Z^2}{8\epsilon_0^2h^2n^2}.}
+\\]
+
+The second term is the Sommerfeld relativistic correction:
+
+\\[
+\boxed{\Delta E = -\frac{me^4Z^2\alpha^2}{8\epsilon_0^2h^2}\left(\frac{n}{n_\phi}-\frac{3}{4}\right)\frac{1}{n^4}.}
+\\]
+
+Thus,
+
+\\[
+\boxed{E_n = E_n^{(0)} + \Delta E.}
+\\]
+
+The important point is that the Bohr energy depends only on the principal quantum number \\(n\\), whereas the relativistic correction depends on both \\(n\\) and \\(n_\phi\\):
+
+\\[
+\boxed{E_n = E(n, n_\phi).}
+\\]
+
+For a given \\(n\\),
+
+\\[
+n_\phi = 1,2,\ldots,n.
+\\]
+
+Therefore, the energy level corresponding to a given \\(n\\) splits into \\(n\\) components. Thus,
+
+\\[
+\boxed{\text{Relativistic correction} \longrightarrow \text{splitting of energy levels} \longrightarrow \text{fine structure of spectral lines.}}
+\\]
+
+**Limitations of Sommerfeld's Atomic Model**
+
+The Sommerfeld model was an important improvement over Bohr's model, but it has several limitations.
+
+1. It cannot satisfactorily explain the spectra of multi-electron atoms.
+2. Electron spin is not included in the original Sommerfeld model.
+3. It cannot adequately explain the anomalous Zeeman effect.
+4. It cannot satisfactorily explain the Stark effect.
+5. The model assumes definite classical orbits for electrons, which is inconsistent with the later quantum-mechanical description based on the uncertainty principle.
+6. The quantum conditions are introduced as postulates rather than being derived from a complete quantum theory.
+7. It cannot explain the complete observed structure of atomic spectra and was eventually replaced by modern quantum mechanics.
+
+**Important Results**
+
+The important results of Sommerfeld's atomic model are
+
+\\[
+\boxed{\oint p_\phi\,d\phi = n_\phi h}
+\\]
+
+\\[
+\boxed{\oint p_r\,dr = n_r h}
+\\]
+
+\\[
+\boxed{n = n_r + n_\phi}
+\\]
+
+\\[
+\boxed{n = \frac{n_\phi}{\sqrt{1-\epsilon^2}}}
+\\]
+
+\\[
+\boxed{\frac{b}{a} = \frac{n_\phi}{n}}
+\\]
+
+\\[
+\boxed{E_n = -\frac{me^4Z^2}{8\epsilon_0^2h^2n^2}}
+\\]
+
+and, with relativistic correction,
+
+\\[
+\boxed{E_n = -\frac{me^4Z^2}{8\epsilon_0^2h^2n^2} - \frac{me^4Z^2\alpha^2}{8\epsilon_0^2h^2}\left(\frac{n}{n_\phi}-\frac{3}{4}\right)\frac{1}{n^4}.}
+\\]
+
+The development of Sommerfeld's model can be summarized as
+
+\\[
+\boxed{\text{Bohr model} \rightarrow \text{Elliptical orbits} \rightarrow \text{Two quantum numbers} \rightarrow \text{Relativistic correction} \rightarrow \text{Fine structure.}}
+\\]
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
