@@ -2779,7 +2779,7 @@ where
 
 The path of the electron is a rosette; that is, an ellipse whose major axis slowly precesses in the plane of the ellipse about an axis through the nucleus.
 
-**3Relativistic Energy**
+**Relativistic Energy**
 
 Taking the relativistic variation of the mass of the electron into account, Sommerfeld obtained the following expression for the total energy:
 
@@ -2882,6 +2882,346 @@ The development of Sommerfeld's model can be summarized as
 \\[
 \boxed{\text{Bohr model} \rightarrow \text{Elliptical orbits} \rightarrow \text{Two quantum numbers} \rightarrow \text{Relativistic correction} \rightarrow \text{Fine structure.}}
 \\]
+
+**Vector Atom Model**
+
+The Bohr–Sommerfeld model successfully explained the main features of the hydrogen spectrum and, with relativistic correction, gave an explanation of the fine structure. However, it could not satisfactorily explain several important observations, particularly the splitting of spectral lines in a magnetic field and the detailed structure of spectra of atoms containing more than one electron.
+
+To explain these observations, the vector atom model was developed. In this model, the angular momentum of an electron is treated as a vector quantity, and the atom is described in terms of the orbital and spin angular momenta of its electrons.
+
+The vector atom model is based mainly on two important ideas:
+
+**Spatial Quantization**
+
+In classical physics, an angular momentum vector can have any orientation in space. According to quantum theory, however, the angular momentum vector can have only certain permitted orientations with respect to a specified direction, usually the direction of an external magnetic field.
+
+This phenomenon is called spatial quantization.
+
+For an electron having orbital angular momentum quantum number \\(l\\), the component of orbital angular momentum along the field direction is
+
+\\[
+L_z = m_l\hbar,
+\\]
+
+where
+
+\\[
+m_l = -l, -(l-1), \ldots, 0, \ldots, (l-1), l.
+\\]
+
+Thus, there are
+
+\\[
+\boxed{2l+1}
+\\]
+
+possible orientations of the orbital angular momentum vector.
+
+The angle \\(\theta\\) made by the orbital angular momentum vector with the magnetic-field direction is given by
+
+\\[
+\boxed{\cos\theta = \frac{m_l}{\sqrt{l(l+1)}}}
+\\]
+
+Thus, the orbital angular momentum cannot take an arbitrary orientation in space.
+
+**Spin of the Electron**
+
+In addition to its orbital angular momentum, an electron possesses an intrinsic angular momentum called spin angular momentum. It is not associated with the actual spinning of the electron like a classical rotating sphere; it is an intrinsic quantum-mechanical property of the electron.
+
+The spin quantum number of an electron is
+
+\\[
+\boxed{s = \frac{1}{2}.}
+\\]
+
+The magnitude of the spin angular momentum is
+
+\\[
+S = \sqrt{s(s+1)}\,\hbar = \frac{\sqrt{3}}{2}\hbar.
+\\]
+
+The component of spin angular momentum along a specified direction is
+
+\\[
+S_z = m_s\hbar,
+\\]
+
+where
+
+\\[
+m_s = \pm\frac{1}{2}.
+\\]
+
+Thus, the spin angular momentum has two possible orientations with respect to a given direction.
+
+These two ideas—spatial quantization of angular momentum and intrinsic spin of the electron—form the basis of the vector atom model. The quantum numbers used to describe an electron and the atom as a whole are introduced on this basis.
+
+**Quantum Numbers Associated with the Vector Atom Model**
+
+The state of an electron in an atom is specified by a set of quantum numbers. In the vector atom model, the following quantum numbers are used.
+
+**Principal Quantum Number (n)**
+
+The principal quantum number \\(n\\) is identical with the one used in the Bohr theory. It specifies the electron shell, starting from the innermost shell.
+
+\\[
+\boxed{n = 1, 2, 3, \ldots}
+\\]
+
+**Orbital Quantum Number (l)**
+
+The orbital quantum number \\(l\\) specifies the orbital angular momentum of the electron. For a given value of \\(n\\),
+
+\\[
+\boxed{l = 0, 1, 2, \ldots, (n-1)}
+\\]
+
+Thus, for example,
+
+| \\(l\\) | Designation |
+|---|---|
+| 0 | s |
+| 1 | p |
+| 2 | d |
+| 3 | f |
+
+The magnitude of the orbital angular momentum is
+
+\\[
+L = \sqrt{l(l+1)}\,\hbar.
+\\]
+
+The z-component of orbital angular momentum is
+
+\\[
+L_z = m_l\hbar.
+\\]
+
+**Spin Quantum Number (s)**
+
+The spin quantum number \\(s\\) represents the intrinsic angular momentum of the electron. For an electron,
+
+\\[
+\boxed{s = \frac{1}{2}}
+\\]
+
+The magnitude of the spin angular momentum is
+
+\\[
+S = \sqrt{s(s+1)}\,\hbar.
+\\]
+
+Thus, for an electron,
+
+\\[
+S = \frac{\sqrt{3}}{2}\hbar.
+\\]
+
+The spin quantum number has only one value,
+
+\\[
+\boxed{s = \frac{1}{2}.}
+\\]
+
+**Total Angular Momentum Quantum Number (j)**
+
+The total angular momentum of the electron is obtained by combining its orbital angular momentum and spin angular momentum. Thus,
+
+\\[
+\vec{j} = \vec{l}+\vec{s}.
+\\]
+
+The possible values of \\(j\\) are
+
+\\[
+j = l+s, l+s-1, \ldots, |l-s|.
+\\]
+
+For an electron, \\(s=\dfrac{1}{2}\\), so
+
+\\[
+\boxed{j = l+\frac{1}{2}, \quad l-\frac{1}{2}}
+\\]
+
+with the restriction that \\(j\\) must be positive.
+
+For example, if
+
+\\[
+l=2, \quad s=\frac{1}{2},
+\\]
+
+then
+
+\\[
+j = \frac{5}{2}, \quad \frac{3}{2}.
+\\]
+
+The magnitude of total angular momentum is
+
+\\[
+J = \sqrt{j(j+1)}\,\hbar.
+\\]
+
+**Magnetic Orbital Quantum Number \\((m_l)\\)**
+
+The magnetic orbital quantum number \\(m_l\\) represents the projection of the orbital angular momentum on the direction of the magnetic field.
+
+The possible values of \\(m_l\\) are
+
+\\[
+m_l = l, l-1, l-2, \ldots, 0, \ldots, -(l-1), -l.
+\\]
+
+Thus, there are
+
+\\[
+\boxed{2l+1}
+\\]
+
+possible values of \\(m_l\\).
+
+The component of orbital angular momentum in the field direction is
+
+\\[
+L_z = m_l\hbar.
+\\]
+
+If \\(\theta\\) is the angle between the orbital angular momentum vector and the magnetic-field direction, then
+
+\\[
+\boxed{\cos\theta = \frac{m_l}{\sqrt{l(l+1)}}}
+\\]
+
+Hence, the orbital angular momentum vector can have only \\(2l+1\\) permitted orientations. This is known as spatial quantization.
+
+**Magnetic Spin Quantum Number \\((m_s)\\)**
+
+The magnetic spin quantum number \\(m_s\\) represents the projection of the spin angular momentum on the direction of the magnetic field. For an electron,
+
+\\[
+s=\frac{1}{2},
+\\]
+
+and therefore
+
+\\[
+\boxed{m_s = +\frac{1}{2}, \quad -\frac{1}{2}}
+\\]
+
+Thus, the spin angular momentum can have only two possible orientations with respect to the magnetic-field direction.
+
+**Magnetic Total Angular Momentum Quantum Number \\((m_j)\\)**
+
+The magnetic total angular momentum quantum number \\(m_j\\) represents the projection of the total angular momentum vector on the direction of the magnetic field. For a given \\(j\\),
+
+\\[
+m_j = j, j-1, j-2, \ldots, 0, \ldots, -(j-1), -j.
+\\]
+
+Thus, there are
+
+\\[
+\boxed{2j+1}
+\\]
+
+possible values of \\(m_j\\).
+
+For a single electron,
+
+\\[
+j = l\pm\frac{1}{2},
+\\]
+
+and consequently \\(m_j\\) has odd half-integral values.
+
+For example, if
+
+\\[
+j=\frac{3}{2},
+\\]
+
+then
+
+\\[
+m_j = \frac{3}{2}, \frac{1}{2}, -\frac{1}{2}, -\frac{3}{2}.
+\\]
+
+**Quantum Numbers of an Electron**
+
+The state of an electron in an atom is completely specified by the four quantum numbers
+
+\\[
+\boxed{n, l, m_l, m_s.}
+\\]
+
+In spectroscopic notation, small letters \\(l, s, p, d, f, g, \ldots\\) are used to describe the state of the electron, whereas capital letters \\(L, S, J\\) and \\(S, P, D, F, G, \ldots\\) are used to describe the state of the atom as a whole.
+
+**Coupling Schemes**
+
+In an atom containing two or more electrons, each electron possesses orbital angular momentum and spin angular momentum. These angular momenta can combine in different ways depending on the relative strengths of their interactions.
+
+The two important coupling schemes are:
+
+1. \\(L-S\\) coupling or Russell–Saunders coupling.
+2. \\(j-j\\) coupling.
+
+The type of coupling that occurs depends mainly on the relative strengths of the interactions between the orbital and spin angular momenta.
+
+**\\(L-S\\) Coupling (Russell–Saunders Coupling)**
+
+\\(L-S\\) coupling is the coupling scheme that occurs most frequently, particularly in light atoms.
+
+In this scheme, the orbital angular momenta of all the electrons first combine together to form a resultant orbital angular momentum \\(\vec{L}\\). Independently, the spin angular momenta of all the electrons combine together to form a resultant spin angular momentum \\(\vec{S}\\).
+
+Thus,
+
+\\[
+\boxed{\vec{L} = \sum_i \vec{l}_i}
+\\]
+
+and
+
+\\[
+\boxed{\vec{S} = \sum_i \vec{s}_i}
+\\]
+
+The resultant orbital angular momentum \\(\vec{L}\\) and resultant spin angular momentum \\(\vec{S}\\) then combine to give the total angular momentum \\(\vec{J}\\) of the atom:
+
+\\[
+\boxed{\vec{J} = \vec{L}+\vec{S}.}
+\\]
+
+Thus, the \\(L-S\\) coupling scheme may be summarized as
+
+\\[
+\boxed{\vec{L} = \sum_i \vec{l}_i, \quad \vec{S} = \sum_i \vec{s}_i, \quad \vec{J} = \vec{L}+\vec{S}}
+\\]
+
+This coupling is most important when the interaction between the orbital angular momenta and spin angular momenta of different electrons is stronger than the spin-orbit interaction.
+
+For \\(L-S\\) coupling, the possible values of \\(J\\) are
+
+\\[
+\boxed{J = L+S, L+S-1, \ldots, |L-S|}
+\\]
+
+For example, if
+
+\\[
+L=2, \quad S=\frac{1}{2},
+\\]
+
+then
+
+\\[
+J = \frac{5}{2}, \frac{3}{2}.
+\\]
+
+**\\(j-j\\) Coupling**
+
+The \\(j-j\\) coupling scheme becomes important when the spin-orbit interaction of each individual electron is stronger than the interactions between the orbital and spin angular
    
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
