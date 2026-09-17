@@ -3221,15 +3221,7 @@ J = \frac{5}{2}, \frac{3}{2}.
 
 **\\(j-j\\) Coupling**
 
-The \\(j-j\\) coupling scheme becomes important when the spin-orbit interaction of each individual electron is stronger than the interactions between the orbital and spin angular
-
-# Atomic Spectra — Lecture Notes
-
-## j–j Coupling
-
-This type of coupling occurs mainly in heavy atoms, where the spin–orbit interaction is relatively strong.
-
-In this scheme, the orbital angular momentum and spin angular momentum of each individual electron first combine to form the total angular momenta of different electrons.
+The \\(j-j\\) coupling scheme becomes important when the spin-orbit interaction of each individual electron is stronger than the interactions between the orbital and spin angular momenta of different electrons.
 
 This type of coupling occurs mainly in heavy atoms, where the spin-orbit interaction is relatively strong.
 
@@ -3871,8 +3863,7 @@ Therefore, the seven allowed transitions give
 7-2 = 5
 \\]
 
-distinct components.
-   
+distinct components.   
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
