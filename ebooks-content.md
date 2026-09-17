@@ -1,5 +1,11 @@
 Browse or download books directly from the folders below. If a folder doesn't load, use the direct link underneath it.
 
+**E-Books**
+
+<iframe src="https://drive.google.com/embeddedfolderview?id=1dNBJPgTaABt6Cbu9nkGhAPM7FbY9p4C9#list" style="width:100%; height:500px; border:0;"></iframe>
+
+[Open this folder directly](https://drive.google.com/drive/folders/1dNBJPgTaABt6Cbu9nkGhAPM7FbY9p4C9)
+
 **Reference books (shared by [source/colleague name, or just a topic])**
 
 <iframe src="https://drive.google.com/embeddedfolderview?id=1U2hT2u-gEinPUQZNClkMeLPdcQ1CasCt#list" style="width:100%; height:500px; border:0;"></iframe>
