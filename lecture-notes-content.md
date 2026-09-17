@@ -1480,6 +1480,388 @@ Therefore, the essential condition for SHM is
 \\]
 
 This equation will serve as the starting point for our mathematical treatment of simple harmonic motion.
+**Equation of Simple Harmonic Motion**
+
+Consider a particle of mass \\(m\\) moving along a straight line about a fixed equilibrium position \\(O\\). Let \\(x\\) be the instantaneous displacement of the particle from the equilibrium position.
+
+For the motion to be simple harmonic, the restoring force must satisfy two conditions:
+
+1. Its magnitude must be directly proportional to the displacement \\(x\\).
+2. Its direction must always be towards the equilibrium position.
+
+Therefore,
+
+\\[
+F \propto -x
+\\]
+
+or,
+
+\\[
+F=-kx,
+\\]
+
+where \\(k\\) is a positive constant known as the **force constant** or **stiffness constant**.
+
+The negative sign indicates that the force is directed opposite to the displacement.
+
+According to Newton's second law of motion,
+
+\\[
+F=ma=m\\frac{d^2x}{dt^2}.
+\\]
+
+Therefore,
+
+\\[
+m\\frac{d^2x}{dt^2}=-kx.
+\\]
+
+Rearranging,
+
+\\[
+m\\frac{d^2x}{dt^2}+kx=0.
+\\]
+
+Dividing throughout by \\(m\\),
+
+\\[
+\\frac{d^2x}{dt^2}+\\frac{k}{m}x=0.
+\\]
+
+If we define
+
+\\[
+\\omega^2=\\frac{k}{m},
+\\]
+
+then the equation becomes
+
+\\[
+\\boxed{\\frac{d^2x}{dt^2}+\\omega^2x=0}.
+\\]
+
+This is called the **differential equation of simple harmonic motion**.
+
+Thus, a particle executes simple harmonic motion if its displacement \\(x\\) satisfies the differential equation
+
+\\[
+\\boxed{\\frac{d^2x}{dt^2}=-\\omega^2x}.
+\\]
+
+The corresponding restoring force can therefore be written as
+
+\\[
+F=-m\\omega^2x.
+\\]
+
+Comparing this with \\(F=-kx\\), we obtain
+
+\\[
+k=m\\omega^2.
+\\]
+
+Hence,
+
+\\[
+\\boxed{\\omega=\\sqrt{\\frac{k}{m}}}.
+\\]
+
+Since
+
+\\[
+\\omega=\\frac{2\\pi}{T},
+\\]
+
+the time period of SHM is
+
+\\[
+\\boxed{T=2\\pi\\sqrt{\\frac{m}{k}}}.
+\\]
+
+Similarly, since
+
+\\[
+f=\\frac{\\omega}{2\\pi},
+\\]
+
+the frequency is
+
+\\[
+\\boxed{f=\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}}.
+\\]
+
+**Solution of the Differential Equation**
+
+The differential equation of SHM is
+
+\\[
+\\frac{d^2x}{dt^2}+\\omega^2x=0.
+\\]
+
+A solution of this equation is
+
+\\[
+\\boxed{x=A\\cos(\\omega t+\\phi)}.
+\\]
+
+Here, \\(A\\) is the **amplitude** of the oscillation, \\(\\omega\\) is the **angular frequency**, \\(t\\) is the time, and \\(\\phi\\) is the **phase constant** or **initial phase**.
+
+We can verify this solution by differentiating it twice.
+
+From
+
+\\[
+x=A\\cos(\\omega t+\\phi),
+\\]
+
+the velocity is
+
+\\[
+v=\\frac{dx}{dt}
+=-A\\omega\\sin(\\omega t+\\phi).
+\\]
+
+Differentiating once more,
+
+\\[
+a=\\frac{d^2x}{dt^2}
+=-A\\omega^2\\cos(\\omega t+\\phi).
+\\]
+
+But
+
+\\[
+x=A\\cos(\\omega t+\\phi),
+\\]
+
+therefore,
+
+\\[
+\\boxed{a=-\\omega^2x}.
+\\]
+
+Thus, the acceleration is directly proportional to the displacement and is always directed towards the equilibrium position. Hence, the motion is simple harmonic.
+
+**Displacement, Velocity and Acceleration in SHM**
+
+The displacement of a particle executing SHM is
+
+\\[
+\\boxed{x=A\\cos(\\omega t+\\phi)}.
+\\]
+
+The velocity is obtained by differentiating the displacement with respect to time:
+
+\\[
+v=\\frac{dx}{dt}
+=-A\\omega\\sin(\\omega t+\\phi).
+\\]
+
+Therefore,
+
+\\[
+\\boxed{v=-A\\omega\\sin(\\omega t+\\phi)}.
+\\]
+
+The acceleration is
+
+\\[
+a=\\frac{dv}{dt}
+=-A\\omega^2\\cos(\\omega t+\\phi),
+\\]
+
+or,
+
+\\[
+\\boxed{a=-\\omega^2x}.
+\\]
+
+These three equations form the basic mathematical description of SHM.
+
+**Relation Between Velocity and Displacement**
+
+From
+
+\\[
+x=A\\cos(\\omega t+\\phi),
+\\]
+
+and
+
+\\[
+v=-A\\omega\\sin(\\omega t+\\phi),
+\\]
+
+we have
+
+\\[
+x^2=A^2\\cos^2(\\omega t+\\phi)
+\\]
+
+and
+
+\\[
+v^2=A^2\\omega^2\\sin^2(\\omega t+\\phi).
+\\]
+
+Dividing the second equation by \\(\\omega^2\\),
+
+\\[
+\\frac{v^2}{\\omega^2}
+=A^2\\sin^2(\\omega t+\\phi).
+\\]
+
+Adding the two equations,
+
+\\[
+x^2+\\frac{v^2}{\\omega^2}
+=A^2\\left[\\cos^2(\\omega t+\\phi)+\\sin^2(\\omega t+\\phi)\\right].
+\\]
+
+Since
+
+\\[
+\\sin^2\\theta+\\cos^2\\theta=1,
+\\]
+
+we obtain
+
+\\[
+x^2+\\frac{v^2}{\\omega^2}=A^2.
+\\]
+
+Therefore,
+
+\\[
+\\boxed{v^2=\\omega^2(A^2-x^2)}.
+\\]
+
+Hence,
+
+\\[
+\\boxed{v=\\pm\\omega\\sqrt{A^2-x^2}}.
+\\]
+
+This relation is useful for finding the velocity of the particle at a given displacement.
+
+**Maximum Velocity**
+
+The velocity is
+
+\\[
+v=-A\\omega\\sin(\\omega t+\\phi).
+\\]
+
+The maximum value of \\(|\\sin(\\omega t+\\phi)|\\) is 1. Therefore,
+
+\\[
+|v|_{\\max}=A\\omega.
+\\]
+
+Thus,
+
+\\[
+\\boxed{v_{\\max}=\\omega A}.
+\\]
+
+The maximum velocity occurs when
+
+\\[
+x=0,
+\\]
+
+i.e. when the particle passes through its **equilibrium position**.
+
+**Maximum Acceleration**
+
+The acceleration is
+
+\\[
+a=-\\omega^2x.
+\\]
+
+The maximum magnitude of acceleration occurs when the magnitude of displacement is maximum:
+
+\\[
+|x|=A.
+\\]
+
+Therefore,
+
+\\[
+|a|_{\\max}=\\omega^2A.
+\\]
+
+Thus,
+
+\\[
+\\boxed{a_{\\max}=\\omega^2A}.
+\\]
+
+The maximum acceleration occurs at the **extreme positions** of the oscillation.
+
+**Important Relationships in SHM**
+
+The fundamental quantities of SHM are related as follows:
+
+\\[
+\\boxed{\\omega=2\\pi f=\\frac{2\\pi}{T}}
+\\]
+
+\\[
+\\boxed{f=\\frac{1}{T}}
+\\]
+
+\\[
+\\boxed{a=-\\omega^2x}
+\\]
+
+\\[
+\\boxed{v^2=\\omega^2(A^2-x^2)}
+\\]
+
+\\[
+\\boxed{v_{\\max}=\\omega A}
+\\]
+
+\\[
+\\boxed{a_{\\max}=\\omega^2A}
+\\]
+
+For a mass-spring system,
+
+\\[
+\\boxed{\\omega=\\sqrt{\\frac{k}{m}}}
+\\]
+
+\\[
+\\boxed{T=2\\pi\\sqrt{\\frac{m}{k}}}
+\\]
+
+and
+
+\\[
+\\boxed{f=\\frac{1}{2\\pi}\\sqrt{\\frac{k}{m}}}.
+\\]
+
+**Physical Interpretation of SHM**
+
+At the equilibrium position,
+
+\\[
+x=0,\qquad |v|=v_{\\max},\qquad a=0.
+\\]
+
+At the extreme positions,
+
+\\[
+|x|=A,\qquad v=0,\qquad |a|=a_{\\max}.
+\\]
+
+Thus, as the particle moves from an extreme position towards the equilibrium position, the speed increases while the magnitude of acceleration decreases. At the equilibrium position, the speed is maximum and the acceleration is zero.
+
+As the particle moves from the equilibrium position towards the opposite extreme position, its speed decreases and the magnitude of acceleration increases. At the extreme position, the particle momentarily comes to rest and the acceleration is maximum in magnitude, directed towards the equilibrium position.
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
