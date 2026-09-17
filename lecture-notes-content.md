@@ -3864,6 +3864,510 @@ Therefore, the seven allowed transitions give
 \\]
 
 distinct components.   
+
+Hence,
+
+\\[
+\boxed{\text{The fine structure of the } H_\alpha \text{ line should have five components.}}
+\\]
+
+**Five-component energy-level diagram**
+
+After leaving out the transitions between coincident levels, the five distinct components can be represented as follows:
+
+```
+                                    ─────  ⁵/₂  ²D₅/₂
+n = 3   ────┬─────┬───              ─────  ³/₂  ²D₃/₂, ²P₃/₂
+            │     │                 ─────  ¹/₂  ²P₁/₂, ²S₁/₂
+            1     2
+
+n = 2   ────┬───┬───┬───            ─────  ³/₂  ²P₃/₂
+            3   5   4               ─────  ¹/₂  ²P₁/₂
+                                     ─────  ¹/₂  ²S₁/₂
+```
+
+Thus, after taking account of the coincident levels, the \\(H_\alpha\\) line is resolved into five distinct components.
+
+**Relative Intensities of the Five Components**
+
+The intensity rules further determine the relative strength of these components.
+
+The transitions for which \\(L\\) and \\(J\\) change in the same way, i.e.,
+
+\\[
+\Delta J = \Delta L,
+\\]
+
+are stronger. Accordingly, the transitions
+
+\\[
+{}^2D_{5/2} \longrightarrow {}^2P_{3/2}
+\\]
+
+and the coincident transitions
+
+\\[
+{}^2D_{3/2} \longrightarrow {}^2P_{1/2}, \quad {}^2P_{3/2} \longrightarrow {}^2S_{1/2}
+\\]
+
+have maximum intensity.
+
+The components corresponding to
+
+\\[
+{}^2D_{3/2} \longrightarrow {}^2P_{3/2}
+\\]
+
+and
+
+\\[
+{}^2P_{1/2} \longrightarrow {}^2S_{1/2}
+\\]
+
+are less intense since they are of the type
+
+\\[
+\Delta J = 0.
+\\]
+
+The component corresponding to
+
+\\[
+{}^2S_{1/2} \longrightarrow {}^2P_{3/2}
+\\]
+
+is weaker, while
+
+\\[
+{}^2S_{1/2} \longrightarrow {}^2P_{1/2}
+\\]
+
+is the weakest because in this case
+
+\\[
+\Delta L = +1, \quad \Delta J = 0.
+\\]
+
+**Conclusion**
+
+According to Bohr's theory, the \\(H_\alpha\\) line corresponds to a single transition from \\(n=3\\) to \\(n=2\\). The vector atom model shows that the levels are split into several closely spaced levels.
+
+Thus,
+
+\\[
+15 \text{ theoretical transitions}
+\\]
+
+are reduced by the selection rules to
+
+\\[
+7 \text{ allowed transitions,}
+\\]
+
+and, because two pairs of these transitions occur between coincident levels, they finally appear as
+
+\\[
+\boxed{5 \text{ distinct components.}}
+\\]
+
+Hence, the fine structure of the \\(H_\alpha\\) line of the Balmer series should have five components.
+
+**Magnetic Dipole Moment Due to Orbital Motion of the Electron**
+
+Consider an electron moving in an elliptical orbit of area \\(A\\) with a period \\(T\\) (Fig. 2). The electron crosses any point in the orbit \\(1/T\\) times in unit time. This is equivalent to a current
+
+\\[
+i = \frac{e}{T}
+\\]
+
+in a loop of area \\(A\\), where \\(e\\) is the magnitude of the charge of the electron. Applying Ampere's theorem, this current gives rise to a magnetic dipole moment \\(\mu_l\\) given by
+
+\\[
+\mu_l = iA = \frac{eA}{T}. \tag{1}
+\\]
+
+where \\(A\\) is the area of the orbit.
+
+Since the areal velocity in a central orbit is
+
+\\[
+\frac{1}{2}r^2\frac{d\phi}{dt},
+\\]
+
+the area swept out by the radius vector in one complete revolution is
+
+\\[
+A = \int_0^T \frac{1}{2}r^2\left(\frac{d\phi}{dt}\right)dt.
+\\]
+
+Now, the angular momentum of the electron is
+
+\\[
+p_l = mr^2\frac{d\phi}{dt} = \text{constant.}
+\\]
+
+Therefore,
+
+\\[
+\frac{1}{2}r^2\frac{d\phi}{dt} = \frac{p_l}{2m} = \text{constant.}
+\\]
+
+Hence,
+
+\\[
+A = \int_0^T \frac{p_l}{2m}\,dt = \frac{p_lT}{2m}.
+\\]
+
+Substituting this value of \\(A\\) in equation (1),
+
+\\[
+\mu_l = \frac{e}{T}\left(\frac{p_lT}{2m}\right).
+\\]
+
+Thus,
+
+\\[
+\boxed{\mu_l = \frac{e}{2m}p_l} \tag{2}
+\\]
+
+or,
+
+\\[
+\boxed{\frac{\mu_l}{p_l} = \frac{e}{2m}} \tag{3}
+\\]
+
+Thus, the magnetic dipole moment is directly proportional to the orbital angular momentum.
+
+Since the electronic charge is negative, the magnetic dipole moment vector is directed opposite to the orbital angular momentum vector. Therefore, in vector form,
+
+\\[
+\boxed{\vec{\mu}_l = -\frac{e}{2m}\vec{p}_l} \tag{4}
+\\]
+
+The ratio of the magnetic dipole moment to the orbital angular momentum may therefore be written as
+
+\\[
+\boxed{\frac{\mu_l}{p_l} = -g_l\frac{e}{2m}, \quad g_l = 1} \tag{5a}
+\\]
+
+where \\(g_l\\) is called the orbital gyromagnetic factor.
+
+Numerically,
+
+\\[
+\frac{e}{2m} = \frac{1.602\times10^{-19}}{2(9.109\times10^{-31})}
+\\]
+
+and hence,
+
+\\[
+\boxed{\frac{e}{2m} = 8.8\times10^{10}\text{ C kg}^{-1}} \tag{5}
+\\]
+
+According to quantum mechanics, the magnitude of orbital angular momentum is quantised:
+
+\\[
+p_l = l\hbar.
+\\]
+
+Therefore,
+
+\\[
+\mu_l = \frac{e}{2m}l\hbar.
+\\]
+
+The quantity
+
+\\[
+\boxed{\mu_B = \frac{e\hbar}{2m}} \tag{6}
+\\]
+
+is called the Bohr magneton.
+
+Using
+
+\\[
+e = 1.602\times10^{-19}\text{ C}, \quad \hbar = 1.055\times10^{-34}\text{ J s},
+\\]
+
+and
+
+\\[
+m = 9.109\times10^{-31}\text{ kg},
+\\]
+
+we obtain
+
+\\[
+\mu_B = \frac{(1.602\times10^{-19})(1.055\times10^{-34})}{2(9.109\times10^{-31})} = 9.274\times10^{-24}\text{ J T}^{-1}.
+\\]
+
+Thus,
+
+\\[
+\boxed{\mu_B = 9.274\times10^{-24}\text{ J T}^{-1}.}
+\\]
+
+and the magnitude of the orbital magnetic moment is
+
+\\[
+\boxed{\mu_l = l\mu_B.} \tag{7}
+\\]
+
+Since the electron is negatively charged, the magnetic moment vector \\(\vec{\mu}_l\\) is directed opposite to the orbital angular momentum vector \\(\vec{p}_l\\).
+
+**Physical significance**
+
+The orbital motion of an electron therefore gives rise to a magnetic dipole moment. The ratio of the magnetic dipole moment to the orbital angular momentum is
+
+\\[
+\boxed{\frac{\mu_l}{p_l} = -g_l\frac{e}{2m}, \quad g_l = 1.}
+\\]
+
+The fundamental unit of orbital magnetic moment is the Bohr magneton \\(\mu_B\\). This concept is important in understanding the behaviour of atoms in an external magnetic field and the splitting of spectral lines.
+
+*Figure 2: Electron moving in an elliptical orbit and the associated orbital magnetic dipole moment.*
+
+```
+              r dφ
+           ┌───────┐
+       r  ╱  Area    ╲
+         ╱   dφ        ╲
+        │   ● Nucleus    │
+         ╲              ╱
+          ╲____________╱
+                              μ_l  (arrow, below orbit)
+```
+
+**Magnetic and Electric Field Effects in Atomic Spectra**
+
+**Zeeman Effect**
+
+The Zeeman effect is the phenomenon of splitting of a spectral line into two or more closely spaced components when the atom emitting the radiation is placed in an external magnetic field.
+
+The magnetic field interacts with the magnetic dipole moment associated with the angular momentum of the electron. Consequently, the degeneracy of the atomic energy levels is removed and a single spectral line may split into several components.
+
+Depending upon the role of electron spin and the strength of the applied magnetic field, the splitting is classified into the normal Zeeman effect, anomalous Zeeman effect, and, in a sufficiently strong magnetic field, the Paschen–Back effect.
+
+**Normal Zeeman Effect**
+
+The splitting of a spectral line into three components in an external magnetic field, when the spin of the electron is not considered and only the orbital magnetic moment contributes to the interaction with the magnetic field, is called the normal Zeeman effect.
+
+In this case,
+
+\\[
+S = 0,
+\\]
+
+and therefore,
+
+\\[
+J = L.
+\\]
+
+Thus, only the orbital angular momentum and the corresponding orbital magnetic moment are involved.
+
+The three components correspond to the selection rule
+
+\\[
+\Delta m_J = 0, \pm1.
+\\]
+
+Hence, an original spectral line splits into
+
+\\[
+\boxed{\text{one central line} + \text{two symmetrically displaced lines.}}
+\\]
+
+The frequency displacement of the two outer components from the original line is equal to the Larmor frequency:
+
+\\[
+\Delta\nu = \nu_L.
+\\]
+
+Therefore, the frequencies of the three components are
+
+\\[
+\nu - \nu_L, \quad \nu, \quad \nu + \nu_L.
+\\]
+
+The normal Zeeman effect is therefore characterized by a simple triplet structure.
+
+**Anomalous Zeeman Effect**
+
+When the magnetic field is relatively weak and the spin of the electron cannot be neglected, both the orbital and spin magnetic moments contribute to the interaction with the external magnetic field. The resulting splitting is called the anomalous Zeeman effect.
+
+In this case, the orbital angular momentum \\(\vec{L}\\) and spin angular momentum \\(\vec{S}\\) remain coupled to form the total angular momentum
+
+\\[
+\vec{J} = \vec{L}+\vec{S}.
+\\]
+
+Both the orbital and spin magnetic moments contribute to the resultant magnetic moment associated with the atom. This resultant magnetic moment interacts with the external magnetic field.
+
+The energy shift of a level is given by
+
+\\[
+\Delta E = g_J\mu_Bm_JB,
+\\]
+
+where \\(g_J\\) is the Landé splitting factor, \\(\mu_B\\) is the Bohr magneton, \\(m_J\\) is the magnetic quantum number and \\(B\\) is the external magnetic field.
+
+Since spin contributes to the magnetic moment, the splitting is generally more complicated than the three-line pattern of the normal Zeeman effect.
+
+Thus,
+
+\\[
+\boxed{\text{Anomalous Zeeman effect} \implies \text{orbital and spin magnetic moments both contribute}}
+\\]
+
+**Paschen–Back Effect**
+
+When the strength of the external magnetic field is gradually increased, the interaction of the magnetic moments with the external magnetic field eventually becomes stronger than the spin-orbit interaction.
+
+In a weak magnetic field, the orbital and spin angular momenta remain coupled:
+
+\\[
+\vec{J} = \vec{L}+\vec{S}.
+\\]
+
+As the magnetic field becomes sufficiently strong, this coupling is broken. The orbital angular momentum \\(\vec{L}\\) and the spin angular momentum \\(\vec{S}\\) then precess independently about the direction of the external magnetic field.
+
+Thus, in the strong-field region,
+
+\\[
+\boxed{\vec{L} \text{ and } \vec{S} \text{ precess independently about } \vec{B}}
+\\]
+
+and \\(J\\) is no longer a good quantum number. Instead, \\(m_L\\) and \\(m_S\\) become the appropriate quantum numbers.
+
+As the magnetic field is gradually increased, the complicated anomalous Zeeman pattern changes progressively. Certain spectral components disappear, while some pairs of lines approach each other and collapse into a single line. The anomalous pattern consequently approaches the simpler normal-Zeeman-like pattern.
+
+This phenomenon is called the Paschen–Back effect.
+
+In the strong-field region, the energy shift is approximately
+
+\\[
+\Delta E = \mu_BB(m_L+2m_S).
+\\]
+
+Thus,
+
+\\[
+\boxed{\text{Anomalous Zeeman effect} \xrightarrow{\text{increasing } B} \text{Paschen-Back effect} \rightarrow \text{normal-like splitting}}
+\\]
+
+The Paschen–Back effect therefore represents the decoupling of orbital and spin angular momenta in a sufficiently strong magnetic field.
+
+**Stark Effect**
+
+The Stark effect is the phenomenon of splitting or displacement of spectral lines when an atom is placed in an external electric field.
+
+The external electric field interacts with the electric dipole moment of the atom and modifies the energy levels. As a result, a spectral line may split into several components or may undergo a displacement.
+
+The Stark effect is therefore the electric-field analogue of the Zeeman effect:
+
+\\[
+\boxed{\text{Zeeman effect} \longrightarrow \text{external magnetic field}}
+\\]
+
+\\[
+\boxed{\text{Stark effect} \longrightarrow \text{external electric field}}
+\\]
+
+The Stark effect is particularly important in the study of the interaction of atomic systems with external electric fields.
+
+**Larmor Precession**
+
+When an atom or an electron having a magnetic dipole moment is placed in an external magnetic field, the magnetic moment experiences a torque.
+
+The torque is given by
+
+\\[
+\vec{\tau} = \vec{\mu}\times\vec{B}.
+\\]
+
+The torque changes the direction of the angular momentum without necessarily changing its magnitude. Consequently, the angular momentum vector rotates about the direction of the applied magnetic field.
+
+This motion of the angular momentum vector about the direction of the external magnetic field is called Larmor precession.
+
+Thus,
+
+\\[
+\boxed{\text{Larmor precession is the precession of the angular momentum vector about an external magnetic field}}
+\\]
+
+The angular momentum vector sweeps out a cone about the magnetic-field direction.
+
+**Larmor Theory**
+
+Consider an electron moving in an orbit and possessing orbital angular momentum \\(\vec{L}\\). The orbital motion of the electron gives rise to an orbital magnetic dipole moment \\(\vec{\mu}_L\\). For an electron,
+
+\\[
+\vec{\mu}_L = -\frac{e}{2m}\vec{L},
+\\]
+
+where \\(e\\) is the magnitude of the electronic charge and \\(m\\) is the mass of the electron.
+
+When the electron is placed in an external magnetic field \\(\vec{B}\\), the orbital magnetic moment experiences a torque
+
+\\[
+\vec{\tau} = \vec{\mu}_L\times\vec{B}.
+\\]
+
+But torque is related to the rate of change of angular momentum by
+
+\\[
+\vec{\tau} = \frac{d\vec{L}}{dt}.
+\\]
+
+Therefore,
+
+\\[
+\frac{d\vec{L}}{dt} = -\frac{e}{2m}\vec{L}\times\vec{B}.
+\\]
+
+This equation shows that the magnitude of \\(\vec{L}\\) remains constant, while its direction changes continuously. Hence, \\(\vec{L}\\) precesses about the direction of \\(\vec{B}\\).
+
+The angular velocity of this precession is called the Larmor angular frequency. The Larmor angular frequency is
+
+\\[
+\boxed{\omega_L = \frac{eB}{2m}}
+\\]
+
+where \\(B\\) is the strength of the external magnetic field. The corresponding Larmor frequency is
+
+\\[
+\boxed{\nu_L = \frac{\omega_L}{2\pi} = \frac{eB}{4\pi m}}
+\\]
+
+Using the Bohr magneton,
+
+\\[
+\mu_B = \frac{e\hbar}{2m},
+\\]
+
+the Larmor angular frequency can also be written as
+
+\\[
+\boxed{\omega_L = \frac{\mu_BB}{\hbar}}
+\\]
+
+Therefore,
+
+\\[
+\boxed{\omega_L \propto B}
+\\]
+
+and
+
+\\[
+\boxed{\nu_L \propto B.}
+\\]
+
+Thus, the Larmor frequency is directly proportional to the strength of the applied magnetic field.
+
+The concept of Larmor precession provides the basis for understanding the splitting of atomic energy levels in an external magnetic field and, in particular, the normal Zeeman effect.
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('am-unit-1','Atomic-Structure-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
