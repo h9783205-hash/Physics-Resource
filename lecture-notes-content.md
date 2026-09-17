@@ -1233,7 +1233,253 @@ Let \\(f(x) = g(x)h(x)\\). Now using the above property, we can write that
 
 <details class="unit-block" id="wo-unit-1">
 <summary>Unit 1: Oscillations</summary>
-<p><em>Write your notes here.</em></p>
+<p><em></em></p>
+
+ **Introduction to Oscillations**
+
+Oscillatory motion is one of the most common forms of motion observed in nature. A body attached to a spring, a simple pendulum undergoing small oscillations, the vibration of a tuning fork, and the vibrations of atoms and molecules are familiar examples of oscillatory motion. Oscillations also form the basis for the study of waves, sound, alternating current, and many other physical phenomena.
+
+An **oscillation** is a repeated to-and-fro motion of a body about a fixed or equilibrium position. In an oscillatory motion, the body moves away from its equilibrium position and experiences a tendency to return towards it. It then passes through the equilibrium position and moves to the opposite side, repeating the motion again and again.
+
+The motion of a particle performing oscillations can be described in terms of quantities such as **displacement, amplitude, time period, frequency, angular frequency, and phase**.
+
+A particularly important type of oscillatory motion is **simple harmonic motion (SHM)**. In SHM, the restoring force acting on the particle is directly proportional to its displacement from the equilibrium position and is directed towards the equilibrium position.
+
+Thus,
+
+\\[
+F \propto -x
+\\]
+
+or
+
+\\[
+F=-kx
+\\]
+
+where \\(x\\) is the displacement from the equilibrium position and \\(k\\) is a positive constant.
+
+SHM is important because many physical systems, when displaced slightly from their equilibrium positions, perform approximately simple harmonic motion. Moreover, a general periodic motion can often be represented as a combination of harmonic oscillations. This idea leads naturally to the **superposition of harmonic oscillations**, which is the main topic of this unit.
+
+**Periodic Motion**
+
+A motion is said to be **periodic** if the physical state of the system repeats itself after equal intervals of time.
+
+If a particle has displacement \\(x(t)\\), then its motion is periodic if there exists a positive constant \\(T\\) such that
+
+\\[
+x(t+T)=x(t)
+\\]
+
+for all values of \\(t\\).
+
+The smallest positive value of \\(T\\) for which this condition is satisfied is called the **time period** of the motion.
+
+Examples of periodic motion include:
+
+1. The revolution of the Earth around the Sun.
+2. The rotation of the Earth about its axis.
+3. The motion of the hands of a clock.
+4. The oscillation of a simple pendulum for small amplitude.
+5. The vibration of a tuning fork.
+
+It is important to note that **every oscillatory motion need not necessarily be periodic**, and periodic motion need not always be oscillatory. For example, the uniform circular motion of a particle is periodic, but the particle does not execute to-and-fro motion along a straight line.
+
+This distinction becomes useful when we discuss harmonic oscillations.
+
+**Time Period**
+
+The **time period**, denoted by \\(T\\), is the time required by a periodically moving particle to complete one complete cycle of its motion.
+
+Thus,
+
+\\[
+T = \text{time required for one complete oscillation}.
+\\]
+
+The SI unit of time period is **second (s)**.
+
+For example, if a pendulum completes 20 complete oscillations in 40 seconds, then its time period is
+
+\\[
+T = \frac{40}{20}=2\,\text{s}.
+\\]
+
+The state of the oscillator after one time period is identical to its initial state.
+
+**Frequency**
+
+The **frequency** of a periodic motion is defined as the number of complete oscillations or cycles performed by the particle per unit time.
+
+It is denoted by \\(f\\) or \\(\\nu\\).
+
+If a particle completes \\(N\\) oscillations in time \\(t\\), then
+
+\\[
+f = \frac{N}{t}.
+\\]
+
+The SI unit of frequency is **hertz (Hz)**.
+
+One hertz means one complete cycle per second:
+
+\\[
+1\,\text{Hz}=1\,\text{cycle s}^{-1}.
+\\]
+
+Since one complete oscillation takes time \\(T\\),
+
+\\[
+f=\frac{1}{T}.
+\\]
+
+Therefore,
+
+\\[
+T=\frac{1}{f}.
+\\]
+
+Thus, **time period and frequency are reciprocals of each other**.
+
+**Angular Frequency**
+
+In the study of harmonic oscillations, it is convenient to express the frequency in terms of angular frequency.
+
+The **angular frequency**, denoted by \\(\\omega\\), is defined as
+
+\\[
+\\omega=2\\pi f.
+\\]
+
+Using
+
+\\[
+f=\\frac{1}{T},
+\\]
+
+we obtain
+
+\\[
+\\omega=\\frac{2\\pi}{T}.
+\\]
+
+The SI unit of angular frequency is \\(\\text{rad s}^{-1}\\).
+
+The factor \\(2\\pi\\) appears because one complete cycle corresponds to an angular displacement of \\(2\\pi\\) radians.
+
+Therefore,
+
+\\[
+\\boxed{\\omega=2\\pi f=\\frac{2\\pi}{T}}
+\\]
+
+is one of the most important relations used throughout the study of oscillations.
+
+**Displacement and Amplitude**
+
+The **displacement** of an oscillating particle is its instantaneous distance and direction from the equilibrium position.
+
+It is generally represented by \\(x\\).
+
+During an oscillation, the displacement continuously changes with time. If the particle moves between the positions \\(+A\\) and \\(-A\\), then \\(A\\) is called the **amplitude** of the oscillation.
+
+Thus, the amplitude is the **maximum magnitude of displacement from the equilibrium position**.
+
+\\[
+|x|_{\\max}=A.
+\\]
+
+The SI unit of amplitude is metre (m) when displacement is measured in metres.
+
+For an oscillator,
+
+\\[
+-A\\leq x\\leq A.
+\\]
+
+Hence, amplitude describes the **extent of the oscillation**, whereas displacement describes the **instantaneous position of the particle**.
+
+**Phase**
+
+The **phase** of an oscillation specifies the state of motion of the oscillator at a particular instant.
+
+For a harmonic oscillator, the displacement may be written as
+
+\\[
+x=A\\cos(\\omega t+\\phi)
+\\]
+
+where \\(\\phi\\) is called the **phase constant** or **initial phase**.
+
+The quantity
+
+\\[
+\\omega t+\\phi
+\\]
+
+is called the **phase** of the oscillator at time \\(t\\).
+
+The phase is usually expressed in radians.
+
+Two oscillators having the same frequency may have different phases. The difference between their phases is called the **phase difference**.
+
+For example, if
+
+\\[
+x_1=A\\cos(\\omega t+\\phi_1)
+\\]
+
+and
+
+\\[
+x_2=A\\cos(\\omega t+\\phi_2),
+\\]
+
+then their phase difference is
+
+\\[
+\\Delta\\phi=\\phi_2-\\phi_1.
+\\]
+
+If \\(\\Delta\\phi=0\\), the two oscillations are said to be **in phase**.
+
+If \\(\\Delta\\phi=\\pi\\), they are said to be **in opposite phase**.
+
+This concept of phase difference will become particularly important when we study the **superposition of two harmonic oscillations**.
+
+**Oscillatory Motion and Simple Harmonic Motion**
+
+An oscillatory motion is a repeated to-and-fro motion about an equilibrium position. However, not every oscillatory motion is simple harmonic.
+
+A motion is called **simple harmonic motion** when its restoring acceleration is directly proportional to the displacement from the equilibrium position and is directed towards the equilibrium position.
+
+Thus,
+
+\\[
+a\\propto -x
+\\]
+
+or
+
+\\[
+a=-\\omega^2x.
+\\]
+
+Equivalently, the restoring force is
+
+\\[
+F=-kx.
+\\]
+
+The negative sign is significant. It indicates that the restoring force or acceleration is always directed **opposite to the displacement**, i.e., towards the equilibrium position.
+
+Therefore, the essential condition for SHM is
+
+\\[
+\\boxed{a=-\\omega^2x}.
+\\]
+
+This equation will serve as the starting point for our mathematical treatment of simple harmonic motion.
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
