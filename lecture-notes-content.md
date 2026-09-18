@@ -2074,8 +2074,6 @@ Since each term in the parentheses is zero,
 Therefore, \\(x=x_1+x_2\\) is also a solution.
 
 This illustrates the **linearity property**: a linear combination of solutions of a linear differential equation is also a solution.
-**Superposition of Two Harmonic Oscillations**
-
 Consider two harmonic oscillations acting along the same straight line:
 
 \\[
