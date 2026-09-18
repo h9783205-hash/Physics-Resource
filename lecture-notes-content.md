@@ -2055,27 +2055,49 @@ Now consider their sum,
 x=x_1+x_2
 \\]
 
-Substituting this into the equation,
+Substituting this into the equation, we get
 
 \\[
-\frac{d^2x}{dt^2}+\omega^2x
-=
-\left(\frac{d^2x_1}{dt^2}+\omega^2x_1\right)
-+
-\left(\frac{d^2x_2}{dt^2}+\omega^2x_2\right)
+\\frac{d^2x}{dt^2}=\\frac{d^2x_1}{dt^2}+\\frac{d^2x_2}{dt^2}
 \\]
 
-Since each term in the parentheses is zero,
+Therefore,
 
 \\[
-\frac{d^2x}{dt^2}+\omega^2x=0
+\\frac{d^2x}{dt^2}+\\omega^2x
+=
+\\frac{d^2x_1}{dt^2}+\\frac{d^2x_2}{dt^2}
++\\omega^2(x_1+x_2)
+\\]
+
+\\[
+=
+\\left(\\frac{d^2x_1}{dt^2}+\\omega^2x_1\\right)
++
+\\left(\\frac{d^2x_2}{dt^2}+\\omega^2x_2\\right)
+\\]
+
+Since
+
+\\[
+\\frac{d^2x_1}{dt^2}+\\omega^2x_1=0
+\\]
+
+and
+
+\\[
+\\frac{d^2x_2}{dt^2}+\\omega^2x_2=0
+\\]
+
+we obtain
+
+\\[
+\\frac{d^2x}{dt^2}+\\omega^2x=0
 \\]
 
 Therefore, \\(x=x_1+x_2\\) is also a solution.
 
 This illustrates the **linearity property**: a linear combination of solutions of a linear differential equation is also a solution.
-Consider two harmonic oscillations acting along the same straight line:
-
 \\[
 x_1=A_1\cos(\omega_1t+\phi_1)
 \\]
