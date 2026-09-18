@@ -1227,8 +1227,8 @@ Let \\(f(x) = g(x)h(x)\\). Now using the above property, we can write that
 <details open>
 <summary><strong>Mathematical Physics and Electricity and Magnetism</strong></summary>
 
-<div class="unit-block" id="mp2-unit-1">
-<h3>Unit 1: Differential Equation</h3>
+<details class="unit-block" id="mp2-unit-1">
+<summary>Unit 1: Differential Equation</summary>
 
 **Differential Equation**
 
@@ -1359,7 +1359,7 @@ Separating the variables and integrating,
 \\]
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp2-unit-1','Differential-Equation-Notes.pdf')">Export this unit to PDF</button>
-</div>
+</details>
 
 </details>
 
