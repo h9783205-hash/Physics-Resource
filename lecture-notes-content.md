@@ -1223,9 +1223,147 @@ Let \\(f(x) = g(x)h(x)\\). Now using the above property, we can write that
 </div>
 
 <div class="tab-content" id="sem2">
-<p><em>No papers added yet for 2nd Semester. Add one by copying a paper &lt;details&gt; block from another semester and updating the names/ids.</em></p>
+
+<details open>
+<summary><strong>Mathematical Physics and Electricity and Magnetism</strong></summary>
+
+<div class="unit-block" id="mp2-unit-1">
+<h3>Unit 1: Differential Equation</h3>
+
+**Differential Equation**
+
+A differential equation is a mathematical equation that relates a function with its derivatives. In other words, it involves an unknown function (dependent variable) and one or more of its derivatives with respect to one or more independent variables.
+
+**Types of Differential Equations:** There are two types of differential equations.
+
+1. **Ordinary differential equation (ODE):** If the function (dependent variable) depends solely upon a single variable, i.e., if the number of independent variables is 1, then such differential equations are called ordinary differential equations. For example, the displacement of a particle in simple harmonic oscillation depends only on time, as
+
+\\[
+\frac{d^2y}{dt^2} + \omega^2y = 0.
+\\]
+
+2. **Partial differential equation (PDE):** If the function (dependent variable) depends upon more than a single variable, i.e., if the number of independent variables is more than 1, then such differential equations are called partial differential equations. For example, the displacement of a particle in simple harmonic wave depends on time as well as position, as
+
+\\[
+\frac{\partial^2y}{\partial t^2} = v^2\frac{\partial^2y}{\partial x^2}.
+\\]
+
+**Order and Degree of a differential equation**
+
+**Order:** The order of a differential equation is the highest order derivative, i.e., order of the highest differential coefficient, present in the equation. For example, \\(dy/dx + 2y = 0\\) is a first order differential equation and \\(d^2y/dt^2 + \omega^2y = 0\\) is a second order differential equation.
+
+**Degree:** The degree of a differential equation is the power of the highest order derivative after removing the radical sign and fraction in power. All the equations discussed above have degree 1. Such equations are also called linear equations, i.e., the dependent variable linearly depends on the independent variable(s). On the other hand, a differential equation such as
+
+\\[
+\left[\frac{d^2y}{dx^2}\right]^2 = \left[1+\left(\frac{dy}{dx}\right)^2\right]^3
+\\]
+
+has a degree 2. Such equations are called nonlinear differential equations, i.e., the dependent variable non-linearly depends on the independent variable(s).
+
+**Formation of differential equation:** A differential equation can emerge when an ordinary equation describes a relationship between quantities (dependent and independent), and we differentiate that relationship to introduce derivatives. For example, let us consider the displacement of a particle in simple harmonic oscillation,
+
+\\[
+y = a\sin(\omega t \pm \phi).
+\\]
+
+Differentiating the above equation twice and a little simplification gives the following differential equation:
+
+\\[
+\frac{d^2y}{dt^2} + \omega^2y = 0
+\\]
+
+**Solution of first order differential equations:**
+
+**(i) Solution by variable separation method:** This method is used when the differential equation can be expressed as a product of two functions: one that depends only on the independent variable \\(x\\), and the other that depends only on the dependent variable \\(y\\). The general form of such an equation is
+
+\\[
+\frac{dy}{dx} = g(x)h(y)
+\\]
+
+Steps to solve the equation:
+
+1. Rewrite the equation in the form \\(\dfrac{1}{h(y)}dy = g(x)dx\\)
+2. Integrate both side with respect to their variable
+3. Simplify or solve for \\(y\\) if necessary.
+
+**Example 3.1:** Solve the following first-order differential equation using the method of separation of variables:
+
+\\[
+\frac{dy}{dx} = xy
+\\]
+
+**Solution:** The given equation is
+
+\\[
+\frac{dy}{dx} = xy
+\\]
+
+Separating the variables, we get,
+
+\\[
+\frac{1}{y}dy = x\,dx
+\\]
+
+Integrating both sides, we get,
+
+\\[
+\log y = \frac{x^2}{2} + \log A
+\\]
+
+On simplification, we get,
+
+\\[
+y = Ae^{x^2/2}
+\\]
+
+Which is the required solution.
+
+**Example 3.2:** Solve the following differential equation:
+
+\\[
+x^4\frac{dy}{dx} + x^3y = -\sec(xy)
+\\]
+
+**Solution:** The given equation is
+
+\\[
+x^4\frac{dy}{dx} + x^3y = -\sec(xy)
+\\]
+
+\\[
+\Rightarrow x^3\left(x\frac{dy}{dx}+y\right) = -\sec(xy)
+\\]
+
+\\[
+\Rightarrow x^3\frac{d}{dx}(xy) = -\sec(xy)
+\\]
+
+Let \\(v = xy\\), then the equation can be written as,
+
+\\[
+x^3\frac{dv}{dx} = -\sec v
+\\]
+
+Separating the variables and integrating,
+
+\\[
+\int \cos v\,dv = -\int \frac{1}{x^3}dx + c
+\\]
+
+\\[
+\Rightarrow \sin v = \frac{1}{2x^2} + c
+\\]
+
+\\[
+\Rightarrow \sin(xy) = \frac{1}{2x^2} + c
+\\]
+
+<button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('mp2-unit-1','Differential-Equation-Notes.pdf')">Export this unit to PDF</button>
 </div>
 
+</details>
+
+</div>
 <div class="tab-content" id="sem3">
 
 <details open>
