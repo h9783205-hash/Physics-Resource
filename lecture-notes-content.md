@@ -2058,41 +2058,41 @@ x=x_1+x_2
 Substituting this into the equation, we get
 
 \\[
-\\frac{d^2x}{dt^2}=\\frac{d^2x_1}{dt^2}+\\frac{d^2x_2}{dt^2}
+\frac{d^2x}{dt^2}=\frac{d^2x_1}{dt^2}+\frac{d^2x_2}{dt^2}
 \\]
 
 Therefore,
 
 \\[
-\\frac{d^2x}{dt^2}+\\omega^2x
+\frac{d^2x}{dt^2}+\omega^2x
 =
-\\frac{d^2x_1}{dt^2}+\\frac{d^2x_2}{dt^2}
-+\\omega^2(x_1+x_2)
+\frac{d^2x_1}{dt^2}+\frac{d^2x_2}{dt^2}
++\omega^2(x_1+x_2)
 \\]
 
 \\[
 =
-\\left(\\frac{d^2x_1}{dt^2}+\\omega^2x_1\\right)
+\left(\frac{d^2x_1}{dt^2}+\omega^2x_1\right)
 +
-\\left(\\frac{d^2x_2}{dt^2}+\\omega^2x_2\\right)
+\left(\frac{d^2x_2}{dt^2}+\omega^2x_2\right)
 \\]
 
 Since
 
 \\[
-\\frac{d^2x_1}{dt^2}+\\omega^2x_1=0
+\frac{d^2x_1}{dt^2}+\omega^2x_1=0
 \\]
 
 and
 
 \\[
-\\frac{d^2x_2}{dt^2}+\\omega^2x_2=0
+\frac{d^2x_2}{dt^2}+\omega^2x_2=0
 \\]
 
 we obtain
 
 \\[
-\\frac{d^2x}{dt^2}+\\omega^2x=0
+\frac{d^2x}{dt^2}+\omega^2x=0
 \\]
 
 Therefore, \\(x=x_1+x_2\\) is also a solution.
