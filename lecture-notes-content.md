@@ -2000,6 +2000,147 @@ At the extreme positions,
 Thus, as the particle moves from an extreme position towards the equilibrium position, the speed increases while the magnitude of acceleration decreases. At the equilibrium position, the speed is maximum and the acceleration is zero.
 
 As the particle moves from the equilibrium position towards the opposite extreme position, its speed decreases and the magnitude of acceleration increases. At the extreme position, the particle momentarily comes to rest and the acceleration is maximum in magnitude, directed towards the equilibrium position.
+
+**Linearity and Superposition Principle**
+
+The **principle of superposition** is one of the fundamental principles used in the study of oscillations and waves. It describes how two or more oscillations or disturbances combine when they act simultaneously on a system.
+
+The principle is applicable to **linear systems**. In a linear system, the response produced by several disturbances acting together is equal to the sum of the responses produced by each disturbance acting separately.
+
+Suppose two oscillations produce displacements \\(x_1(t)\\) and \\(x_2(t)\\) at the same time. The resultant displacement of the particle is
+
+\\[
+x(t)=x_1(t)+x_2(t)
+\\]
+
+Similarly, if \\(n\\) oscillations are present, the resultant displacement is
+
+\\[
+x(t)=x_1(t)+x_2(t)+x_3(t)+\cdots+x_n(t)
+\\]
+
+or
+
+\\[
+x(t)=\sum_{i=1}^{n}x_i(t)
+\\]
+
+Thus, the **displacements** of the individual oscillations are added algebraically to obtain the resultant displacement.
+
+**Linearity**
+
+The mathematical basis of the superposition principle is the **linearity of the governing equation**.
+
+Consider the equation of simple harmonic motion,
+
+\\[
+\frac{d^2x}{dt^2}+\omega^2x=0
+\\]
+
+Suppose \\(x_1(t)\\) and \\(x_2(t)\\) are two possible solutions of this equation. Then,
+
+\\[
+\frac{d^2x_1}{dt^2}+\omega^2x_1=0
+\\]
+
+and
+
+\\[
+\frac{d^2x_2}{dt^2}+\omega^2x_2=0
+\\]
+
+Now consider their sum,
+
+\\[
+x=x_1+x_2
+\\]
+
+Substituting this into the equation,
+
+\\[
+\frac{d^2x}{dt^2}+\omega^2x
+=
+\left(\frac{d^2x_1}{dt^2}+\omega^2x_1\right)
++
+\left(\frac{d^2x_2}{dt^2}+\omega^2x_2\right)
+\\]
+
+Since each term in the parentheses is zero,
+
+\\[
+\frac{d^2x}{dt^2}+\omega^2x=0
+\\]
+
+Therefore, \\(x=x_1+x_2\\) is also a solution.
+
+This illustrates the **linearity property**: a linear combination of solutions of a linear differential equation is also a solution.
+
+**Superposition of Two Harmonic Oscillations**
+
+Consider two harmonic oscillations acting along the same straight line:
+
+\\[
+x_1=A_1\cos(\omega_1t+\phi_1)
+\\]
+
+and
+
+\\[
+x_2=A_2\cos(\omega_2t+\phi_2)
+\\]
+
+According to the principle of superposition, the resultant displacement is
+
+\\[
+x=x_1+x_2
+\\]
+
+Therefore,
+
+\\[
+x=A_1\cos(\omega_1t+\phi_1)
++A_2\cos(\omega_2t+\phi_2)
+\\]
+
+The resultant motion depends on the **amplitudes**, **frequencies**, and **phases** of the two component oscillations.
+
+Two particularly important cases arise:
+
+1. **Two collinear oscillations having equal frequencies**
+2. **Two collinear oscillations having different frequencies**
+
+When the frequencies are equal, the resultant motion can be represented by a single harmonic oscillation with a resultant amplitude and phase.
+
+When the frequencies are slightly different, the resultant amplitude varies periodically with time. This phenomenon is known as **beats**.
+
+These two cases form the main applications of the superposition principle in the present topic.
+
+**Important Distinction**
+
+The superposition principle states that **displacements are added**, not that amplitudes are always directly added.
+
+For example, if
+
+\\[
+x_1=A_1\cos(\omega t+\phi_1)
+\\]
+
+and
+
+\\[
+x_2=A_2\cos(\omega t+\phi_2)
+\\]
+
+then the resultant displacement is
+
+\\[
+x=x_1+x_2
+\\]
+
+The resultant amplitude depends on the **phase difference** between the two oscillations. Therefore, simply writing \\(A=A_1+A_2\\) is not generally correct.
+
+This point becomes particularly important when we derive the superposition of **two collinear harmonic oscillations of equal frequency**.
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
