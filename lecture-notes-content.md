@@ -3012,6 +3012,12 @@ or
 n_B=99.833\\,\\text{Hz}
 \\]
 
+**Beats**
+
+When two sounding bodies of nearly the same frequency and amplitude are sounded together, the resultant sound consists of alternate maxima and minima. This phenomenon, in which waxing and waning of sound at regular intervals is heard, is called **beats**.
+
+The number of beats heard per second is equal to the difference in frequency between the two sounding bodies.
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
