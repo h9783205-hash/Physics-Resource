@@ -2469,33 +2469,25 @@ and the identity
 we get
 
 \\[
-\frac{x}{a}
-=
-\sin\omega t\cos\alpha+\cos\omega t\sin\alpha
+\frac{x}{a} = \sin\omega t\cos\alpha+\cos\omega t\sin\alpha
 \\]
 
 Substituting \\(\sin\omega t=\frac{y}{b}\\), we obtain
 
 \\[
-\frac{x}{a}
-=
-\frac{y}{b}\cos\alpha+\cos\omega t\sin\alpha
+\frac{x}{a} = \frac{y}{b}\cos\alpha+\cos\omega t\sin\alpha
 \\]
 
 Therefore,
 
 \\[
-\frac{x}{a}-\frac{y}{b}\cos\alpha
-=
-\cos\omega t\sin\alpha
+\frac{x}{a}-\frac{y}{b}\cos\alpha = \cos\omega t\sin\alpha
 \\]
 
 Squaring both sides,
 
 \\[
-\left(\frac{x}{a}-\frac{y}{b}\cos\alpha\right)^2
-=
-\cos^2\omega t\sin^2\alpha
+\left(\frac{x}{a}-\frac{y}{b}\cos\alpha\right)^2 = \cos^2\omega t\sin^2\alpha
 \\]
 
 Since
@@ -2519,19 +2511,13 @@ we have
 Therefore,
 
 \\[
-\left(\frac{x}{a}-\frac{y}{b}\cos\alpha\right)^2
-=
-\left(1-\frac{y^2}{b^2}\right)\sin^2\alpha
+\left(\frac{x}{a}-\frac{y}{b}\cos\alpha\right)^2 = \left(1-\frac{y^2}{b^2}\right)\sin^2\alpha
 \\]
 
 On simplifying,
 
 \\[
-\frac{x^2}{a^2}
-+\frac{y^2}{b^2}
--\frac{2xy}{ab}\cos\alpha
-=
-\sin^2\alpha
+\frac{x^2}{a^2} +\frac{y^2}{b^2} -\frac{2xy}{ab}\cos\alpha = \sin^2\alpha
 \\]
 
 This is the **general equation of the path** traced by the particle when two SHMs of equal time periods act at right angles.
@@ -2553,9 +2539,7 @@ When the two vibrations are in phase,
 Therefore,
 
 \\[
-\frac{x^2}{a^2}
-+\frac{y^2}{b^2}
--\frac{2xy}{ab}=0
+\frac{x^2}{a^2} +\frac{y^2}{b^2} -\frac{2xy}{ab}=0
 \\]
 
 or
@@ -2583,9 +2567,7 @@ When the two vibrations are in opposite phase,
 Therefore,
 
 \\[
-\frac{x^2}{a^2}
-+\frac{y^2}{b^2}
-+\frac{2xy}{ab}=0
+\frac{x^2}{a^2} +\frac{y^2}{b^2} +\frac{2xy}{ab}=0
 \\]
 
 or
@@ -2647,8 +2629,7 @@ For other values of \\(\alpha\\), the resultant path is generally an **oblique e
 For example, when
 
 \\[
-\alpha=\frac{\pi}{4},\quad \frac{3\pi}{4},\quad
-\frac{5\pi}{4},\quad \frac{7\pi}{4}
+\alpha=\frac{\pi}{4},\quad \frac{3\pi}{4},\quad \frac{5\pi}{4},\quad \frac{7\pi}{4}
 \\]
 
 the particle traces elliptical paths with different orientations.
@@ -2672,11 +2653,7 @@ y=b\sin\omega t
 the general equation of the path is
 
 \\[
-\frac{x^2}{a^2}
-+\frac{y^2}{b^2}
--\frac{2xy}{ab}\cos\alpha
-=
-\sin^2\alpha
+\frac{x^2}{a^2} +\frac{y^2}{b^2}-\frac{2xy}{ab}\cos\alpha = \sin^2\alpha
 \\]
 
 Hence:
