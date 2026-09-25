@@ -3018,6 +3018,200 @@ When two sounding bodies of nearly the same frequency and amplitude are sounded 
 
 The number of beats heard per second is equal to the difference in frequency between the two sounding bodies.
 
+**Analytical Treatment of Beats**
+
+Consider two wave trains of frequencies \\(n_1\\) and \\(n_2\\), where \\((n_1-n_2)\\) is small. Let \\(a\\) and \\(b\\) be the amplitudes of the waves respectively. For simplicity, it is assumed that the two waves are in the same phase at any point in the medium at \\(t=0\\).
+
+The displacements \\(y_1\\) and \\(y_2\\) due to each wave are given by
+
+\\[
+y_1=a\\sin\\omega_1 t
+\\]
+
+\\[
+y_2=b\\sin\\omega_2 t
+\\]
+
+where
+
+\\[
+\\omega_1=2\\pi n_1
+\\]
+
+and
+
+\\[
+\\omega_2=2\\pi n_2
+\\]
+
+Therefore,
+
+\\[
+y_1=a\\sin 2\\pi n_1t
+\\]
+
+and
+
+\\[
+y_2=b\\sin 2\\pi n_2t
+\\]
+
+The resultant displacement is
+
+\\[
+y=y_1+y_2
+\\]
+
+\\[
+y=a\\sin 2\\pi n_1t+b\\sin 2\\pi n_2t
+\\]
+
+Using the relation
+
+\\[
+\\sin A=\\sin(A-B)\\cos B+\\cos(A-B)\\sin B
+\\]
+
+we get
+
+\\[
+y=\\sin 2\\pi n_1t\\left[a+b\\cos 2\\pi(n_1-n_2)t\\right]-b\\cos 2\\pi n_1t\\sin 2\\pi(n_1-n_2)t
+\\]
+
+Take
+
+\\[
+a+b\\cos 2\\pi(n_1-n_2)t=A\\cos\\theta
+\\]
+
+and
+
+\\[
+b\\sin 2\\pi(n_1-n_2)t=A\\sin\\theta
+\\]
+
+Therefore,
+
+\\[
+y=A\\sin(2\\pi n_1t-\\theta)
+\\]
+
+Here,
+
+\\[
+\\tan\\theta=\\frac{b\\sin 2\\pi(n_1-n_2)t}{a+b\\cos 2\\pi(n_1-n_2)t}
+\\]
+
+and
+
+\\[
+A=\\sqrt{a^2+b^2+2ab\\cos 2\\pi(n_1-n_2)t}
+\\]
+
+From the above equation, it is evident that the phase angle \\(\\theta\\) changes with respect to time. Similarly, the amplitude of the resultant vibration also changes with time.
+
+**Maximum Amplitude**
+
+The amplitude is maximum when
+
+\\[
+2\\pi(n_1-n_2)t=2K\\pi
+\\]
+
+where \\(K=0,1,2,3,\\ldots\\).
+
+Therefore,
+
+\\[
+A=\\sqrt{a^2+b^2+2ab}
+\\]
+
+\\[
+A=a+b
+\\]
+
+The resultant amplitude is maximum when
+
+\\[
+t=\\frac{K}{n_1-n_2}
+\\]
+
+i.e., at time instants
+
+\\[
+0,\\frac{1}{n_1-n_2},\\frac{2}{n_1-n_2},\\ldots
+\\]
+
+the amplitude of the resultant vibration is maximum.
+
+**Minimum Amplitude**
+
+The amplitude is minimum when
+
+\\[
+2\\pi(n_1-n_2)t=(2K+1)\\pi
+\\]
+
+where \\(K=0,1,2,3,\\ldots\\).
+
+Therefore,
+
+\\[
+A=\\sqrt{a^2+b^2-2ab}
+\\]
+
+\\[
+A=|a-b|
+\\]
+
+The resultant amplitude is minimum when
+
+\\[
+t=\\frac{2K+1}{2(n_1-n_2)}
+\\]
+
+i.e., at time instants
+
+\\[
+\\frac{1}{2(n_1-n_2)},\\frac{3}{2(n_1-n_2)},\\frac{5}{2(n_1-n_2)},\\ldots
+\\]
+
+the amplitude of the resultant vibration is minimum.
+
+Thus, the maxima and minima occur alternately after equal intervals of time.
+
+The time interval between two successive maxima is
+
+\\[
+\\frac{1}{n_1-n_2}
+\\]
+
+and the time interval between two successive minima is also
+
+\\[
+\\frac{1}{n_1-n_2}
+\\]
+
+The time interval between a maximum and the succeeding minimum is
+
+\\[
+\\frac{1}{2(n_1-n_2)}
+\\]
+
+Hence, the number of beats produced per second is
+
+\\[
+n_1-n_2
+\\]
+
+or, more generally,
+
+\\[
+\\boxed{n_{\\text{beats}}=|n_1-n_2|}
+\\]
+
+If the amplitudes of the two waves are equal, i.e. \\(a=b\\), then the minimum resultant amplitude becomes zero. Thus, the sound intensity becomes zero at the instants of minimum amplitude.
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
