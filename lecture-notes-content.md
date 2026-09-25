@@ -2156,6 +2156,274 @@ The resultant amplitude depends on the **phase difference** between the two osci
 
 This point becomes particularly important when we derive the superposition of **two collinear harmonic oscillations of equal frequency**.
 
+**Composition of Two Collinear Simple Harmonic Motions**
+
+Consider two simple harmonic motions acting along the **same straight line** and having the **same angular frequency**.
+
+Let the two component oscillations be
+
+\\[
+x_1=a_1\sin(\omega t+\alpha_1)
+\\]
+
+and
+
+\\[
+x_2=a_2\sin(\omega t+\alpha_2)
+\\]
+
+where \\(a_1\\) and \\(a_2\\) are the amplitudes, \\(\omega\\) is the common angular frequency, and \\(\alpha_1\\) and \\(\alpha_2\\) are the initial phases of the two oscillations.
+
+According to the principle of superposition, the resultant displacement is the algebraic sum of the two displacements:
+
+\\[
+x=x_1+x_2
+\\]
+
+Therefore,
+
+\\[
+x=a_1\sin(\omega t+\alpha_1)+a_2\sin(\omega t+\alpha_2)
+\\]
+
+Using the identity
+
+\\[
+\sin(A+B)=\sin A\cos B+\cos A\sin B
+\\]
+
+we get
+
+\\[
+x=a_1(\sin\omega t\cos\alpha_1+\cos\omega t\sin\alpha_1)
++a_2(\sin\omega t\cos\alpha_2+\cos\omega t\sin\alpha_2)
+\\]
+
+Collecting the coefficients of \\(\sin\omega t\\) and \\(\cos\omega t\\),
+
+\\[
+x=(a_1\cos\alpha_1+a_2\cos\alpha_2)\sin\omega t
++(a_1\sin\alpha_1+a_2\sin\alpha_2)\cos\omega t
+\\]
+
+The resultant motion can also be written in the form
+
+\\[
+x=A\sin(\omega t+\phi)
+\\]
+
+where \\(A\\) is the resultant amplitude and \\(\phi\\) is the resultant phase.
+
+Expanding this expression,
+
+\\[
+x=A\sin\omega t\cos\phi+A\cos\omega t\sin\phi
+\\]
+
+Comparing the coefficients of \\(\sin\omega t\\) and \\(\cos\omega t\\), we obtain
+
+\\[
+A\cos\phi=a_1\cos\alpha_1+a_2\cos\alpha_2
+\\]
+
+and
+
+\\[
+A\sin\phi=a_1\sin\alpha_1+a_2\sin\alpha_2
+\\]
+
+These two equations determine the **amplitude** and **phase** of the resultant oscillation.
+
+**Resultant Amplitude**
+
+Squaring and adding the above two equations,
+
+\\[
+A^2\cos^2\phi+A^2\sin^2\phi
+=
+(a_1\cos\alpha_1+a_2\cos\alpha_2)^2
++
+(a_1\sin\alpha_1+a_2\sin\alpha_2)^2
+\\]
+
+Since
+
+\\[
+\sin^2\phi+\cos^2\phi=1
+\\]
+
+we obtain
+
+\\[
+A^2=a_1^2+a_2^2+2a_1a_2\cos(\alpha_1-\alpha_2)
+\\]
+
+Hence, the amplitude of the resultant SHM is
+
+\\[
+A=\sqrt{a_1^2+a_2^2+2a_1a_2\cos(\alpha_1-\alpha_2)}
+\\]
+
+Thus, the resultant amplitude depends on the **phase difference**
+
+\\[
+\delta=\alpha_1-\alpha_2
+\\]
+
+between the two component oscillations.
+
+**Resultant Phase**
+
+Dividing
+
+\\[
+A\sin\phi=a_1\sin\alpha_1+a_2\sin\alpha_2
+\\]
+
+by
+
+\\[
+A\cos\phi=a_1\cos\alpha_1+a_2\cos\alpha_2
+\\]
+
+we obtain
+
+\\[
+\tan\phi=
+\frac{a_1\sin\alpha_1+a_2\sin\alpha_2}
+{a_1\cos\alpha_1+a_2\cos\alpha_2}
+\\]
+
+Therefore, the resultant motion is
+
+\\[
+x=A\sin(\omega t+\phi)
+\\]
+
+where
+
+\\[
+A=\sqrt{a_1^2+a_2^2+2a_1a_2\cos(\alpha_1-\alpha_2)}
+\\]
+
+and
+
+\\[
+\tan\phi=
+\frac{a_1\sin\alpha_1+a_2\sin\alpha_2}
+{a_1\cos\alpha_1+a_2\cos\alpha_2}
+\\]
+
+Therefore, **the composition of two collinear SHMs having the same frequency is again a simple harmonic motion having the same frequency**.
+
+**Special Cases**
+
+**Case 1: The two oscillations are in phase**
+
+If
+
+\\[
+\alpha_1=\alpha_2
+\\]
+
+then
+
+\\[
+\cos(\alpha_1-\alpha_2)=\cos0=1
+\\]
+
+Therefore,
+
+\\[
+A=\sqrt{a_1^2+a_2^2+2a_1a_2}
+\\]
+
+or
+
+\\[
+A=a_1+a_2
+\\]
+
+Thus, when the two oscillations are in phase, the resultant amplitude is the **sum of the individual amplitudes**.
+
+**Case 2: The two oscillations are in opposite phase**
+
+If
+
+\\[
+\alpha_1-\alpha_2=\pi
+\\]
+
+then
+
+\\[
+\cos(\alpha_1-\alpha_2)=\cos\pi=-1
+\\]
+
+Therefore,
+
+\\[
+A=\sqrt{a_1^2+a_2^2-2a_1a_2}
+\\]
+
+Hence,
+
+\\[
+A=|a_1-a_2|
+\\]
+
+Thus, when the two oscillations are in opposite phase, the resultant amplitude is the **difference of the amplitudes**.
+
+If \\(a_1=a_2\\), then
+
+\\[
+A=0
+\\]
+
+and the two oscillations completely cancel each other.
+
+**Case 3: The two oscillations differ in phase by \\(\pi/2\\)**
+
+If
+
+\\[
+\alpha_1-\alpha_2=\frac{\pi}{2}
+\\]
+
+then
+
+\\[
+\cos\left(\frac{\pi}{2}\right)=0
+\\]
+
+Therefore,
+
+\\[
+A=\sqrt{a_1^2+a_2^2}
+\\]
+
+**Important Result**
+
+For two collinear SHMs of the same frequency,
+
+\\[
+A_{\max}=a_1+a_2
+\\]
+
+when the two oscillations are in phase, and
+
+\\[
+A_{\min}=|a_1-a_2|
+\\]
+
+when they are in opposite phase.
+
+Hence,
+
+\\[
+|a_1-a_2|\leq A\leq a_1+a_2
+\\]
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
