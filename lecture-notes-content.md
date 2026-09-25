@@ -2772,6 +2772,246 @@ and
 
 Therefore, by observing the change in the time required for one complete cycle of the Lissajous' figure after adding wax to the unknown tuning fork, the correct frequency of the tuning fork can be determined.
 
+**Example**
+
+An experiment is performed to obtain Lissajous' figures. One tuning fork has a frequency of \\(250\\,\\text{Hz}\\), and a complete cycle of change of the Lissajous' figure occurs every \\(5\\) seconds. What deductions can be made about the frequency of the other tuning fork?
+
+**Solution:**
+
+Frequency of tuning fork \\(A\\),
+
+\\[
+n_A=250\\,\\text{Hz}
+\\]
+
+Time for one complete cycle,
+
+\\[
+t=5\\,\\text{s}
+\\]
+
+Therefore, the difference in frequencies is
+
+\\[
+\\Delta n=\\frac{1}{t}
+\\]
+
+\\[
+\\Delta n=\\frac{1}{5}=0.2\\,\\text{Hz}
+\\]
+
+Hence, the possible frequencies of the other tuning fork \\(B\\) are
+
+\\[
+n_B=250+0.2
+\\]
+
+or
+
+\\[
+n_B=250-0.2
+\\]
+
+Therefore,
+
+\\[
+n_B=250.2\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+n_B=249.8\\,\\text{Hz}
+\\]
+
+**Example**
+
+Two tuning forks \\(A\\) and \\(B\\) have nearly equal frequencies. The frequency of \\(A\\) is \\(256\\,\\text{Hz}\\). When the two tuning forks are used to obtain Lissajous' figures, the complete cycle of changes takes place in \\(10\\) seconds. When the tuning fork \\(B\\) is loaded with a little wax, the time taken for one complete cycle of changes is \\(20\\) seconds. Calculate the frequency of \\(B\\) before loading.
+
+**Solution:**
+
+Frequency of tuning fork \\(A\\),
+
+\\[
+n_A=256\\,\\text{Hz}
+\\]
+
+Time for one complete cycle before loading,
+
+\\[
+t=10\\,\\text{s}
+\\]
+
+Therefore, the difference in frequencies before loading is
+
+\\[
+\\Delta n=\\frac{1}{10}=0.1\\,\\text{Hz}
+\\]
+
+Hence, the possible frequencies of \\(B\\) before loading are
+
+\\[
+256+0.1=256.1\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+256-0.1=255.9\\,\\text{Hz}
+\\]
+
+After loading \\(B\\) with wax, the time for one complete cycle is
+
+\\[
+t_1=20\\,\\text{s}
+\\]
+
+Therefore, the difference in frequencies after loading is
+
+\\[
+\\Delta n'=\\frac{1}{20}=0.05\\,\\text{Hz}
+\\]
+
+Hence, the possible frequencies of \\(B\\) after loading are
+
+\\[
+256+0.05=256.05\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+256-0.05=255.95\\,\\text{Hz}
+\\]
+
+Since the addition of wax **decreases the frequency of \\(B\\)**, the original frequency cannot be \\(255.9\\,\\text{Hz}\\), because neither \\(256.05\\,\\text{Hz}\\) nor \\(255.95\\,\\text{Hz}\\) is lower than \\(255.9\\,\\text{Hz}\\).
+
+Therefore,
+
+\\[
+n_B=256.1\\,\\text{Hz}
+\\]
+
+**Example**
+
+Two tuning forks \\(A\\) and \\(B\\) have nearly equal frequencies. The frequency of \\(A\\) is \\(288\\,\\text{Hz}\\). When the two tuning forks are used to obtain Lissajous' figures, the complete cycle of changes takes place in \\(20\\) seconds. When the tuning fork \\(B\\) is loaded with a little wax, the time taken for one complete cycle of changes is \\(10\\) seconds. Calculate the original frequency of \\(B\\).
+
+**Solution:**
+
+Frequency of tuning fork \\(A\\),
+
+\\[
+n_A=288\\,\\text{Hz}
+\\]
+
+Time for one complete cycle before loading,
+
+\\[
+t=20\\,\\text{s}
+\\]
+
+Therefore, the difference in frequencies before loading is
+
+\\[
+\\Delta n=\\frac{1}{20}=0.05\\,\\text{Hz}
+\\]
+
+Hence, the possible frequencies of \\(B\\) before loading are
+
+\\[
+288+0.05=288.05\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+288-0.05=287.95\\,\\text{Hz}
+\\]
+
+After loading \\(B\\) with wax,
+
+\\[
+t_1=10\\,\\text{s}
+\\]
+
+Therefore, the difference in frequencies after loading is
+
+\\[
+\\Delta n'=\\frac{1}{10}=0.1\\,\\text{Hz}
+\\]
+
+Hence, the possible frequencies of \\(B\\) after loading are
+
+\\[
+288+0.1=288.1\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+288-0.1=287.9\\,\\text{Hz}
+\\]
+
+The original frequency of \\(B\\) is therefore taken as
+
+\\[
+n_B=287.95\\,\\text{Hz}
+\\]
+
+**N.B.:** From the stated numerical data alone, both initial possibilities require careful consideration. The value \\(287.95\\,\\text{Hz}\\) is the value given by the textbook treatment.
+
+**Example**
+
+Two tuning forks produce Lissajous' figures. The figure changes from a parabola to a figure of eight and again to a parabola, and the whole cycle of change takes place in \\(6\\) seconds. If the frequency of one tuning fork is \\(100\\,\\text{Hz}\\), find the possible frequencies of the other tuning fork.
+
+**Solution:**
+
+Frequency of tuning fork \\(A\\),
+
+\\[
+n_A=100\\,\\text{Hz}
+\\]
+
+Time for one complete cycle,
+
+\\[
+t=6\\,\\text{s}
+\\]
+
+Therefore, the difference in frequencies is
+
+\\[
+\\Delta n=\\frac{1}{6}
+\\]
+
+\\[
+\\Delta n\\approx0.167\\,\\text{Hz}
+\\]
+
+Hence, the possible frequencies of the other tuning fork \\(B\\) are
+
+\\[
+n_B=100+0.167
+\\]
+
+or
+
+\\[
+n_B=100-0.167
+\\]
+
+Therefore,
+
+\\[
+n_B=100.167\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+n_B=99.833\\,\\text{Hz}
+\\]
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
