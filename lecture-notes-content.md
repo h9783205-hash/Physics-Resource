@@ -2666,6 +2666,112 @@ Hence:
 
 This family of curves obtained by the composition of two mutually perpendicular harmonic vibrations is the basis of **Lissajous figures**.
 
+**Uses of Lissajous' Figures**
+
+**Determination of the Frequency of a Tuning Fork**
+
+Lissajous' figures can be used to determine the frequency of an unknown tuning fork by comparing it with another tuning fork whose frequency is known.
+
+Suppose a tuning fork \\(A\\) has an unknown frequency \\(n_A\\). Take another tuning fork \\(B\\) having a known frequency \\(n\\), which is nearly equal to that of \\(A\\).
+
+The two tuning forks are made to vibrate in **mutually perpendicular directions**, and the corresponding Lissajous' figure is observed.
+
+Since the frequencies of the two tuning forks are nearly equal, their phase difference changes continuously with time. Consequently, the Lissajous' figure changes continuously.
+
+When the phase difference changes from \\(0\\) to \\(2\\pi\\), the Lissajous' figure completes one complete cycle of change.
+
+Suppose the time required for one complete cycle of change is \\(t\\) seconds. Then the difference between the frequencies of the two tuning forks is
+
+\\[
+|n_A-n|=\\frac{1}{t}
+\\]
+
+Therefore, there are two possible values for the frequency of the unknown tuning fork:
+
+\\[
+n_A=n+\\frac{1}{t}
+\\]
+
+or
+
+\\[
+n_A=n-\\frac{1}{t}
+\\]
+
+Thus, the correct value cannot be determined from this observation alone.
+
+**Determination of the Correct Frequency**
+
+To determine which of the two possible values is correct, a small amount of wax is attached to the unknown tuning fork \\(A\\).
+
+The addition of wax decreases the frequency of the tuning fork \\(A\\).
+
+The experiment is repeated and the time required for one complete cycle of change of the Lissajous' figure is again measured. Let this time be \\(t_1\\).
+
+**Case 1: \\(t_1<t\\)**
+
+If
+
+\\[
+t_1<t
+\\]
+
+then
+
+\\[
+\\frac{1}{t_1}>\\frac{1}{t}
+\\]
+
+Therefore, the difference between the frequencies has increased after adding wax.
+
+Since the frequency of \\(A\\) decreases when wax is added, the original frequency of \\(A\\) must have been **less than** the known frequency \\(n\\).
+
+Hence,
+
+\\[
+\\boxed{n_A=n-\\frac{1}{t}}
+\\]
+
+**Case 2: \\(t_1>t\\)**
+
+If
+
+\\[
+t_1>t
+\\]
+
+then
+
+\\[
+\\frac{1}{t_1}<\\frac{1}{t}
+\\]
+
+Therefore, the difference between the frequencies has decreased after adding wax.
+
+Since the frequency of \\(A\\) decreases when wax is added, the original frequency of \\(A\\) must have been **greater than** the known frequency \\(n\\).
+
+Hence,
+
+\\[
+\\boxed{n_A=n+\\frac{1}{t}}
+\\]
+
+**Final Result**
+
+Thus, the frequency of the unknown tuning fork \\(A\\) is determined as follows:
+
+\\[
+\\boxed{n_A=n-\\frac{1}{t},\qquad \\text{if }t_1<t}
+\\]
+
+and
+
+\\[
+\\boxed{n_A=n+\\frac{1}{t},\qquad \\text{if }t_1>t}
+\\]
+
+Therefore, by observing the change in the time required for one complete cycle of the Lissajous' figure after adding wax to the unknown tuning fork, the correct frequency of the tuning fork can be determined.
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
