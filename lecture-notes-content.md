@@ -2420,6 +2420,275 @@ Hence,
 |a_1-a_2|\leq A\leq a_1+a_2
 \\]
 
+**Composition of Two Simple Harmonic Vibrations of Equal Time Periods Acting at Right Angles**
+
+Consider two simple harmonic vibrations of equal time periods acting along two mutually perpendicular directions, say the \\(x\\)- and \\(y\\)-axes.
+
+Let the two vibrations be represented by
+
+\\[
+x=a\sin(\omega t+\alpha)
+\\]
+
+and
+
+\\[
+y=b\sin\omega t
+\\]
+
+where \\(a\\) and \\(b\\) are the amplitudes of the two vibrations, \\(\omega\\) is their common angular frequency, and \\(\alpha\\) is the phase difference between them.
+
+The particle simultaneously executes these two vibrations. Therefore, its position at any instant is determined by the coordinates \\(x\\) and \\(y\\).
+
+We now eliminate the time \\(t\\) between the two equations to obtain the equation of the path followed by the particle.
+
+From
+
+\\[
+y=b\sin\omega t
+\\]
+
+we have
+
+\\[
+\sin\omega t=\frac{y}{b}
+\\]
+
+Using
+
+\\[
+x=a\sin(\omega t+\alpha)
+\\]
+
+and the identity
+
+\\[
+\sin(A+B)=\sin A\cos B+\cos A\sin B
+\\]
+
+we get
+
+\\[
+\frac{x}{a}
+=
+\sin\omega t\cos\alpha+\cos\omega t\sin\alpha
+\\]
+
+Substituting \\(\sin\omega t=\frac{y}{b}\\), we obtain
+
+\\[
+\frac{x}{a}
+=
+\frac{y}{b}\cos\alpha+\cos\omega t\sin\alpha
+\\]
+
+Therefore,
+
+\\[
+\frac{x}{a}-\frac{y}{b}\cos\alpha
+=
+\cos\omega t\sin\alpha
+\\]
+
+Squaring both sides,
+
+\\[
+\left(\frac{x}{a}-\frac{y}{b}\cos\alpha\right)^2
+=
+\cos^2\omega t\sin^2\alpha
+\\]
+
+Since
+
+\\[
+\cos^2\omega t=1-\sin^2\omega t
+\\]
+
+and
+
+\\[
+\sin\omega t=\frac{y}{b}
+\\]
+
+we have
+
+\\[
+\cos^2\omega t=1-\frac{y^2}{b^2}
+\\]
+
+Therefore,
+
+\\[
+\left(\frac{x}{a}-\frac{y}{b}\cos\alpha\right)^2
+=
+\left(1-\frac{y^2}{b^2}\right)\sin^2\alpha
+\\]
+
+On simplifying,
+
+\\[
+\frac{x^2}{a^2}
++\frac{y^2}{b^2}
+-\frac{2xy}{ab}\cos\alpha
+=
+\sin^2\alpha
+\\]
+
+This is the **general equation of the path** traced by the particle when two SHMs of equal time periods act at right angles.
+
+In general, this equation represents an **ellipse**.
+
+The exact nature and orientation of the ellipse depend upon the phase difference \\(\alpha\\) and the amplitudes \\(a\\) and \\(b\\).
+
+**Special Cases**
+
+**Case 1: \\(\alpha=0\\)**
+
+When the two vibrations are in phase,
+
+\\[
+\cos\alpha=1,\qquad \sin\alpha=0
+\\]
+
+Therefore,
+
+\\[
+\frac{x^2}{a^2}
++\frac{y^2}{b^2}
+-\frac{2xy}{ab}=0
+\\]
+
+or
+
+\\[
+\left(\frac{x}{a}-\frac{y}{b}\right)^2=0
+\\]
+
+Hence,
+
+\\[
+y=\frac{b}{a}x
+\\]
+
+Thus, the particle moves along a **straight line**.
+
+**Case 2: \\(\alpha=\pi\\)**
+
+When the two vibrations are in opposite phase,
+
+\\[
+\cos\alpha=-1,\qquad \sin\alpha=0
+\\]
+
+Therefore,
+
+\\[
+\frac{x^2}{a^2}
++\frac{y^2}{b^2}
++\frac{2xy}{ab}=0
+\\]
+
+or
+
+\\[
+\left(\frac{x}{a}+\frac{y}{b}\right)^2=0
+\\]
+
+Hence,
+
+\\[
+y=-\frac{b}{a}x
+\\]
+
+Thus, the particle again moves along a **straight line**, but in a direction opposite to the case \\(\alpha=0\\).
+
+**Case 3: \\(\alpha=\frac{\pi}{2}\\)**
+
+When the phase difference is \\(90^\circ\\),
+
+\\[
+\cos\alpha=0,\qquad \sin\alpha=1
+\\]
+
+Therefore, the general equation becomes
+
+\\[
+\frac{x^2}{a^2}+\frac{y^2}{b^2}=1
+\\]
+
+This is the equation of an **ellipse** whose semi-major and semi-minor axes are determined by \\(a\\) and \\(b\\).
+
+If
+
+\\[
+a=b
+\\]
+
+then
+
+\\[
+\frac{x^2}{a^2}+\frac{y^2}{a^2}=1
+\\]
+
+or
+
+\\[
+x^2+y^2=a^2
+\\]
+
+which represents a **circle**.
+
+Thus, two mutually perpendicular SHMs of equal amplitude, equal frequency, and phase difference \\(90^\circ\\) produce circular motion.
+
+**Other Values of Phase Difference**
+
+For other values of \\(\alpha\\), the resultant path is generally an **oblique ellipse**.
+
+For example, when
+
+\\[
+\alpha=\frac{\pi}{4},\quad \frac{3\pi}{4},\quad
+\frac{5\pi}{4},\quad \frac{7\pi}{4}
+\\]
+
+the particle traces elliptical paths with different orientations.
+
+Therefore, the shape and orientation of the resultant path depend upon the **phase difference between the two component vibrations**.
+
+**Summary**
+
+For two mutually perpendicular SHMs having equal time periods,
+
+\\[
+x=a\sin(\omega t+\alpha)
+\\]
+
+and
+
+\\[
+y=b\sin\omega t
+\\]
+
+the general equation of the path is
+
+\\[
+\frac{x^2}{a^2}
++\frac{y^2}{b^2}
+-\frac{2xy}{ab}\cos\alpha
+=
+\sin^2\alpha
+\\]
+
+Hence:
+
+- \\(\alpha=0\\) → straight line
+- \\(\alpha=\pi\\) → straight line in the opposite direction
+- \\(\alpha=\pi/2\\) → ellipse
+- \\(\alpha=\pi/2\\) and \\(a=b\\) → circle
+- Other phase differences → generally oblique ellipses
+
+This family of curves obtained by the composition of two mutually perpendicular harmonic vibrations is the basis of **Lissajous figures**.
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
