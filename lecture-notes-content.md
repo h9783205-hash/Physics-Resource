@@ -2239,11 +2239,7 @@ These two equations determine the **amplitude** and **phase** of the resultant o
 Squaring and adding the above two equations,
 
 \\[
-A^2\cos^2\phi+A^2\sin^2\phi
-=
-(a_1\cos\alpha_1+a_2\cos\alpha_2)^2
-+
-(a_1\sin\alpha_1+a_2\sin\alpha_2)^2
+A^2\cos^2\phi+A^2\sin^2\phi = (a_1\cos\alpha_1+a_2\cos\alpha_2)^2 + (a_1\sin\alpha_1+a_2\sin\alpha_2)^2
 \\]
 
 Since
