@@ -2065,14 +2065,14 @@ Therefore,
 
 \\[
 \frac{d^2x}{dt^2}+ \omega^2x = \frac{d^2x_1}{dt^2}+\frac{d^2x_2}{dt^2}
-+w^2(x_1+x_2)
++ \omega^2(x_1+x_2)
 \\]
 
 \\[
 =
-\left(\frac{d^2x_1}{dt^2}+\omega ^2 x_1\right)
+\left(\frac{d^2x_1}{dt^2}+\omega^2x_1\right)
 +
-\left(\frac{d^2x_2}{dt^2}+\omega ^2 x_2\right)
+\left(\frac{d^2x_2}{dt^2}+\omega^2x_2\right)
 \\]
 
 Since
