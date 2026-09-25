@@ -3212,6 +3212,170 @@ or, more generally,
 
 If the amplitudes of the two waves are equal, i.e. \\(a=b\\), then the minimum resultant amplitude becomes zero. Thus, the sound intensity becomes zero at the instants of minimum amplitude.
 
+**Application of Beats: Determination of the Frequency of an Unknown Tuning Fork**
+
+The frequency of an unknown tuning fork can be determined by comparing it with a tuning fork of known frequency.
+
+Let the frequency of the known tuning fork \\(A\\) be \\(N\\), and let the number of beats produced per second be \\(n\\). Then the frequency of the unknown tuning fork \\(B\\) is
+
+\\[
+n_B=N\\pm n
+\\]
+
+To determine the correct value, the unknown tuning fork is loaded with a little wax. Loading a tuning fork decreases its frequency.
+
+If the number of beats per second **increases** after loading, the original frequency of \\(B\\) was
+
+\\[
+n_B=N-n
+\\]
+
+If the number of beats per second **decreases** after loading, the original frequency of \\(B\\) was
+
+\\[
+n_B=N+n
+\\]
+
+**Note:**
+
+(i) When a tuning fork is loaded, its frequency decreases.
+
+(ii) When a tuning fork is filed, its frequency increases.
+
+**Example:** A tuning fork \\(A\\) of frequency \\(384\\,\\text{Hz}\\) gives \\(6\\) beats per second when sounded with another tuning fork \\(B\\). On loading \\(B\\) with a little wax, the number of beats per second becomes \\(4\\). What is the frequency of \\(B\\)?
+
+**Solution:**
+
+Frequency of \\(A\\),
+
+\\[
+n_A=384\\,\\text{Hz}
+\\]
+
+Beats per second,
+
+\\[
+n=6
+\\]
+
+Frequency of \\(B\\) before loading is either
+
+\\[
+384+6=390\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+384-6=378\\,\\text{Hz}
+\\]
+
+After loading, beats per second \\(=4\\).
+
+Therefore, the frequency of \\(B\\) after loading is either
+
+\\[
+384+4=388\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+384-4=380\\,\\text{Hz}
+\\]
+
+Since loading the tuning fork decreases its frequency, the original frequency of \\(B\\) was
+
+\\[
+\\boxed{n_B=390\\,\\text{Hz}}
+\\]
+
+**Example:** Two tuning forks when sounded together produce \\(20\\) beats in \\(8\\) seconds. After loading one of the tuning forks with a little wax, they produce \\(32\\) beats in \\(8\\) seconds. If the frequency of fork \\(A\\) is \\(512\\,\\text{Hz}\\), calculate the frequency of the other tuning fork.
+
+**Solution:**
+
+Frequency of \\(A\\),
+
+\\[
+n_A=512\\,\\text{Hz}
+\\]
+
+Before loading, beats per second are
+
+\\[
+n=\\frac{20}{8}=2.5
+\\]
+
+Therefore, the frequency of \\(B\\) before loading is either
+
+\\[
+512+2.5=514.5\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+512-2.5=509.5\\,\\text{Hz}
+\\]
+
+After loading, beats per second are
+
+\\[
+n'=\\frac{32}{8}=4
+\\]
+
+Therefore, the frequency of \\(B\\) after loading is either
+
+\\[
+512+4=516\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+512-4=508\\,\\text{Hz}
+\\]
+
+Since loading the tuning fork decreases its frequency, the original frequency of \\(B\\) was
+
+\\[
+\\boxed{n_B=509.5\\,\\text{Hz}}
+\\]
+
+**Example:** A tuning fork \\(A\\) produces \\(4\\) beats per second with a tuning fork \\(B\\) of frequency \\(256\\,\\text{Hz}\\). The tuning fork \\(A\\) is filed and the beats occur at another rate. What was its original frequency?
+
+**Solution:**
+
+Frequency of \\(B\\),
+
+\\[
+n_B=256\\,\\text{Hz}
+\\]
+
+Beats per second,
+
+\\[
+n=4
+\\]
+
+Therefore, the frequency of \\(A\\) is either
+
+\\[
+256+4=260\\,\\text{Hz}
+\\]
+
+or
+
+\\[
+256-4=252\\,\\text{Hz}
+\\]
+
+When a tuning fork is filed, its frequency increases. Hence, the original frequency of \\(A\\) was
+
+\\[
+\\boxed{260\\,\\text{Hz}}
+\\]
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-1','Oscillations-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
