@@ -3443,6 +3443,54 @@ A useful distinction is between a progressive wave and a stationary wave.
 
 Thus, the essential feature of a **progressive wave** is the **propagation of the disturbance and transport of energy**, whereas in a **stationary wave** the wave pattern remains fixed and there is no net energy transport along the medium.
 
+**Types of Waves**
+
+Depending upon the **direction of propagation of the wave and the direction of oscillation of the particles of the medium**, waves are classified into two types:
+
+1. **Longitudinal waves**
+2. **Transverse waves**
+
+**Longitudinal Waves**
+
+A **longitudinal wave** is a wave in which the particles of the medium oscillate **parallel to the direction of propagation of the wave**.
+
+As the particles oscillate back and forth, they produce alternate regions of **compression** and **rarefaction** in the medium.
+
+**Properties of Longitudinal Waves**
+
+- The particles of the medium oscillate **parallel** to the direction of wave propagation.
+- The wave consists of alternate **compressions and rarefactions**.
+- The distance between two successive compressions or two successive rarefactions is equal to the **wavelength** \\(\\lambda\\).
+- The particles of the medium do not travel along with the wave; they oscillate about their mean positions.
+- Longitudinal waves can propagate through **solids, liquids, and gases**.
+- Sound waves in air are a common example of longitudinal waves.
+
+**Transverse Waves**
+
+A **transverse wave** is a wave in which the particles of the medium oscillate **perpendicular to the direction of propagation of the wave**.
+
+The oscillation of the particles produces alternate **crests** and **troughs** in the medium.
+
+**Properties of Transverse Waves**
+
+- The particles of the medium oscillate **perpendicular** to the direction of wave propagation.
+- The wave consists of alternate **crests and troughs**.
+- The distance between two successive crests or two successive troughs is equal to the **wavelength** \\(\\lambda\\).
+- The particles of the medium do not travel along with the wave; they oscillate about their mean positions.
+- Mechanical transverse waves require a medium capable of providing a restoring force against transverse displacement.
+- Transverse mechanical waves can propagate through **solids** and on the **surface of liquids**, but not through the bulk of fluids such as gases and liquids.
+- Waves on a stretched string are a common example of transverse waves.
+
+**Difference between Longitudinal and Transverse Waves**
+
+| Longitudinal Wave | Transverse Wave |
+|---|---|
+| Particles oscillate parallel to the direction of propagation. | Particles oscillate perpendicular to the direction of propagation. |
+| Consists of compressions and rarefactions. | Consists of crests and troughs. |
+| Mechanical longitudinal waves can propagate through solids, liquids, and gases. | Mechanical transverse waves can propagate through solids and on liquid surfaces. |
+| Sound waves in air are longitudinal waves. | Waves on a stretched string are transverse waves. |
+
+
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-2','Wave-Motion-Notes.pdf')">Export this unit to PDF</button>
 </details>
