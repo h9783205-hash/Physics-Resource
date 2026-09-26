@@ -3419,6 +3419,31 @@ So, in a mechanical wave, **the particles of the medium oscillate, while the wav
 
 This distinction will be important when we move to **Progressive (Travelling) Waves**, because there we will mathematically describe how the disturbance varies with both **position and time**.
 
+**Progressive (Travelling) Wave**
+
+A **progressive wave** is a wave in which the disturbance travels continuously through the medium from one point to another, carrying energy along with it.
+
+In a progressive wave, the particles of the medium oscillate about their mean positions, while the disturbance propagates through the medium with a definite velocity called the **wave velocity**.
+
+For example, when one end of a stretched string is disturbed periodically, the disturbance travels along the string. The particles of the string oscillate, but the wave itself progresses from one region of the string to another.
+
+A progressive wave can therefore be viewed as the **propagation of an oscillation through space**.
+
+**Progressive Wave and Stationary Wave**
+
+A useful distinction is between a progressive wave and a stationary wave.
+
+| Progressive Wave | Stationary Wave |
+|---|---|
+| The disturbance travels continuously through the medium. | The wave pattern remains fixed in space. |
+| Energy is transported from one region to another. | There is no net transfer of energy along the medium. |
+| The amplitude is generally the same at different points in an ideal uniform medium. | The amplitude varies from point to point. |
+| There are no permanently fixed nodes and antinodes. | Fixed **nodes** and **antinodes** are formed. |
+| The phase changes continuously with position. | All particles between two consecutive nodes vibrate in the same phase, while particles in adjacent segments vibrate in opposite phases. |
+
+Thus, the essential feature of a **progressive wave** is the **propagation of the disturbance and transport of energy**, whereas in a **stationary wave** the wave pattern remains fixed and there is no net energy transport along the medium.
+
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-2','Wave-Motion-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
