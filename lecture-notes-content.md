@@ -3381,7 +3381,44 @@ When a tuning fork is filed, its frequency increases. Hence, the original freque
 
 <details class="unit-block" id="wo-unit-2">
 <summary>Unit 2: Wave Motion</summary>
-<p><em>Write your notes here.</em></p>
+<p><em></em></p>
+
+ **What is a Wave?**
+
+A **wave** is a disturbance that propagates through a medium or through space, carrying **energy from one region to another without the net transport of matter**.
+
+In a mechanical wave, the particles of the medium execute oscillatory motion about their equilibrium positions, while the disturbance itself travels through the medium.
+
+For example, when a stone is dropped into water, the water particles near the point of disturbance oscillate, and the disturbance spreads outward. Thus, the disturbance travels, while the individual water particles do not travel outward with the wave.
+
+A simple way to remember it is:
+
+> **Oscillation is the motion of a particle about its equilibrium position, whereas a wave is the propagation of such a disturbance from one point to another.**
+
+**Oscillation vs Wave**
+
+| Oscillation | Wave |
+|---|---|
+| It is a periodic motion of a particle or system about its equilibrium position. | It is the propagation of a disturbance from one region to another. |
+| The motion is considered at a particular location. | The disturbance extends over different locations and propagates with time. |
+| It involves the repeated exchange of energy within the oscillating system. | It transports energy from one region to another. |
+| An oscillation need not involve propagation through space. | Propagation through space or a medium is the essential feature of a wave. |
+| Example: a mass attached to a spring moving to and fro. | Example: the disturbance travelling along a stretched string when one end is disturbed. |
+
+**Relationship between Oscillation and Wave**
+
+The two concepts are closely connected.
+
+Consider a long stretched string. If one end of the string is moved up and down periodically, that end performs an **oscillation**. This oscillation produces a disturbance in the neighbouring portions of the string. The disturbance then travels along the string.
+
+Thus:
+
+**Oscillation at one point → disturbance of neighbouring points → propagation of the disturbance → wave**
+
+So, in a mechanical wave, **the particles of the medium oscillate, while the wave itself propagates through the medium**.
+
+This distinction will be important when we move to **Progressive (Travelling) Waves**, because there we will mathematically describe how the disturbance varies with both **position and time**.
+
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-2','Wave-Motion-Notes.pdf')">Export this unit to PDF</button>
 </details>
 
