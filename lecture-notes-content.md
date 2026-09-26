@@ -3490,6 +3490,40 @@ The oscillation of the particles produces alternate **crests** and **troughs** i
 | Mechanical longitudinal waves can propagate through solids, liquids, and gases. | Mechanical transverse waves can propagate through solids and on liquid surfaces. |
 | Sound waves in air are longitudinal waves. | Waves on a stretched string are transverse waves. |
 
+**Plane and Spherical Waves**
+
+Another useful classification of waves is based on the **shape of the wavefronts**. A wavefront is a surface joining all the points of a wave that are in the **same phase** at a particular instant.
+
+On this basis, waves can be broadly classified as **plane waves** and **spherical waves**.
+
+**Plane Wave**
+
+A **plane wave** is a wave in which the wavefronts are **plane surfaces** perpendicular to the direction of propagation.
+
+In a plane wave, the wavefronts are parallel and equally spaced. Therefore, the particles situated on any particular wavefront are in the same phase.
+
+A plane wave can be considered as a special case of a spherical wave when the source is very far away, so that a small portion of the spherical wavefront appears approximately plane.
+
+**Spherical Wave**
+
+A **spherical wave** is a wave in which the wavefronts are **concentric spherical surfaces** centred on the source of the wave.
+
+For a point source, the disturbance propagates outward in all directions, and at any particular instant all points at the same distance from the source are in the same phase.
+
+The successive spherical wavefronts are separated by one wavelength \\(\\lambda\\).
+
+For example, a sound wave produced by a small source in an open medium can approximately be regarded as a spherical wave.
+
+**Difference between Plane and Spherical Waves**
+
+| Plane Wave | Spherical Wave |
+|---|---|
+| The wavefronts are plane surfaces. | The wavefronts are spherical surfaces. |
+| The wavefronts are parallel to one another. | The wavefronts are concentric spheres centred on the source. |
+| The wave propagates essentially in one direction. | The wave propagates outward in all directions from a point source. |
+| The amplitude remains approximately constant with distance in an ideal plane wave. | The amplitude decreases with distance from the source due to the spreading of energy over larger spherical surfaces. |
+| It can be regarded as the limiting form of a spherical wave at a sufficiently large distance from the source. | It is naturally produced by a point-like source radiating in all directions. |
+
 
 
 <button class="print-btn" data-html2canvas-ignore="true" onclick="exportUnit('wo-unit-2','Wave-Motion-Notes.pdf')">Export this unit to PDF</button>
