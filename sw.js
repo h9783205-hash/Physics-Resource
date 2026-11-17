@@ -1,5 +1,5 @@
 // Bumped to v2. This forces visitors' browsers to delete the old, broken v1 cache.
-const CACHE_NAME = 'physics-hpg-cache-v2'; 
+const CACHE_NAME = 'physics-hpg-cache-v3'; 
 const OFFLINE_URLS = [
   'index.html',
   'lecture-notes.html',
