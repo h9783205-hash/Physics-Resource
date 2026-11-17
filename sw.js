@@ -1,4 +1,5 @@
-const CACHE_NAME = 'physics-hpg-cache-v1';
+// Bumped to v2. This forces visitors' browsers to delete the old, broken v1 cache.
+const CACHE_NAME = 'physics-hpg-cache-v2'; 
 const OFFLINE_URLS = [
   'index.html',
   'lecture-notes.html',
@@ -8,7 +9,6 @@ const OFFLINE_URLS = [
   'manifest.json'
 ];
 
-// Cache core pages on install
 self.addEventListener('install', function(event) {
   event.waitUntil(
     caches.open(CACHE_NAME).then(function(cache) {
@@ -18,7 +18,6 @@ self.addEventListener('install', function(event) {
   self.skipWaiting();
 });
 
-// Clean up old caches on activate
 self.addEventListener('activate', function(event) {
   event.waitUntil(
     caches.keys().then(function(keys) {
@@ -31,23 +30,29 @@ self.addEventListener('activate', function(event) {
   self.clients.claim();
 });
 
-// Serve from cache first, fall back to network, and cache new requests as they come in
+// Network First, Fallback to Cache
 self.addEventListener('fetch', function(event) {
+  // Only handle GET requests
+  if (event.request.method !== 'GET') return;
+
   event.respondWith(
-    caches.match(event.request).then(function(cached) {
-      return cached || fetch(event.request).then(function(response) {
-        // Don't try to cache non-GET or cross-origin (CDN) requests
-        if (event.request.method === 'GET' && event.request.url.startsWith(self.location.origin)) {
+    fetch(event.request)
+      .then(function(response) {
+        // If the network request succeeds, save a fresh copy to the cache
+        if (event.request.url.startsWith(self.location.origin)) {
           const responseClone = response.clone();
           caches.open(CACHE_NAME).then(function(cache) {
             cache.put(event.request, responseClone);
           });
         }
         return response;
-      });
-    }).catch(function() {
-      // Optional: fall back to index.html if offline and page not cached
-      return caches.match('index.html');
-    })
+      })
+      .catch(function() {
+        // If the network fails (user is offline), try to find the exact page in the cache
+        return caches.match(event.request).then(function(cachedResponse) {
+          // If the page isn't in the cache, only then fall back to the homepage
+          return cachedResponse || caches.match('index.html');
+        });
+      })
   );
 });
